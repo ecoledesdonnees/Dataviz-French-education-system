@@ -1,0 +1,90 @@
+{
+    "name": "CP",
+    "pRepeat": "pRepeat",
+    "leadsTo": [
+        {
+            "name": "CE1",
+            "pRepeat": "pRepeat",
+            "leadsTo": [
+                {
+                    "name": "CE2",
+                    "pRepeat": "pRepeat",
+                    "leadsTo": [
+                        {
+                            "name": "CM1",
+                            "pRepeat": "pRepeat",
+                            "leadsTo": [
+                                {
+                                    "name": "CM2",
+                                    "pRepeat": "pRepeat",
+                                    "leadsTo": [
+                                        {
+                                            "name": "6e",
+                                            "pRepeat": "pRepeat",
+                                            "leadsTo": [
+                                                {
+                                                    "name": "5e",
+                                                    "pRepeat": "pRepeat",
+                                                    "leadsTo": [
+                                                        {
+                                                            "name": "4e",
+                                                            "pRepeat": "pRepeat",                                                                                                        "pRepeat": "pRepeat",
+                                                            "leadsTo": [
+                                                                {
+                                                                    "name": "3e",
+                                                                    "pRepeat": "pRepeat",                                                                                                        "pRepeat": "pRepeat",
+                                                                    "leadsTo": [
+                                                                        {
+                                                                            "name": "2e",
+                                                                            "pRepeat": "pRepeat",                                                         "pRepeat": "pRepeat",                                                                                                        "pRepeat": "pRepeat",
+                                                                            "leadsTo": [
+                                                                                {
+                                                                                    "name": "1e",
+                                                                                    "pRepeat": "pRepeat",                                                         "pRepeat": "pRepeat",                                                                                                        "pRepeat": "pRepeat",
+                                                                                    "leadsTo": [
+                                                                                        {
+                                                                                            "name": "Tale",
+                                                                                            "pRepeat": "pRepeat",                                                         "pRepeat": "pRepeat",                                                                                                        "pRepeat": "pRepeat",
+                                                                                            "leadsTo": [
+                                                                                                {
+                                                                                                    "name": "Finish"
+                                                                                                }
+                                                                                            ]
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "name": "CAP1",
+                                                                            "pRepeat": "pRepeat",                                                         "pRepeat": "pRepeat",                                                                                                        "pRepeat": "pRepeat",
+                                                                            "leadsTo": [
+                                                                                {
+                                                                                    "name": "CAP2",
+                                                                                    "pRepeat": "pRepeat",                                                         "pRepeat": "pRepeat",                                                                                                        "pRepeat": "pRepeat",
+                                                                                    "leadsTo": [
+                                                                                        {
+                                                                                            "name": "Finish"
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]               
+                }
+            ]
+        }
+    ]
+}

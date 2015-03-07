@@ -3,16 +3,10 @@ import copy
 import particle_filter
 
 
-
-def state_variables_from_tree(tree):
-    state_variables = [ tree["name"] ]
-    if "leadsTo" in tree:
-        for option in tree["leadsTo"]:
-            res = state_variables_from_tree(copy.copy(option))
-            state_variables = state_variables + copy.copy(res)
-    return list(set(state_variables))
     
 def extract_tree(path, tree):
+    # Given a path, extract the subtree descending from it
+
     extracted_tree = copy.copy(tree)
     remaining_path = path
     ind = 0
@@ -28,6 +22,8 @@ def extract_tree(path, tree):
     return extracted_tree
     
 def extend_paths_by_1_year(paths, tree):
+    # Given a series of paths, generate all possible paths after 1 year.
+
     new_paths = []
     for path in paths:
         subtree = copy.copy(extract_tree(copy.copy(path), tree))
@@ -41,6 +37,7 @@ def extend_paths_by_1_year(paths, tree):
     return new_paths
 
 def paths_after_n_years(n, tree):
+
     paths = [["CP"]]
     for i in range(n):
         paths = copy.copy(extend_paths_by_1_year(paths, tree))

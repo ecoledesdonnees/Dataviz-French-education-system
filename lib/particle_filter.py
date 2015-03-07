@@ -5,14 +5,21 @@ import numpy as np
 import tree as t
 
 def model_propagation(state, tree, theta): 
+    # Randomly propagate the state of the system over 1 year, given theta
+
     next_state = {}
+
+    # Loop over all the possible current trajectories of students
     for path_name in state:
+
         path = state[path_name]["path"]
         size = state[path_name]["size"]
 
+        # Extract the descending tree
         subtree = copy.copy(t.extract_tree(copy.copy(path), tree))
         last_class = subtree["name"]
 
+        # Handle students that repeat, drawing from a binomial
         repeat_path_name = path_name + '_' + last_class
         repeat_path = path + [subtree["name"]]
 
@@ -24,8 +31,10 @@ def model_propagation(state, tree, theta):
             "path": repeat_path
         }
 
+        # Loop over potential classes students could go to
         if "leadsTo" in subtree:
 
+            # Draw choices following a multinomial distribution
             pvals = []
             for option in subtree["leadsTo"]:
                 transition_parameter_name = "%s_to_%s" %(last_class, option["name"])
@@ -61,7 +70,9 @@ def particle_filter(n, tree, theta):
         state = model_propagation(state, tree, theta)
 
         # Compute weights
+        # TODO
 
         # Resample
+        # TODO
 
     return state

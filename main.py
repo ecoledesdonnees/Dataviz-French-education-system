@@ -5,7 +5,10 @@ from lib import particle_filter as pf
 	
 if __name__ == '__main__':
 
+	# Scholar system tree stored as JSON.
 	tree = json.load(open("data/scholar_tree.json"))
+
+	# Arbitrary parameter vector to start experimenting
 	theta = {
 		"repeat": 0.05,
 		"CP_to_CE1": 1,
@@ -13,10 +16,10 @@ if __name__ == '__main__':
 		"CE2_to_CM1": 1
 	}
 
+	# filtered state after 3 years
+	filtered_state = pf.particle_filter(3, tree, theta)
 
-	print pf.particle_filter(3, tree, theta)
-
-	# print t.state_variables_from_tree(tree)
+	print filtered_state
 
 
 

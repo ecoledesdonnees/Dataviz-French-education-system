@@ -16,7 +16,7 @@ def extract_tree(path, tree):
             remaining_path.pop(0)
         else:
             for option in extracted_tree["leadsTo"]:
-                if option["name"] == remaining_path[0]:
+                if len(remaining_path) > 0 and option["name"] == remaining_path[0]:
                     extracted_tree = copy.copy(option)
                     remaining_path.pop(0)
     return extracted_tree

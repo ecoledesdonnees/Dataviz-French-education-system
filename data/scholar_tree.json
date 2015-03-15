@@ -19,27 +19,27 @@
                                     "pRepeat": "pRepeat",
                                     "leadsTo": [
                                         {
-                                            "name": "6e",
+                                            "name": "6eme",
                                             "pRepeat": "pRepeat",
                                             "leadsTo": [
                                                 {
-                                                    "name": "5e",
+                                                    "name": "5eme",
                                                     "pRepeat": "pRepeat",
                                                     "leadsTo": [
                                                         {
-                                                            "name": "4e",
+                                                            "name": "4eme",
                                                             "pRepeat": "pRepeat",                                                                                                        "pRepeat": "pRepeat",
                                                             "leadsTo": [
                                                                 {
-                                                                    "name": "3e",
+                                                                    "name": "3eme",
                                                                     "pRepeat": "pRepeat",                                                                                                        "pRepeat": "pRepeat",
                                                                     "leadsTo": [
                                                                         {
-                                                                            "name": "2e",
+                                                                            "name": "2nde",
                                                                             "pRepeat": "pRepeat",                                                         "pRepeat": "pRepeat",                                                                                                        "pRepeat": "pRepeat",
                                                                             "leadsTo": [
                                                                                 {
-                                                                                    "name": "1e",
+                                                                                    "name": "1ere",
                                                                                     "pRepeat": "pRepeat",                                                         "pRepeat": "pRepeat",                                                                                                        "pRepeat": "pRepeat",
                                                                                     "leadsTo": [
                                                                                         {

@@ -1,4 +1,5 @@
 import copy
+from scipy.stats import norm
 
 import numpy as np
 
@@ -53,26 +54,61 @@ def model_propagation(state, tree, theta):
     return next_state
 
     
+def from_state_to_observation(state, observation):
+    matching_compartments = []
+    for key, compartment in state.items():
+        # print compartment["path"][-1], observation["level"]
+        if compartment["path"][-1] == observation["level"]:
+            matching_compartments.append(compartment)
+    return np.sum(map(lambda x: x["size"], matching_compartments))
 
-def particle_filter(n, tree, theta):
+
+def particle_filter(n, tree, theta, observations, n_particules):
     
     # Initialize state
-    state = { 
+    state_init = { 
         "CP": {
             "size": 600000,
             "path": ["CP"] 
         }
     }
+    states = [ copy.copy(state_init) for i in range(n_particules)]
+
+    observation_years = map(lambda x: x['year'], observations)
+
+    log_likelihood = 0
 
     for i in range(n):
 
         # Propagate
-        state = model_propagation(state, tree, theta)
+        for j in range(n_particules):
+            states[j] = model_propagation(states[j], tree, theta)
+
+        # print "year %s entering:" %i
+        # print list(set([compartment["path"][-1] for key, compartment in states[0].items()]))
+
 
         # Compute weights
+        observations_this_year = filter(lambda x: i == x['year'], observations)
+        # print observations_this_year
+        log_weights = [0] * n_particules
+        for observation in observations_this_year:
+            for j in range(n_particules):
+                # print from_state_to_observation(states[j], observation)
+                log_weights[j] += np.log(norm.pdf(
+                    from_state_to_observation(states[j], observation), 
+                    observation["size"], 
+                    observation["size"]*0.1
+                ))
+                log_likelihood += log_weights[j]
+
+
+        # print weights
+
+
         # TODO
 
         # Resample
         # TODO
 
-    return state
+    return [states, log_likelihood]

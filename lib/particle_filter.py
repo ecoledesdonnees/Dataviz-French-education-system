@@ -107,7 +107,7 @@ def particle_filter(n, tree, theta, observations, n_particules):
 		for observation in observations_this_year:
 			for j in range(n_particules):
 				# print from_state_to_observation(states[j], observation)
-				log_weights[j] += np.log(norm.pdf(
+				log_weights[j] = np.log(norm.pdf(
 					from_state_to_observation(states[j], observation), 
 					observation["size"], 
 					observation["size"]*0.1

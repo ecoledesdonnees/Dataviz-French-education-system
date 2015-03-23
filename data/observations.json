@@ -1,7 +1,93 @@
 [ 
     {
-        "year": 8,
-        "level": "2nde",
-        "size": 500000
+        "year": 9,
+        "from": "3eme",
+		"to": "2nde GT",        
+		"size": 54
+    },
+    {
+        "year": 9,
+        "from": "3eme",
+		"to": "CAP1",        
+        "size": 11.8
+    },
+    {
+        "year": 9,
+        "from": "3eme",
+		"to": "BEP",        
+        "size": 25.5
+    },
+    {
+        "year": 9,
+        "from": "3eme",
+		"to": "2nde Pro",        
+        "size": 0.5
+    },
+    {
+        "year": 9,
+        "from": "3eme",
+		"to": "3eme",        
+        "size": 6.4
+    },
+    {
+        "year": 9,
+        "from": "3eme",
+		"to": "Drop",        
+        "size": 1.8
+    },
+    {
+        "year": 10,
+        "from": "2nde GT",
+		"to": "1ere G",        
+        "size": 51.5 
+    },
+    {
+        "year": 10,
+        "from": "2nde GT",
+		"to": "1ere T",        
+        "size": 25.9 
+    },
+    {
+        "year": 10,
+        "from": "2nde GT",
+		"to": "1ere Pro",        
+        "size": 6.5
+    },
+    {
+        "year": 10,
+        "from": "2nde GT",
+		"to": "2nde GT",        
+        "size": 15.1 
+    },
+    {
+        "year": 10,
+        "from": "2nde GT",
+		"to": "Drop",        
+        "size": 1 
+    },
+    {
+        "year": 15,
+        "level": ["Finish"],        
+        "size": 72 
+    },
+    {
+        "year": 15,
+        "level": ["Tale Pro"],        
+        "size": 3
+    },
+    {
+        "year": 15,
+        "level": ["2nde pro", "1ere pro"],        
+        "size": 1 
+    },
+    {
+        "year": 15,
+        "level": ["2nde GT", "1ere G", "1ere T", "Tale G", "Tale T"],        
+        "size": 1 
+    },
+    {
+        "year": 15,
+        "level": ["Drop"],        
+        "size": 23 
     }
 ]

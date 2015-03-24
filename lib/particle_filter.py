@@ -59,7 +59,7 @@ def from_state_to_observation(state, observation):
 	matching_compartments = []
 	for key, compartment in state.items():
 		# print compartment["path"][-1], observation["level"]
-		if compartment["path"][-1] == observation["level"]:
+		if compartment["path"][-1] in observation["level"]:
 			matching_compartments.append(compartment)
 	return np.sum(map(lambda x: x["size"], matching_compartments))
 

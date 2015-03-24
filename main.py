@@ -10,23 +10,70 @@ if __name__ == '__main__':
 	observations = json.load(open("data/observations.json"))
 
 	# Arbitrary parameter vector to start experimenting
+
 	theta = {
-		"repeat": 0.05,
-		"CP_to_CE1": 1,
-		"CE1_to_CE2": 1,
-		"CE2_to_CM1": 1,
-		"CM1_to_CM2": 1,
-		"CM2_to_6eme": 1,
-		"6eme_to_5eme": 1,
-		"5eme_to_4eme": 1,
-		"4eme_to_3eme": 1,
-		"3eme_to_2nde": 0.8,
-		"3eme_to_CAP1": 0.2,
-		"CAP1_to_CAP2": 0.2,
-		"2nde_to_1ere": 1,
-		"CAP2_to_Finish": 0.2,
-		"1ere_to_Tale": 1,
-		"Tale_to_Finish": 1
+		{ "repeat_primaire": 0.05, "fixed": False },
+		{ "repeat_college": 0.05, "fixed": False },
+		{ "repeat_lycee": 0.15, "fixed": True },
+
+		{ "CP_to_CE1": 1, "fixed": True },
+
+		{ "CE1_to_CE2": 1, "fixed": True },
+
+		{ "CE2_to_CM1": 1, "fixed": True },
+
+		{ "CM1_to_CM2": 1, "fixed": True },
+
+		{ "CM2_to_6eme": 1, "fixed": True },
+
+		{ "6eme_to_5eme": 1, "fixed": True },
+
+		{ "5eme_to_4eme": 1, "fixed": True },
+
+		{ "4eme_to_3eme": 1, "fixed": True },
+
+		{ "3eme_to_2nde_GT": 0.54, "fixed": True },
+		{ "3eme_to_2nde_Pro": 0.05, "fixed": True },
+		{ "3eme_to_CAP1": 0.118, "fixed": True },
+		{ "3eme_to_BEP1": 0.255, "fixed": True },
+		{ "3eme_to_Drop": 0.018, "fixed": True },
+
+		{ "BEP1_to_BEP2": 1, "fixed": True },
+		{ "BEP1_to_Drop": 0, "fixed": True },
+
+		{ "BEP2_to_Finish": 1, "fixed": True },
+		{ "BEP2_to_Tale_Pro": 0, "fixed": True },
+		{ "BEP2_to_Drop": 0, "fixed": True },
+
+		{ "CAP1_to_CAP2": 1, "fixed": True },
+		{ "CAP1_to_Drop": 0, "fixed": True },
+
+		{ "CAP2_to_Finish": 1, "fixed": True },
+		{ "CAP2_to_Drop": 0, "fixed": True },
+
+		{ "2nde_GT_to_1ere_G": 0.515, "fixed": True },
+		{ "2nde_GT_to_1ere_T": 0.259, "fixed": True },
+		{ "2nde_GT_to_1ere_Pro": 0.065, "fixed": True },
+		{ "2nde_GT_to_Drop": 0.01, "fixed": True },
+
+		{ "1ere_G_to_Tale_G": 0.84, "fixed": True },
+		{ "1ere_G_to_Drop": 0.01, "fixed": True },
+
+		{ "1ere_T_to_Tale_T": 0.84, "fixed": True },
+		{ "1ere_T_to_Drop": 0.01, "fixed": True },
+
+		{ "1ere_Pro_to_Tale_Pro": 0.84, "fixed": True },
+		{ "1ere_Pro_to_Drop": 0.01, "fixed": True },
+
+		{ "Tale_G_to_Finish": 0.89, "fixed": True },
+		{ "Tale_G_to_Drop": 0.05, "fixed": False },
+
+		{ "Tale_T_to_Finish": 0.80, "fixed": True },
+		{ "Tale_T_to_Drop": 0.05, "fixed": True },
+
+		{ "Tale_Pro_to_Finish": 0.88, "fixed": True },
+		{ "Tale_Pro_to_Drop": 0.05, "fixed": True }
+
 	}
 
 	# filtered state after 3 years

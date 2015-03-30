@@ -28,12 +28,12 @@ def do_next_level(g,vertex,json,level,last):
 	ts  = "\t"*level
 	ts_ = ts + "\t"
 	state = g.vs["name"][vertex]
-	json.write( ts + "{\n")
+	json.write( ts + "{\n" )
 	json.write( ts_ + line_header(state,len(succ)!=0) )
 	if(len(succ)!=0):
 		json.write( ts_ + repeat_header() )
 		json.write( ts_ + leads_to() )
-		print(succ)
+		#print(succ)
 		for s in succ:
 			do_next_level(g,s,json,level+2,s==succ[-1])
 		json.write( ts_ + "]\n" ) 
@@ -56,6 +56,17 @@ for line in states:
 for line in transitions:
 	st = line.split('\t')
 	g.add_edge(st[0],st[1].rstrip())
+
+#add edge to 'Drop' from every level >=3eme
+states = [ g.vs["name"].index("3eme") ]
+drop = g.vs["name"].index("Drop")
+while(len(states)!=0):
+	c_state = states[0]
+	succ = g.successors(c_state)
+	states = states + succ
+	if ( len(succ)!=0 & (not g.are_connected(c_state,drop)) ):
+		g.add_edge(c_state,drop)
+	states.pop(0)
 
 #print(g)
 

@@ -14,7 +14,11 @@ if __name__ == '__main__':
 	theta = {
 		{ "repeat_primaire": 0.05, "fixed": False },
 		{ "repeat_college": 0.05, "fixed": False },
-		{ "repeat_lycee": 0.15, "fixed": True },
+		{ "repeat_2nde": 0.16, "fixed": True },
+		{ "repeat_1ere": 0.15, "fixed": True },
+		{ "repeat_Tale": 0.17, "fixed": True },
+		{ "repeat_BEP": 0.05, "fixed": False },
+		{ "repeat_CAP": 0.05, "fixed": False },
 
 		{ "CP_to_CE1": 1, "fixed": True },
 
@@ -38,17 +42,17 @@ if __name__ == '__main__':
 		{ "3eme_to_BEP1": 0.255, "fixed": True },
 		{ "3eme_to_Drop": 0.018, "fixed": True },
 
-		{ "BEP1_to_BEP2": 1, "fixed": True },
-		{ "BEP1_to_Drop": 0, "fixed": True },
+		{ "BEP1_to_BEP2": 0.98, "fixed": False },
+		{ "BEP1_to_Drop": 0.02, "fixed": False },
 
-		{ "BEP2_to_Finish": 1, "fixed": True },
-		{ "BEP2_to_Tale_Pro": 0, "fixed": True },
-		{ "BEP2_to_Drop": 0, "fixed": True },
+		{ "BEP2_to_got_BEP": 0.98, "fixed": False },
+		{ "BEP2_to_1ere_Pro": 0.044, "fixed": True },
+		{ "BEP2_to_Drop": 0.02, "fixed": False },
 
 		{ "CAP1_to_CAP2": 1, "fixed": True },
 		{ "CAP1_to_Drop": 0, "fixed": True },
 
-		{ "CAP2_to_Finish": 1, "fixed": True },
+		{ "CAP2_to_got_CAP": 1, "fixed": True },
 		{ "CAP2_to_Drop": 0, "fixed": True },
 
 		{ "2nde_GT_to_1ere_G": 0.515, "fixed": True },
@@ -65,13 +69,13 @@ if __name__ == '__main__':
 		{ "1ere_Pro_to_Tale_Pro": 0.84, "fixed": True },
 		{ "1ere_Pro_to_Drop": 0.01, "fixed": True },
 
-		{ "Tale_G_to_Finish": 0.89, "fixed": True },
+		{ "Tale_G_to_got_BAC_G": 0.89, "fixed": True },
 		{ "Tale_G_to_Drop": 0.05, "fixed": False },
 
-		{ "Tale_T_to_Finish": 0.80, "fixed": True },
+		{ "Tale_T_to_got_BAC_T": 0.80, "fixed": True },
 		{ "Tale_T_to_Drop": 0.05, "fixed": True },
 
-		{ "Tale_Pro_to_Finish": 0.88, "fixed": True },
+		{ "Tale_Pro_to_got_BAC_Pro": 0.88, "fixed": True },
 		{ "Tale_Pro_to_Drop": 0.05, "fixed": True }
 
 	}

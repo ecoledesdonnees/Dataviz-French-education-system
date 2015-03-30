@@ -1,0 +1,25 @@
+CP	CE1
+CE1	CE2
+CE2	CM1
+CM1	CM2
+CM2	6eme
+6eme	5eme
+5eme	4eme
+4eme	3eme
+3eme	CAP1
+3eme	BEP1
+3eme	2nde GT
+3eme	2nde Pro
+CAP1	CAP2
+CAP2	got_CAP
+BEP1	BEP2
+BEP2	got_BEP
+2nde GT	1ere G
+2nde GT	1ere T
+2nde Pro	1ere Pro
+1ere G	Tale G
+Tale G	got_BAC_G
+1ere Pro	Tale Pro
+Tale Pro	got_BAC_Pro
+1ere T	Tale T
+Tale T	got_BAC_T

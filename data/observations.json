@@ -1,93 +1,152 @@
 [ 
     {
-        "year": 9,
-        "from": "3eme",
-		"to": "2nde GT",        
-		"size": 54
-    },
-    {
-        "year": 9,
-        "from": "3eme",
-		"to": "CAP1",        
-        "size": 11.8
-    },
-    {
-        "year": 9,
-        "from": "3eme",
-		"to": "BEP",        
-        "size": 25.5
-    },
-    {
-        "year": 9,
-        "from": "3eme",
-		"to": "2nde Pro",        
-        "size": 0.5
-    },
-    {
-        "year": 9,
-        "from": "3eme",
-		"to": "3eme",        
-        "size": 6.4
-    },
-    {
-        "year": 9,
-        "from": "3eme",
-		"to": "Drop",        
-        "size": 1.8
-    },
-    {
-        "year": 10,
-        "from": "2nde GT",
-		"to": "1ere G",        
-        "size": 51.5 
-    },
-    {
-        "year": 10,
-        "from": "2nde GT",
-		"to": "1ere T",        
-        "size": 25.9 
-    },
-    {
-        "year": 10,
-        "from": "2nde GT",
-		"to": "1ere Pro",        
-        "size": 6.5
-    },
-    {
-        "year": 10,
-        "from": "2nde GT",
-		"to": "2nde GT",        
-        "size": 15.1 
-    },
-    {
-        "year": 10,
-        "from": "2nde GT",
-		"to": "Drop",        
-        "size": 1 
-    },
-    {
         "year": 15,
         "level": ["Finish"],        
-        "size": 72 
+        "size": 72,
+		"file": "Classes sociales et devenir des élèves de la génération CP 97" 
     },
     {
         "year": 15,
         "level": ["Tale Pro"],        
-        "size": 3
+        "size": 3,
+		"file": "Classes sociales et devenir des élèves de la génération CP 97"
     },
     {
         "year": 15,
         "level": ["2nde pro", "1ere pro"],        
-        "size": 1 
+        "size": 1,
+		"file": "Classes sociales et devenir des élèves de la génération CP 97" 
     },
     {
         "year": 15,
         "level": ["2nde GT", "1ere G", "1ere T", "Tale G", "Tale T"],        
-        "size": 1 
+        "size": 1,
+		"file": "Classes sociales et devenir des élèves de la génération CP 97"
     },
     {
         "year": 15,
         "level": ["Drop"],        
-        "size": 23 
+        "size": 23,
+		"file": "Classes sociales et devenir des élèves de la génération CP 97" 
+    },
+    {
+        "year": 11,
+        "level": ["Tale G", "Tale T"],        
+        "size": 48,
+		"file": "2nd cycle GT" 
+    },
+    {
+        "year": 13,
+        "level": ["got_BAC_G","got_BAC_T","got_BAC_Pro"],        
+        "size": 37,
+		"file": "Classes sociales et devenir des élèves de la génération CP 97" 
+    },
+    {
+        "year": 13,
+        "level": ["Tale G", "Tale T"],        
+        "size": 23,
+		"file": "Classes sociales et devenir des élèves de la génération CP 97"
+    },
+    {
+        "year": 13,
+        "level": ["1ere G", "1ere T"],        
+        "size": 4,
+		"file": "Classes sociales et devenir des élèves de la génération CP 97" 
+    },
+    {
+        "year": 13,
+        "level": ["Tale Pro"],        
+        "size": 6,
+		"file": "Classes sociales et devenir des élèves de la génération CP 97" 
+    },
+    {
+        "year": 13,
+        "level": ["1ere Pro"],        
+        "size": 12,
+		"file": "Classes sociales et devenir des élèves de la génération CP 97"
+    },
+    {
+        "year": 13,
+        "level": ["BEP1", "BEP2"],        
+        "size": 5,
+		"file": "Classes sociales et devenir des élèves de la génération CP 97" 
+    },
+    {
+        "year": 13,
+        "level": ["CAP1", "CAP2"],        
+        "size": 3,
+		"file": "Classes sociales et devenir des élèves de la génération CP 97"
+    },
+    {
+        "year": 14,
+        "level": ["Finish"],        
+        "size": 61,
+		"file": "Classes sociales et devenir des élèves de la génération CP 97" 
+    },
+    {
+        "year": 14,
+        "level": ["Tale G", "Tale T"],        
+        "size": 7,
+		"file": "Classes sociales et devenir des élèves de la génération CP 97" 
+    },
+    {
+        "year": 14,
+        "level": ["1ere G", "1ere T"],        
+        "size": 1,
+		"file": "Classes sociales et devenir des élèves de la génération CP 97"
+    },
+    {
+        "year": 14,
+        "level": ["Tale Pro"],        
+        "size": 10,
+		"file": "Classes sociales et devenir des élèves de la génération CP 97"
+    },
+    {
+        "year": 14,
+        "level": ["1ere Pro"],        
+        "size": 3,
+		"file": "Classes sociales et devenir des élèves de la génération CP 97"
+    },
+    {
+        "year": 14,
+        "level": ["BEP1", "BEP2"],        
+        "size": 1,
+		"file": "Classes sociales et devenir des élèves de la génération CP 97" 
+    },
+    {
+        "year": 14,
+        "level": ["CAP1", "CAP2"],        
+        "size": 1,
+		"file": "Classes sociales et devenir des élèves de la génération CP 97"
+    },
+    {
+        "year": 15,
+        "level_achieved": ["3eme"],        
+        "size": 96.4,
+		"file": "2e_degré_Flux_trajectoires_des_élèves_de_la_sixième_à_l_enseignement_supérieur"
+    },
+    {
+        "year": 15,
+        "level_achieved": ["got_CAP", "got_BEP"],        
+        "size": 16,
+		"file": "2e_degré_Flux_trajectoires_des_élèves_de_la_sixième_à_l_enseignement_supérieur"
+    },
+    {
+        "year": 15,
+        "level_achieved": ["got_BAC_Pro"],        
+        "size": 11.5,
+		"file": "2e_degré_Flux_trajectoires_des_élèves_de_la_sixième_à_l_enseignement_supérieur"
+    },
+    {
+        "year": 15,
+        "level_achieved": ["got_BAC_T"],        
+        "size": 18.5,
+		"file": "2e_degré_Flux_trajectoires_des_élèves_de_la_sixième_à_l_enseignement_supérieur"
+    },
+    {
+        "year": 15,
+        "level_achieved": ["got_BAC_G"],        
+        "size": 33.7,
+		"file": "2e_degré_Flux_trajectoires_des_élèves_de_la_sixième_à_l_enseignement_supérieur"
     }
 ]

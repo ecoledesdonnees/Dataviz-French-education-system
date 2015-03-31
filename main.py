@@ -2,8 +2,14 @@ import json
 
 from lib import tree as t
 from lib import particle_filter as pf
+from lib import dag
 	
 if __name__ == '__main__':
+
+	# Building the orientation tree. 
+	g = dag.get_graph("data/transitions.dat")
+	# Write the corresponding JSON file.
+	dag.write_orientation_tree(g,"CP","data/scholar_tree.json")
 
 	# Scholar system tree stored as JSON.
 	tree = json.load(open("data/scholar_tree.json"))
@@ -79,7 +85,7 @@ if __name__ == '__main__':
 		{ "Tale_Pro_to_Drop": 0.05, "fixed": True }
 
 	}
-
+	
 	# filtered state after 3 years
 	[filtered_state, log_likelihood] = pf.particle_filter(9, tree, theta, observations, 3)
 	print log_likelihood

@@ -1,90 +1,171 @@
 {
-    "name": "CP",
-    "pRepeat": "pRepeat",
-    "leadsTo": [
-        {
-            "name": "CE1",
-            "pRepeat": "pRepeat",
-            "leadsTo": [
-                {
-                    "name": "CE2",
-                    "pRepeat": "pRepeat",
-                    "leadsTo": [
-                        {
-                            "name": "CM1",
-                            "pRepeat": "pRepeat",
-                            "leadsTo": [
-                                {
-                                    "name": "CM2",
-                                    "pRepeat": "pRepeat",
-                                    "leadsTo": [
-                                        {
-                                            "name": "6eme",
-                                            "pRepeat": "pRepeat",
-                                            "leadsTo": [
-                                                {
-                                                    "name": "5eme",
-                                                    "pRepeat": "pRepeat",
-                                                    "leadsTo": [
-                                                        {
-                                                            "name": "4eme",
-                                                            "pRepeat": "pRepeat",                                                                                                        "pRepeat": "pRepeat",
-                                                            "leadsTo": [
-                                                                {
-                                                                    "name": "3eme",
-                                                                    "pRepeat": "pRepeat",                                                                                                        "pRepeat": "pRepeat",
-                                                                    "leadsTo": [
-                                                                        {
-                                                                            "name": "2nde",
-                                                                            "pRepeat": "pRepeat",                                                         "pRepeat": "pRepeat",                                                                                                        "pRepeat": "pRepeat",
-                                                                            "leadsTo": [
-                                                                                {
-                                                                                    "name": "1ere",
-                                                                                    "pRepeat": "pRepeat",                                                         "pRepeat": "pRepeat",                                                                                                        "pRepeat": "pRepeat",
-                                                                                    "leadsTo": [
-                                                                                        {
-                                                                                            "name": "Tale",
-                                                                                            "pRepeat": "pRepeat",                                                         "pRepeat": "pRepeat",                                                                                                        "pRepeat": "pRepeat",
-                                                                                            "leadsTo": [
-                                                                                                {
-                                                                                                    "name": "Finish"
-                                                                                                }
-                                                                                            ]
-                                                                                        }
-                                                                                    ]
-                                                                                }
-                                                                            ]
-                                                                        },
-                                                                        {
-                                                                            "name": "CAP1",
-                                                                            "pRepeat": "pRepeat",                                                         "pRepeat": "pRepeat",                                                                                                        "pRepeat": "pRepeat",
-                                                                            "leadsTo": [
-                                                                                {
-                                                                                    "name": "CAP2",
-                                                                                    "pRepeat": "pRepeat",                                                         "pRepeat": "pRepeat",                                                                                                        "pRepeat": "pRepeat",
-                                                                                    "leadsTo": [
-                                                                                        {
-                                                                                            "name": "Finish"
-                                                                                        }
-                                                                                    ]
-                                                                                }
-                                                                            ]
-                                                                        }
-                                                                    ]
-                                                                }
-                                                            ]
-                                                        }
-                                                    ]
-                                                }
-                                            ]
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ]               
-                }
-            ]
-        }
-    ]
+	"name": "CP",
+	"pRepeat": "pRepeat",
+	"leadsTo": [
+		{
+			"name": "CE1",
+			"pRepeat": "pRepeat",
+			"leadsTo": [
+				{
+					"name": "CE2",
+					"pRepeat": "pRepeat",
+					"leadsTo": [
+						{
+							"name": "CM1",
+							"pRepeat": "pRepeat",
+							"leadsTo": [
+								{
+									"name": "CM2",
+									"pRepeat": "pRepeat",
+									"leadsTo": [
+										{
+											"name": "6eme",
+											"pRepeat": "pRepeat",
+											"leadsTo": [
+												{
+													"name": "5eme",
+													"pRepeat": "pRepeat",
+													"leadsTo": [
+														{
+															"name": "4eme",
+															"pRepeat": "pRepeat",
+															"leadsTo": [
+																{
+																	"name": "3eme",
+																	"pRepeat": "pRepeat",
+																	"leadsTo": [
+																		{
+																			"name": "Drop"
+																		},
+																		{
+																			"name": "CAP1",
+																			"pRepeat": "pRepeat",
+																			"leadsTo": [
+																				{
+																					"name": "Drop"
+																				},
+																				{
+																					"name": "CAP2",
+																					"pRepeat": "pRepeat",
+																					"leadsTo": [
+																						{
+																							"name": "Drop"
+																						},
+																						{
+																							"name": "got_CAP"
+																						}
+																					]
+																				}
+																			]
+																		},
+																		{
+																			"name": "BEP1",
+																			"pRepeat": "pRepeat",
+																			"leadsTo": [
+																				{
+																					"name": "Drop"
+																				},
+																				{
+																					"name": "BEP2",
+																					"pRepeat": "pRepeat",
+																					"leadsTo": [
+																						{
+																							"name": "Drop"
+																						},
+																						{
+																							"name": "got_BEP"
+																						}
+																					]
+																				}
+																			]
+																		},
+																		{
+																			"name": "2nde_GT",
+																			"pRepeat": "pRepeat",
+																			"leadsTo": [
+																				{
+																					"name": "Drop"
+																				},
+																				{
+																					"name": "1ere_G",
+																					"pRepeat": "pRepeat",
+																					"leadsTo": [
+																						{
+																							"name": "Drop"
+																						},
+																						{
+																							"name": "Tale_G",
+																							"pRepeat": "pRepeat",
+																							"leadsTo": [
+																								{
+																									"name": "Drop"
+																								},
+																								{
+																									"name": "got_BAC_G"
+																								}
+																							]
+																						}
+																					]
+																				},
+																				{
+																					"name": "1ere_T",
+																					"pRepeat": "pRepeat",
+																					"leadsTo": [
+																						{
+																							"name": "Drop"
+																						},
+																						{
+																							"name": "Tale_T",
+																							"pRepeat": "pRepeat",
+																							"leadsTo": [
+																								{
+																									"name": "Drop"
+																								},
+																								{
+																									"name": "got_BAC_T"
+																								}
+																							]
+																						}
+																					]
+																				}
+																			]
+																		},
+																		{
+																			"name": "2nde_Pro",
+																			"pRepeat": "pRepeat",
+																			"leadsTo": [
+																				{
+																					"name": "Drop"
+																				},
+																				{
+																					"name": "1ere_Pro",
+																					"pRepeat": "pRepeat",
+																					"leadsTo": [
+																						{
+																							"name": "Drop"
+																						},
+																						{
+																							"name": "Tale Pro"
+																						}
+																					]
+																				}
+																			]
+																		}
+																	]
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
 }

@@ -5,6 +5,7 @@ from numpy.random import *
 import numpy as np
 
 import tree as t
+import theta as th
 
 def model_propagation(state, tree, theta): 
 	# Randomly propagate the state of the system over 1 year, given theta
@@ -25,7 +26,8 @@ def model_propagation(state, tree, theta):
 		repeat_path_name = path_name + '_' + last_class
 		repeat_path = path + [subtree["name"]]
 
-		repeating_students = np.random.binomial(size, theta["repeat"])
+		p_repeat = th.get_p_repeat(theta, last_class)
+		repeating_students = np.random.binomial(size, p_repeat)
 		passing_students = size - repeating_students
 
 		next_state[repeat_path_name] = {
@@ -40,7 +42,7 @@ def model_propagation(state, tree, theta):
 			pvals = []
 			for option in subtree["leadsTo"]:
 				transition_parameter_name = "%s_to_%s" %(last_class, option["name"])
-				pvals.append(theta[transition_parameter_name])
+				pvals.append(theta[transition_parameter_name]['value'])
 
 			choices_draw = np.random.multinomial(passing_students, pvals)
 

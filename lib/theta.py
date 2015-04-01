@@ -19,6 +19,26 @@ bifurcations = [
 	[ 'Tale_to_Finish' ]
 ]
 
+def get_p_repeat(theta, current_class):
+	if current_class in ['CP', 'CE1', 'CE2', 'CM1', 'CM2']:
+		return theta['repeat_primaire']['value']
+	elif current_class in ['6eme', '5eme', '4eme', '3eme']:
+		return theta['repeat_college']['value']
+	elif current_class == '2nde':
+		return theta['repeat_2nde']['value']
+	elif current_class == '1ere':
+		return theta['repeat_1ere']['value']
+	elif current_class == 'Tale':
+		return theta['repeat_Tale']['value']
+	elif current_class in ['BEP1', 'BEP2']:
+		return theta['repeat_BEP']['value']
+	elif current_class in ['CAP1', 'CAP2']:
+		return theta['repeat_CAP']['value']
+	else:
+		print 'UNKNWON CURRENT CLASS IN g_p_repeat'
+		sys.exit()
+
+
 
 def from_theta_to_full_theta(theta):
 	full_theta = copy.copy(theta)

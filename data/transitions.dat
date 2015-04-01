@@ -8,18 +8,18 @@ CM2	6eme
 4eme	3eme
 3eme	CAP1
 3eme	BEP1
-3eme	2nde GT
-3eme	2nde Pro
+3eme	2nde_GT
+3eme	2nde_Pro
 CAP1	CAP2
 CAP2	got_CAP
 BEP1	BEP2
 BEP2	got_BEP
-2nde GT	1ere G
-2nde GT	1ere T
-2nde Pro	1ere Pro
-1ere G	Tale G
-Tale G	got_BAC_G
-1ere Pro	Tale Pro
-Tale Pro	got_BAC_Pro
-1ere T	Tale T
-Tale T	got_BAC_T
+2nde_GT	1ere_G
+2nde_GT	1ere_T
+2nde_Pro	1ere_Pro
+1ere_G	Tale_G
+Tale_G	got_BAC_G
+1ere_Pro	Tale Pro
+Tale_Pro	got_BAC_Pro
+1ere_T	Tale_T
+Tale_T	got_BAC_T

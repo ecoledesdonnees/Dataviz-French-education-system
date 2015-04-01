@@ -86,7 +86,7 @@ if __name__ == '__main__':
 	}
 	
 	# filtered state after 3 years
-	[filtered_state, log_likelihood] = pf.particle_filter(9, tree, theta, observations, 3)
+	[filtered_state, log_likelihood] = pf.particle_filter(12, tree, theta, observations, 3)
 
 	filtered_state = filtered_state[0].values()
 	filtered_state = filter(lambda traj: traj['size'] != 0, filtered_state)

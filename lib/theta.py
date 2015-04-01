@@ -1,4 +1,4 @@
-
+import sys
 
 
 bifurcations = [
@@ -24,11 +24,11 @@ def get_p_repeat(theta, current_class):
 		return theta['repeat_primaire']['value']
 	elif current_class in ['6eme', '5eme', '4eme', '3eme']:
 		return theta['repeat_college']['value']
-	elif current_class == '2nde':
+	elif current_class in ['2nde_GT']:
 		return theta['repeat_2nde']['value']
-	elif current_class == '1ere':
+	elif current_class in ['1ere_T', '1ere_G', '1ere_Pro']:
 		return theta['repeat_1ere']['value']
-	elif current_class == 'Tale':
+	elif current_class in ['Tale_T', 'Tale_G', 'Tale_Pro']:
 		return theta['repeat_Tale']['value']
 	elif current_class in ['BEP1', 'BEP2']:
 		return theta['repeat_BEP']['value']

@@ -145,7 +145,16 @@
 																							"name": "Drop"
 																						},
 																						{
-																							"name": "Tale Pro"
+																							"name": "Tale_Pro",
+																							"pRepeat": "pRepeat",
+																							"leadsTo": [
+																								{
+																									"name": "Drop"
+																								},
+																								{
+																									"name": "got_BAC_Pro"
+																								}
+																							]
 																						}
 																					]
 																				}

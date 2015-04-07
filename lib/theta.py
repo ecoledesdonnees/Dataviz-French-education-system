@@ -24,7 +24,7 @@ def get_p_repeat(theta, current_class):
 		return theta['repeat_primaire']['value']
 	elif current_class in ['6eme', '5eme', '4eme', '3eme']:
 		return theta['repeat_college']['value']
-	elif current_class in ['2nde_GT']:
+	elif current_class in ['2nde_GT', '2nde_Pro']:
 		return theta['repeat_2nde']['value']
 	elif current_class in ['1ere_T', '1ere_G', '1ere_Pro']:
 		return theta['repeat_1ere']['value']
@@ -34,8 +34,10 @@ def get_p_repeat(theta, current_class):
 		return theta['repeat_BEP']['value']
 	elif current_class in ['CAP1', 'CAP2']:
 		return theta['repeat_CAP']['value']
+	elif current_class in ['Drop', 'got_BEP', 'got_CAP']:
+		return 1
 	else:
-		print 'UNKNWON CURRENT CLASS IN g_p_repeat'
+		print 'unknown class %s g_p_repeat' %current_class
 		sys.exit()
 
 

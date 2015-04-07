@@ -61,6 +61,9 @@ if __name__ == '__main__':
 		"CAP2_to_got_CAP": { "value": 1, "fixed": True },
 		"CAP2_to_Drop": { "value": 0, "fixed": True },
 
+		"2nde_Pro_to_1ere_Pro": { "value": 0.99, "fixed": True },
+		"2nde_Pro_to_Drop": { "value": 0.01, "fixed": True },
+
 		"2nde_GT_to_1ere_G": { "value": 0.515, "fixed": True },
 		"2nde_GT_to_1ere_T": { "value": 0.259, "fixed": True },
 		"2nde_GT_to_1ere_Pro": { "value": 0.065, "fixed": True },
@@ -88,11 +91,11 @@ if __name__ == '__main__':
 	# filtered state after 3 years
 	[filtered_state, log_likelihood] = pf.particle_filter(12, tree, theta, observations, 3)
 
-	filtered_state = filtered_state[0].values()
-	filtered_state = filter(lambda traj: traj['size'] != 0, filtered_state)
-	filtered_state = sorted(filtered_state, key=lambda traj: traj['size'], reverse=True)
-	for traj in filtered_state:
-		print traj['path'], traj['size']
+	# filtered_state = filtered_state[0].values()
+	# filtered_state = filter(lambda traj: traj['size'] > 100, filtered_state)
+	# filtered_state = sorted(filtered_state, key=lambda traj: traj['size'], reverse=False)
+	# for traj in filtered_state:
+	# 	print traj['path'], traj['size']
 
-
+	print log_likelihood
 

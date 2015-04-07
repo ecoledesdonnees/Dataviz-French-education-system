@@ -19,7 +19,7 @@ BEP2	got_BEP
 2nde_Pro	1ere_Pro
 1ere_G	Tale_G
 Tale_G	got_BAC_G
-1ere_Pro	Tale Pro
+1ere_Pro	Tale_Pro
 Tale_Pro	got_BAC_Pro
 1ere_T	Tale_T
 Tale_T	got_BAC_T

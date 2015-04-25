@@ -1,11 +1,66 @@
 import copy
+import json
+import os
+
 from scipy.stats import norm
 from numpy.random import *
-
 import numpy as np
 
+import dag
 import tree as t
 import theta as th
+
+
+def generate_trajectories():
+	# returns a list of objects, each containing the following information, 
+	# representing a given track in the scholar system:
+	#    - path: list of classes taken by the students within this track
+	#    - mean: mean estimated number of students who have followed this track
+	#    - sd: standard deviation of the estimated number of students who have followed this track
+	#    - min: min of the estimated number of students who have followed this track
+	#    - max: max of the estimated number of students who have followed this track
+	
+	
+	# Building the orientation tree. 
+	g = dag.get_graph("data/transitions.dat")
+	# Write the corresponding JSON file.
+	dag.write_orientation_tree(g,"CP","data/scholar_tree.json")
+
+	tree  = json.load(open(os.path.join('data','scholar_tree.json')))
+	theta = json.load(open(os.path.join('data','theta.json')))
+	observations = json.load(open(os.path.join('data','observations.json')))
+
+	[filtered_states, log_likelihood] = particle_filter(12, tree, theta, observations, 100)
+
+	# extract all paths as strings
+	all_paths = []
+	for filtered_state in filtered_states:
+		for path_as_string in filtered_state:
+			if path_as_string not in all_paths:
+				all_paths.append(path_as_string)
+
+	# aggregate samples
+	filtered_states_summary = {}	
+	for path_as_string in all_paths:
+		filtered_states_summary[path_as_string] = { "samples": [] }
+		for filtered_state in filtered_states:
+			if path_as_string in filtered_state:
+				filtered_states_summary[path_as_string]["samples"].append(
+					filtered_state[path_as_string]["size"]
+				)
+				filtered_states_summary[path_as_string]["path"] = filtered_state[path_as_string]["path"]
+			else:
+				filtered_states_summary[path_as_string]["samples"].append(0)
+
+	# compute summary statistics and delete samples
+	for path_as_string in filtered_states_summary:
+		filtered_states_summary[path_as_string]["mean"] = np.mean(filtered_states_summary[path_as_string]["samples"])
+		filtered_states_summary[path_as_string]["std"] = np.std(filtered_states_summary[path_as_string]["samples"])
+		filtered_states_summary[path_as_string]["min"] = np.min(filtered_states_summary[path_as_string]["samples"])
+		filtered_states_summary[path_as_string]["max"] = np.max(filtered_states_summary[path_as_string]["samples"])
+		del filtered_states_summary[path_as_string]["samples"]
+
+	return filtered_states_summary.values()
 
 def model_propagation(state, tree, theta): 
 	# Randomly propagate the state of the system over 1 year, given theta

@@ -1,0 +1,70 @@
+{
+	"repeat_primaire": { "value": 0.05, "fixed": false },
+	"repeat_college": { "value": 0.05, "fixed": false },
+	"repeat_2nde": { "value": 0.16, "fixed": true },
+	"repeat_1ere": { "value": 0.15, "fixed": true },
+	"repeat_Tale": { "value": 0.17, "fixed": true },
+	"repeat_BEP": { "value": 0.05, "fixed": false },
+	"repeat_CAP": { "value": 0.05, "fixed": false },
+
+	"CP_to_CE1": { "value": 1, "fixed": true },
+
+	"CE1_to_CE2": { "value": 1, "fixed": true },
+
+	"CE2_to_CM1": { "value": 1, "fixed": true },
+
+	"CM1_to_CM2": { "value": 1, "fixed": true },
+
+	"CM2_to_6eme": { "value": 1, "fixed": true },
+
+	"6eme_to_5eme": { "value": 1, "fixed": true },
+
+	"5eme_to_4eme": { "value": 1, "fixed": true },
+
+	"4eme_to_3eme": { "value": 1, "fixed": true },
+
+	"3eme_to_2nde_GT": { "value": 0.54, "fixed": true },
+	"3eme_to_2nde_Pro": { "value": 0.05, "fixed": true },
+	"3eme_to_CAP1": { "value": 0.118, "fixed": true },
+	"3eme_to_BEP1": { "value": 0.255, "fixed": true },
+	"3eme_to_Drop": { "value": 0.018, "fixed": true },
+
+	"BEP1_to_BEP2": { "value": 0.98, "fixed": false },
+	"BEP1_to_Drop": { "value": 0.02, "fixed": false },
+
+	"BEP2_to_got_BEP": { "value": 0.98, "fixed": false },
+	"BEP2_to_1ere_Pro": { "value": 0.044, "fixed": true },
+	"BEP2_to_Drop": { "value": 0.02, "fixed": false },
+
+	"CAP1_to_CAP2": { "value": 1, "fixed": true },
+	"CAP1_to_Drop": { "value": 0, "fixed": true },
+
+	"CAP2_to_got_CAP": { "value": 1, "fixed": true },
+	"CAP2_to_Drop": { "value": 0, "fixed": true },
+
+	"2nde_Pro_to_1ere_Pro": { "value": 0.99, "fixed": true },
+	"2nde_Pro_to_Drop": { "value": 0.01, "fixed": true },
+
+	"2nde_GT_to_1ere_G": { "value": 0.515, "fixed": true },
+	"2nde_GT_to_1ere_T": { "value": 0.259, "fixed": true },
+	"2nde_GT_to_1ere_Pro": { "value": 0.065, "fixed": true },
+	"2nde_GT_to_Drop": { "value": 0.01, "fixed": true },
+
+	"1ere_G_to_Tale_G": { "value": 0.84, "fixed": true },
+	"1ere_G_to_Drop": { "value": 0.01, "fixed": true },
+
+	"1ere_T_to_Tale_T": { "value": 0.84, "fixed": true },
+	"1ere_T_to_Drop": { "value": 0.01, "fixed": true },
+
+	"1ere_Pro_to_Tale_Pro": { "value": 0.84, "fixed": true },
+	"1ere_Pro_to_Drop": { "value": 0.01, "fixed": true },
+
+	"Tale_G_to_got_BAC_G": { "value": 0.89, "fixed": true },
+	"Tale_G_to_Drop": { "value": 0.05, "fixed": false },
+
+	"Tale_T_to_got_BAC_T": { "value": 0.80, "fixed": true },
+	"Tale_T_to_Drop": { "value": 0.05, "fixed": true },
+
+	"Tale_Pro_to_got_BAC_Pro": { "value": 0.88, "fixed": true },
+	"Tale_Pro_to_Drop": { "value": 0.05, "fixed": true }
+}

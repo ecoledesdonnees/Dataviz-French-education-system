@@ -6,5 +6,5 @@ if __name__ == '__main__':
 
 	trajectories = pf.generate_trajectories()
 
-	for trajectory in trajectories:
-		print trajectory
+	with open('data/trajectories.json', 'w') as outfile:
+	    json.dump(trajectories, outfile)

@@ -1,0 +1,723 @@
+{
+     "got_CAP": {
+          "nodes": [
+               "got_CAP",
+               "CAP2"
+          ],
+          "links": [
+               {
+                    "status": true,
+                    "to": "got_CAP",
+                    "from": "CAP2",
+                    "value": 1
+               }
+          ]
+     },
+     "6eme": {
+          "nodes": [
+               "6eme",
+               "5eme",
+               "CM2"
+          ],
+          "links": [
+               {
+                    "status": true,
+                    "to": "6eme",
+                    "from": "CM2",
+                    "value": 1
+               },
+               {
+                    "status": true,
+                    "to": "5eme",
+                    "from": "6eme",
+                    "value": 1
+               }
+          ]
+     },
+     "got_BAC_G": {
+          "nodes": [
+               "got_BAC_G",
+               "Tale_G"
+          ],
+          "links": [
+               {
+                    "status": true,
+                    "to": "got_BAC_G",
+                    "from": "Tale_G",
+                    "value": 1.0
+               }
+          ]
+     },
+     "1ere_G": {
+          "nodes": [
+               "1ere_G",
+               "Drop",
+               "Tale_G",
+               "2nde_GT"
+          ],
+          "links": [
+               {
+                    "status": true,
+                    "to": "1ere_G",
+                    "from": "2nde_GT",
+                    "value": 1.0
+               },
+               {
+                    "status": true,
+                    "to": "Drop",
+                    "from": "1ere_G",
+                    "value": 0.01
+               },
+               {
+                    "status": true,
+                    "to": "Tale_G",
+                    "from": "1ere_G",
+                    "value": 0.84
+               }
+          ]
+     },
+     "3eme": {
+          "nodes": [
+               "3eme",
+               "Drop",
+               "CAP1",
+               "BEP1",
+               "2nde_GT",
+               "2nde_Pro",
+               "4eme"
+          ],
+          "links": [
+               {
+                    "status": true,
+                    "to": "3eme",
+                    "from": "4eme",
+                    "value": 1
+               },
+               {
+                    "status": true,
+                    "to": "Drop",
+                    "from": "3eme",
+                    "value": 0.018
+               },
+               {
+                    "status": true,
+                    "to": "CAP1",
+                    "from": "3eme",
+                    "value": 0.118
+               },
+               {
+                    "status": true,
+                    "to": "BEP1",
+                    "from": "3eme",
+                    "value": 0.255
+               },
+               {
+                    "status": true,
+                    "to": "2nde_GT",
+                    "from": "3eme",
+                    "value": 0.54
+               },
+               {
+                    "status": true,
+                    "to": "2nde_Pro",
+                    "from": "3eme",
+                    "value": 0.05
+               }
+          ]
+     },
+     "Tale_Pro": {
+          "nodes": [
+               "Tale_Pro",
+               "Drop",
+               "got_BAC_Pro",
+               "1ere_Pro"
+          ],
+          "links": [
+               {
+                    "status": true,
+                    "to": "Tale_Pro",
+                    "from": "1ere_Pro",
+                    "value": 1.0
+               },
+               {
+                    "status": true,
+                    "to": "Drop",
+                    "from": "Tale_Pro",
+                    "value": 0.05
+               },
+               {
+                    "status": true,
+                    "to": "got_BAC_Pro",
+                    "from": "Tale_Pro",
+                    "value": 0.88
+               }
+          ]
+     },
+     "CAP1": {
+          "nodes": [
+               "CAP1",
+               "Drop",
+               "CAP2",
+               "3eme"
+          ],
+          "links": [
+               {
+                    "status": true,
+                    "to": "CAP1",
+                    "from": "3eme",
+                    "value": 1.0
+               },
+               {
+                    "status": true,
+                    "to": "Drop",
+                    "from": "CAP1",
+                    "value": 0
+               },
+               {
+                    "status": true,
+                    "to": "CAP2",
+                    "from": "CAP1",
+                    "value": 1
+               }
+          ]
+     },
+     "CAP2": {
+          "nodes": [
+               "CAP2",
+               "Drop",
+               "got_CAP",
+               "CAP1"
+          ],
+          "links": [
+               {
+                    "status": true,
+                    "to": "CAP2",
+                    "from": "CAP1",
+                    "value": 1
+               },
+               {
+                    "status": true,
+                    "to": "Drop",
+                    "from": "CAP2",
+                    "value": 0
+               },
+               {
+                    "status": true,
+                    "to": "got_CAP",
+                    "from": "CAP2",
+                    "value": 1
+               }
+          ]
+     },
+     "1ere_T": {
+          "nodes": [
+               "1ere_T",
+               "Drop",
+               "Tale_T",
+               "2nde_GT"
+          ],
+          "links": [
+               {
+                    "status": true,
+                    "to": "1ere_T",
+                    "from": "2nde_GT",
+                    "value": 1.0
+               },
+               {
+                    "status": true,
+                    "to": "Drop",
+                    "from": "1ere_T",
+                    "value": 0.01
+               },
+               {
+                    "status": true,
+                    "to": "Tale_T",
+                    "from": "1ere_T",
+                    "value": 0.84
+               }
+          ]
+     },
+     "4eme": {
+          "nodes": [
+               "4eme",
+               "3eme",
+               "5eme"
+          ],
+          "links": [
+               {
+                    "status": true,
+                    "to": "4eme",
+                    "from": "5eme",
+                    "value": 1
+               },
+               {
+                    "status": true,
+                    "to": "3eme",
+                    "from": "4eme",
+                    "value": 1
+               }
+          ]
+     },
+     "got_BEP": {
+          "nodes": [
+               "got_BEP",
+               "BEP2"
+          ],
+          "links": [
+               {
+                    "status": false,
+                    "to": "got_BEP",
+                    "from": "BEP2",
+                    "value": 1.0
+               }
+          ]
+     },
+     "BEP2": {
+          "nodes": [
+               "BEP2",
+               "Drop",
+               "got_BEP",
+               "BEP1"
+          ],
+          "links": [
+               {
+                    "status": false,
+                    "to": "BEP2",
+                    "from": "BEP1",
+                    "value": 1.0
+               },
+               {
+                    "status": false,
+                    "to": "Drop",
+                    "from": "BEP2",
+                    "value": 0.02
+               },
+               {
+                    "status": false,
+                    "to": "got_BEP",
+                    "from": "BEP2",
+                    "value": 0.98
+               }
+          ]
+     },
+     "BEP1": {
+          "nodes": [
+               "BEP1",
+               "Drop",
+               "BEP2",
+               "3eme"
+          ],
+          "links": [
+               {
+                    "status": true,
+                    "to": "BEP1",
+                    "from": "3eme",
+                    "value": 1.0
+               },
+               {
+                    "status": false,
+                    "to": "Drop",
+                    "from": "BEP1",
+                    "value": 0.02
+               },
+               {
+                    "status": false,
+                    "to": "BEP2",
+                    "from": "BEP1",
+                    "value": 0.98
+               }
+          ]
+     },
+     "1ere_Pro": {
+          "nodes": [
+               "1ere_Pro",
+               "Drop",
+               "Tale_Pro",
+               "2nde_Pro"
+          ],
+          "links": [
+               {
+                    "status": true,
+                    "to": "1ere_Pro",
+                    "from": "2nde_Pro",
+                    "value": 1.0
+               },
+               {
+                    "status": true,
+                    "to": "Drop",
+                    "from": "1ere_Pro",
+                    "value": 0.01
+               },
+               {
+                    "status": true,
+                    "to": "Tale_Pro",
+                    "from": "1ere_Pro",
+                    "value": 0.84
+               }
+          ]
+     },
+     "got_BAC_Pro": {
+          "nodes": [
+               "got_BAC_Pro",
+               "Tale_Pro"
+          ],
+          "links": [
+               {
+                    "status": true,
+                    "to": "got_BAC_Pro",
+                    "from": "Tale_Pro",
+                    "value": 1.0
+               }
+          ]
+     },
+     "Drop": {
+          "nodes": [
+               "Drop",
+               "3eme",
+               "CAP1",
+               "BEP1",
+               "2nde_GT",
+               "2nde_Pro",
+               "CAP2",
+               "BEP2",
+               "1ere_G",
+               "1ere_T",
+               "1ere_Pro",
+               "Tale_G",
+               "Tale_Pro",
+               "Tale_T"
+          ],
+          "links": [
+               {
+                    "status": true,
+                    "to": "Drop",
+                    "from": "3eme",
+                    "value": 0.06976744186046513
+               },
+               {
+                    "status": true,
+                    "to": "Drop",
+                    "from": "CAP1",
+                    "value": 0.0
+               },
+               {
+                    "status": false,
+                    "to": "Drop",
+                    "from": "BEP1",
+                    "value": 0.07751937984496125
+               },
+               {
+                    "status": true,
+                    "to": "Drop",
+                    "from": "2nde_GT",
+                    "value": 0.03875968992248063
+               },
+               {
+                    "status": true,
+                    "to": "Drop",
+                    "from": "2nde_Pro",
+                    "value": 0.03875968992248063
+               },
+               {
+                    "status": true,
+                    "to": "Drop",
+                    "from": "CAP2",
+                    "value": 0.0
+               },
+               {
+                    "status": false,
+                    "to": "Drop",
+                    "from": "BEP2",
+                    "value": 0.07751937984496125
+               },
+               {
+                    "status": true,
+                    "to": "Drop",
+                    "from": "1ere_G",
+                    "value": 0.03875968992248063
+               },
+               {
+                    "status": true,
+                    "to": "Drop",
+                    "from": "1ere_T",
+                    "value": 0.03875968992248063
+               },
+               {
+                    "status": true,
+                    "to": "Drop",
+                    "from": "1ere_Pro",
+                    "value": 0.03875968992248063
+               },
+               {
+                    "status": false,
+                    "to": "Drop",
+                    "from": "Tale_G",
+                    "value": 0.19379844961240314
+               },
+               {
+                    "status": true,
+                    "to": "Drop",
+                    "from": "Tale_Pro",
+                    "value": 0.19379844961240314
+               },
+               {
+                    "status": true,
+                    "to": "Drop",
+                    "from": "Tale_T",
+                    "value": 0.19379844961240314
+               }
+          ]
+     },
+     "CE2": {
+          "nodes": [
+               "CE2",
+               "CM1",
+               "CE1"
+          ],
+          "links": [
+               {
+                    "status": true,
+                    "to": "CE2",
+                    "from": "CE1",
+                    "value": 1
+               },
+               {
+                    "status": true,
+                    "to": "CM1",
+                    "from": "CE2",
+                    "value": 1
+               }
+          ]
+     },
+     "CE1": {
+          "nodes": [
+               "CE1",
+               "CE2",
+               "CP"
+          ],
+          "links": [
+               {
+                    "status": true,
+                    "to": "CE1",
+                    "from": "CP",
+                    "value": 1
+               },
+               {
+                    "status": true,
+                    "to": "CE2",
+                    "from": "CE1",
+                    "value": 1
+               }
+          ]
+     },
+     "CP": {
+          "nodes": [
+               "CP",
+               "CE1"
+          ],
+          "links": [
+               {
+                    "status": true,
+                    "to": "CE1",
+                    "from": "CP",
+                    "value": 1
+               }
+          ]
+     },
+     "2nde_Pro": {
+          "nodes": [
+               "2nde_Pro",
+               "Drop",
+               "1ere_Pro",
+               "3eme"
+          ],
+          "links": [
+               {
+                    "status": true,
+                    "to": "2nde_Pro",
+                    "from": "3eme",
+                    "value": 1.0
+               },
+               {
+                    "status": true,
+                    "to": "Drop",
+                    "from": "2nde_Pro",
+                    "value": 0.01
+               },
+               {
+                    "status": true,
+                    "to": "1ere_Pro",
+                    "from": "2nde_Pro",
+                    "value": 0.99
+               }
+          ]
+     },
+     "Tale_G": {
+          "nodes": [
+               "Tale_G",
+               "Drop",
+               "got_BAC_G",
+               "1ere_G"
+          ],
+          "links": [
+               {
+                    "status": true,
+                    "to": "Tale_G",
+                    "from": "1ere_G",
+                    "value": 1.0
+               },
+               {
+                    "status": false,
+                    "to": "Drop",
+                    "from": "Tale_G",
+                    "value": 0.05
+               },
+               {
+                    "status": true,
+                    "to": "got_BAC_G",
+                    "from": "Tale_G",
+                    "value": 0.89
+               }
+          ]
+     },
+     "2nde_GT": {
+          "nodes": [
+               "2nde_GT",
+               "Drop",
+               "1ere_G",
+               "1ere_T",
+               "3eme"
+          ],
+          "links": [
+               {
+                    "status": true,
+                    "to": "2nde_GT",
+                    "from": "3eme",
+                    "value": 1.0
+               },
+               {
+                    "status": true,
+                    "to": "Drop",
+                    "from": "2nde_GT",
+                    "value": 0.01
+               },
+               {
+                    "status": true,
+                    "to": "1ere_G",
+                    "from": "2nde_GT",
+                    "value": 0.515
+               },
+               {
+                    "status": true,
+                    "to": "1ere_T",
+                    "from": "2nde_GT",
+                    "value": 0.259
+               }
+          ]
+     },
+     "got_BAC_T": {
+          "nodes": [
+               "got_BAC_T",
+               "Tale_T"
+          ],
+          "links": [
+               {
+                    "status": true,
+                    "to": "got_BAC_T",
+                    "from": "Tale_T",
+                    "value": 1.0
+               }
+          ]
+     },
+     "5eme": {
+          "nodes": [
+               "5eme",
+               "4eme",
+               "6eme"
+          ],
+          "links": [
+               {
+                    "status": true,
+                    "to": "5eme",
+                    "from": "6eme",
+                    "value": 1
+               },
+               {
+                    "status": true,
+                    "to": "4eme",
+                    "from": "5eme",
+                    "value": 1
+               }
+          ]
+     },
+     "Tale_T": {
+          "nodes": [
+               "Tale_T",
+               "Drop",
+               "got_BAC_T",
+               "1ere_T"
+          ],
+          "links": [
+               {
+                    "status": true,
+                    "to": "Tale_T",
+                    "from": "1ere_T",
+                    "value": 1.0
+               },
+               {
+                    "status": true,
+                    "to": "Drop",
+                    "from": "Tale_T",
+                    "value": 0.05
+               },
+               {
+                    "status": true,
+                    "to": "got_BAC_T",
+                    "from": "Tale_T",
+                    "value": 0.8
+               }
+          ]
+     },
+     "CM2": {
+          "nodes": [
+               "CM2",
+               "6eme",
+               "CM1"
+          ],
+          "links": [
+               {
+                    "status": true,
+                    "to": "CM2",
+                    "from": "CM1",
+                    "value": 1
+               },
+               {
+                    "status": true,
+                    "to": "6eme",
+                    "from": "CM2",
+                    "value": 1
+               }
+          ]
+     },
+     "CM1": {
+          "nodes": [
+               "CM1",
+               "CM2",
+               "CE2"
+          ],
+          "links": [
+               {
+                    "status": true,
+                    "to": "CM1",
+                    "from": "CE2",
+                    "value": 1
+               },
+               {
+                    "status": true,
+                    "to": "CM2",
+                    "from": "CM1",
+                    "value": 1
+               }
+          ]
+     }
+}

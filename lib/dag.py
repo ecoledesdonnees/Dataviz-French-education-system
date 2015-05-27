@@ -2,6 +2,7 @@
 import igraph
 import re
 import sys
+import json
 
 # will define the scholar_tree in json format from one file:
 # 'transitions.dat' storing the possible transitions btw states.
@@ -63,7 +64,7 @@ def get_graph(File):
 		if ( len(succ)!=0 & (not g.are_connected(c_state,drop)) ):
 			g.add_edge(c_state,drop,)
 		states.pop(0)
-	
+
 	return g
 
 
@@ -78,23 +79,64 @@ def normalized_theta(g,theta):
 	for vertex in g.vs:
 		succ = g.successors(vertex)
 		sum_fixed = 0
-		sun_not_fixed = 0		
+		sun_not_fixed = 0
 		if(len(succ)!=0):
-			for n_vertex in succ:				
-				transition_name = "%s_to_%s" %(g.vs["name"][vertex],g.vs["name"][n_vertex])				
+			for n_vertex in succ:
+				transition_name = "%s_to_%s" %(g.vs["name"][vertex],g.vs["name"][n_vertex])
 				if(new_theta[transition_name]["fixed"]):
 					sum_fixed = sum_fixed + new_theta[transition_name]["value"]
 				else:
 					sum_not_fixed = sum_not_fixed + new_theta[transition_name]["value"]
 			if sum_fixed>1:
-				print "Sum of fixed theta value from "+g.vs["name"][vertex]+" is "+string(sum_fixed)			
+				print "Sum of fixed theta value from "+g.vs["name"][vertex]+" is "+string(sum_fixed)
 			Z = (1 - sum_fixed)/sum_not_fixed
-			for n_vertex in succ:				
-				transition_name = "%s_to_%s" %(g.vs["name"][vertex],g.vs["name"][n_vertex])				
+			for n_vertex in succ:
+				transition_name = "%s_to_%s" %(g.vs["name"][vertex],g.vs["name"][n_vertex])
 				if(not new_theta[transition_name]["fixed"]):
 					new_theta[transition_name]["value"] = new_theta[transition_name]["value"]*Z
 	return new_theta
-		
 
+
+
+def compute_zoomed_graphs(g,theta,File):
+	# compute all the subgraphs of 'g' with weight 'theta' zoomed on a particular state (e.g. CE1). Then write
+	# the resulting dictionnary into json format in 'File'.
+	zoomed_graphs = { }
+	for vertex in g.vs:
+		print vertex['name']
+		vertex_name = vertex['name']
+		nodes = [ vertex_name ]
+		i_edges = [ ]
+		o_edges = [ ]
+		succ = g.successors(vertex)
+		pred = g.predecessors(vertex)
+		if(len(succ)!=0):
+			for n_vertex in succ:
+				# adding the edge & n_vertex.
+				n_vertex_name = g.vs["name"][n_vertex]
+				transition_name = "%s_to_%s" %(vertex_name,n_vertex_name)
+				value = theta[transition_name]['value']
+				status = theta[transition_name]['fixed']
+				o_edges.append( {'from':vertex_name, 'to':n_vertex_name, 'value':value, 'status':status} )
+				nodes.append(n_vertex_name)
+		if(len(pred)!=0):
+			sum = 0
+			for p_vertex in pred:
+				#adding the edge & p_vertex.
+				p_vertex_name = g.vs['name'][p_vertex]
+				transition_name = "%s_to_%s" %(p_vertex_name,vertex_name)
+				value = theta[transition_name]['value']
+				status = theta[transition_name]['fixed']
+				i_edges.append( {'from':p_vertex_name, 'to':vertex_name, 'value':value, 'status':status} )
+				sum = sum + value
+				nodes.append(p_vertex_name)
+			#normalizing theta (BEWARE!!! this is not valid and makes no sense).
+			for e in i_edges:
+				e["value"] = e["value"]/sum
+		edges = i_edges
+		edges.extend(o_edges)
+		zoomed_graphs[vertex_name] = {'links':edges, 'nodes':nodes}
+	with open('data/zoomed_graphs_test.json', 'w') as outfile:
+	    json.dump(zoomed_graphs, outfile,indent=5,separators=(',', ': '))
 
 

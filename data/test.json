@@ -1,0 +1,27 @@
+{
+  "links": [
+    {"source":"N02","target":"O2","value":"50"},
+    {"source":"N01","target":"O1","value":"100"},
+    {"source":"N","target":"O2","value":"650"},
+    {"source":"N","target":"again_N","value":"50"},
+    {"source":"M1","target":"N","value":"400"},
+    {"source":"M2","target":"N","value":"100"},
+    {"source":"M3","target":"N","value":"500"},
+    {"source":"N","target":"drop_N","value":"100"},
+    {"source":"N","target":"O1","value":"200"}
+
+    
+  ],
+  "nodes": [
+    {"name":"N"},
+    {"name":"drop_N"},
+    {"name":"again_N"},
+    {"name":"M1"},
+    {"name":"M2"},
+    {"name":"M3"},
+    {"name":"O1"},
+    {"name":"O2"},
+    {"name":"N01"},
+    {"name":"N02"}
+  ]
+}

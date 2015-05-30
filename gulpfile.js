@@ -8,7 +8,7 @@ gulp.task('watch',function(){
 })
 
 gulp.task('reload', function(){
-	gulp.src('./*.html')
+	gulp.src('./*')
 		.pipe(livereload());
 })
 

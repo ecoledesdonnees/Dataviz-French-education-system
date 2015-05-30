@@ -1,0 +1,16 @@
+{
+  "name": "Dataviz-French-scholar-system",
+  "version": "1.0.0",
+  "description": "Reconstruct individual trajectories by combining partial longitudinal and cross-sectional data from INSEE.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "School of data",
+  "license": "CC",
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-livereload": "^3.7.0",
+    "gulp-watch": "^4.1.1"
+  }
+}

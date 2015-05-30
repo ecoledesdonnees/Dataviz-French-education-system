@@ -97,46 +97,113 @@ def normalized_theta(g,theta):
 	return new_theta
 
 
+def contains(small, big):
+    for i in xrange(len(big)-len(small)+1):
+        for j in xrange(len(small)):
+            if big[i+j] != small[j]:
+                break
+        else:
+            return i, i+len(small)
+    return False
 
-def compute_zoomed_graphs(g,theta,File):
-	# compute all the subgraphs of 'g' with weight 'theta' zoomed on a particular state (e.g. CE1). Then write
-	# the resulting dictionnary into json format in 'File'.
-	zoomed_graphs = { }
-	for vertex in g.vs:
-		print vertex['name']
-		vertex_name = vertex['name']
-		nodes = [ vertex_name ]
-		i_edges = [ ]
-		o_edges = [ ]
-		succ = g.successors(vertex)
-		pred = g.predecessors(vertex)
-		if(len(succ)!=0):
-			for n_vertex in succ:
-				# adding the edge & n_vertex.
-				n_vertex_name = g.vs["name"][n_vertex]
-				transition_name = "%s_to_%s" %(vertex_name,n_vertex_name)
-				value = theta[transition_name]['value']
-				status = theta[transition_name]['fixed']
-				o_edges.append( {'from':vertex_name, 'to':n_vertex_name, 'value':value, 'status':status} )
-				nodes.append(n_vertex_name)
-		if(len(pred)!=0):
-			sum = 0
-			for p_vertex in pred:
-				#adding the edge & p_vertex.
-				p_vertex_name = g.vs['name'][p_vertex]
-				transition_name = "%s_to_%s" %(p_vertex_name,vertex_name)
-				value = theta[transition_name]['value']
-				status = theta[transition_name]['fixed']
-				i_edges.append( {'from':p_vertex_name, 'to':vertex_name, 'value':value, 'status':status} )
-				sum = sum + value
-				nodes.append(p_vertex_name)
-			#normalizing theta (BEWARE!!! this is not valid and makes no sense).
-			for e in i_edges:
-				e["value"] = e["value"]/sum
+def compute_zoomed_graphs_from_trajectories(trajectories):
+
+	zoomed_graphs = {}
+
+	# get all classes
+	all_vertices = []
+	for trajectory in trajectories:
+		for vertex in trajectory['path']:
+			if not vertex in all_vertices:
+				all_vertices.append(vertex)
+
+	for vertex in all_vertices:
+		print vertex
+		nodes = []
+
+		# coming out
+		o_edges = []
+		sum_of_fluxes_to_all_vertices = 0
+		for o_vertex in all_vertices:
+			sum_of_fluxes_to_this_vertex = 0
+			for trajectory in trajectories:
+				if contains([vertex, o_vertex], trajectory["path"]):
+					sum_of_fluxes_to_this_vertex += trajectory["mean"]
+					sum_of_fluxes_to_all_vertices += trajectory["mean"]
+			if sum_of_fluxes_to_this_vertex > 0:
+				o_edges.append( {'from':vertex, 'to':o_vertex, 'value': sum_of_fluxes_to_this_vertex} )
+				nodes.append(o_vertex)
+		for e in o_edges:
+			e["value"] = e["value"]/float(sum_of_fluxes_to_all_vertices)
+			print "   out - %s    %s" %(e['to'], e['value'])
+
+
+		# coming in
+		i_edges = []
+		sum_of_fluxes_from_all_vertices = 0
+		for i_vertex in all_vertices:
+			sum_of_fluxes_from_this_vertex = 0
+			for trajectory in trajectories:
+				if contains([i_vertex, vertex], trajectory["path"]):
+					sum_of_fluxes_from_this_vertex += trajectory["mean"]
+					sum_of_fluxes_from_all_vertices += trajectory["mean"]
+			if sum_of_fluxes_from_this_vertex > 0:
+				i_edges.append( {'from':i_vertex, 'to':vertex, 'value': sum_of_fluxes_from_this_vertex} )
+				nodes.append(i_vertex)
+		for e in i_edges:
+			e["value"] = e["value"]/float(max(sum_of_fluxes_to_all_vertices, sum_of_fluxes_from_all_vertices))
+			# We need to take max of in & out flux to handle first and last nodes
+			print "   in - %s    %s" %(e['from'], e['value'])
+
+
+
+		nodes = list(set(nodes))
 		edges = i_edges
 		edges.extend(o_edges)
-		zoomed_graphs[vertex_name] = {'links':edges, 'nodes':nodes}
+		zoomed_graphs[vertex] = {'links':edges, 'nodes':nodes}
+
 	with open('data/zoomed_graphs_test.json', 'w') as outfile:
 	    json.dump(zoomed_graphs, outfile,indent=5,separators=(',', ': '))
 
+
+# def compute_zoomed_graphs(g,theta,File):
+# 	# compute all the subgraphs of 'g' with weight 'theta' zoomed on a particular state (e.g. CE1). Then write
+# 	# the resulting dictionnary into json format in 'File'.
+# 	zoomed_graphs = { }
+# 	for vertex in g.vs:
+# 		print vertex['name']
+# 		vertex_name = vertex['name']
+# 		nodes = [ vertex_name ]
+# 		i_edges = [ ]
+# 		o_edges = [ ]
+# 		succ = g.successors(vertex)
+# 		pred = g.predecessors(vertex)
+# 		if(len(succ)!=0):
+# 			for n_vertex in succ:
+# 				# adding the edge & n_vertex.
+# 				n_vertex_name = g.vs["name"][n_vertex]
+# 				transition_name = "%s_to_%s" %(vertex_name,n_vertex_name)
+# 				value = theta[transition_name]['value']
+# 				status = theta[transition_name]['fixed']
+# 				o_edges.append( {'from':vertex_name, 'to':n_vertex_name, 'value':value, 'status':status} )
+# 				nodes.append(n_vertex_name)
+# 		if(len(pred)!=0):
+# 			sum = 0
+# 			for p_vertex in pred:
+# 				#adding the edge & p_vertex.
+# 				p_vertex_name = g.vs['name'][p_vertex]
+# 				transition_name = "%s_to_%s" %(p_vertex_name,vertex_name)
+# 				value = theta[transition_name]['value']
+# 				status = theta[transition_name]['fixed']
+# 				i_edges.append( {'from':p_vertex_name, 'to':vertex_name, 'value':value, 'status':status} )
+# 				sum = sum + value
+# 				nodes.append(p_vertex_name)
+# 			#normalizing theta (BEWARE!!! this is not valid and makes no sense).
+# 			for e in i_edges:
+# 				e["value"] = e["value"]/sum
+# 		edges = i_edges
+# 		edges.extend(o_edges)
+# 		zoomed_graphs[vertex_name] = {'links':edges, 'nodes':nodes}
+# 	with open('data/zoomed_graphs_test.json', 'w') as outfile:
+# 	    json.dump(zoomed_graphs, outfile,indent=5,separators=(',', ': '))
 

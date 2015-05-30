@@ -1,70 +1,70 @@
 {
 	"repeat_primaire": { "value": 0.05, "fixed": false },
 	"repeat_college": { "value": 0.05, "fixed": false },
-	"repeat_2nde": { "value": 0.16, "fixed": true },
-	"repeat_1ere": { "value": 0.15, "fixed": true },
-	"repeat_Tale": { "value": 0.17, "fixed": true },
-	"repeat_BEP": { "value": 0.05, "fixed": false },
-	"repeat_CAP": { "value": 0.05, "fixed": false },
+	"repeat_2nde": { "value": 0.16, "fixed": true, "dataGivesAbsoluteValue": false, "source": "https://www.google.com/url?q=https%3A%2F%2Ftrello-attachments.s3.amazonaws.com%2F54c65ec0ad4df4eb08012d79%2F54c72a1dd0f351f396c84a4d%2F57544ad9be8241481e769caeb30d3d23%2F2e_degre%25CC%2581_-_Flux_-_Le_second_cycle_ge%25CC%2581ne%25CC%2581ral_et_technologique_-_sexe%252C_a%25CC%2582ge_et_flux.xls&sa=D&sntz=1&usg=AFQjCNHPrm1OJ3_SSGWypwbu_yPUAtA6Uw" },
+	"repeat_1ere": { "value": 0.15, "fixed": true, "dataGivesAbsoluteValue": false, "source": "https://www.google.com/url?q=https%3A%2F%2Ftrello-attachments.s3.amazonaws.com%2F54c65ec0ad4df4eb08012d79%2F54c72a1dd0f351f396c84a4d%2F57544ad9be8241481e769caeb30d3d23%2F2e_degre%25CC%2581_-_Flux_-_Le_second_cycle_ge%25CC%2581ne%25CC%2581ral_et_technologique_-_sexe%252C_a%25CC%2582ge_et_flux.xls&sa=D&sntz=1&usg=AFQjCNHPrm1OJ3_SSGWypwbu_yPUAtA6Uw"  },
+	"repeat_Tale": { "value": 0.17, "fixed": true, "dataGivesAbsoluteValue": false, "source": "https://www.google.com/url?q=https%3A%2F%2Ftrello-attachments.s3.amazonaws.com%2F54c65ec0ad4df4eb08012d79%2F54c72a1dd0f351f396c84a4d%2F57544ad9be8241481e769caeb30d3d23%2F2e_degre%25CC%2581_-_Flux_-_Le_second_cycle_ge%25CC%2581ne%25CC%2581ral_et_technologique_-_sexe%252C_a%25CC%2582ge_et_flux.xls&sa=D&sntz=1&usg=AFQjCNHPrm1OJ3_SSGWypwbu_yPUAtA6Uw"  },
+	"repeat_BEP": { "value": 0.05, "fixed": false, "dataGivesAbsoluteValue": false, "source": "https://www.google.com/url?q=https%3A%2F%2Ftrello-attachments.s3.amazonaws.com%2F54c65ec0ad4df4eb08012d79%2F54c72a1dd0f351f396c84a4d%2F88b144df0000bea73059132e89cf9a6f%2F2e_degre%25CC%2581_-_Flux_-_Le_second_cycle_professionnel.xls&sa=D&sntz=1&usg=AFQjCNElMtitcR4TwES3V7uIxo52A5VA1A"  },
+	"repeat_CAP": { "value": 0.05, "fixed": false, "dataGivesAbsoluteValue": false, "source": "https://www.google.com/url?q=https%3A%2F%2Ftrello-attachments.s3.amazonaws.com%2F54c65ec0ad4df4eb08012d79%2F54c72a1dd0f351f396c84a4d%2F88b144df0000bea73059132e89cf9a6f%2F2e_degre%25CC%2581_-_Flux_-_Le_second_cycle_professionnel.xls&sa=D&sntz=1&usg=AFQjCNElMtitcR4TwES3V7uIxo52A5VA1A"  },
 
-	"CP_to_CE1": { "value": 1, "fixed": true },
+	"CP_to_CE1": { "value": 1, "fixed": true, "dataGivesAbsoluteValue": false, "source": null },
 
-	"CE1_to_CE2": { "value": 1, "fixed": true },
+	"CE1_to_CE2": { "value": 1, "fixed": true, "dataGivesAbsoluteValue": false, "source": null },
 
-	"CE2_to_CM1": { "value": 1, "fixed": true },
+	"CE2_to_CM1": { "value": 1, "fixed": true, "dataGivesAbsoluteValue": false, "source": null },
 
-	"CM1_to_CM2": { "value": 1, "fixed": true },
+	"CM1_to_CM2": { "value": 1, "fixed": true, "dataGivesAbsoluteValue": false, "source": null },
 
-	"CM2_to_6eme": { "value": 1, "fixed": true },
+	"CM2_to_6eme": { "value": 1, "fixed": true, "dataGivesAbsoluteValue": false, "source": null },
 
-	"6eme_to_5eme": { "value": 1, "fixed": true },
+	"6eme_to_5eme": { "value": 1, "fixed": true, "dataGivesAbsoluteValue": false, "source": null },
 
-	"5eme_to_4eme": { "value": 1, "fixed": true },
+	"5eme_to_4eme": { "value": 1, "fixed": true, "dataGivesAbsoluteValue": false, "source": null },
 
-	"4eme_to_3eme": { "value": 1, "fixed": true },
+	"4eme_to_3eme": { "value": 1, "fixed": true, "dataGivesAbsoluteValue": false, "source": null },
 
-	"3eme_to_2nde_GT": { "value": 0.54, "fixed": true },
-	"3eme_to_2nde_Pro": { "value": 0.05, "fixed": true },
-	"3eme_to_CAP1": { "value": 0.118, "fixed": true },
-	"3eme_to_BEP1": { "value": 0.255, "fixed": true },
-	"3eme_to_Drop": { "value": 0.018, "fixed": true },
+	"3eme_to_2nde_GT": { "value": 0.54, "fixed": true, "dataGivesAbsoluteValue": false, "source": "https://www.google.com/url?q=https%3A%2F%2Ftrello-attachments.s3.amazonaws.com%2F54c65ec0ad4df4eb08012d79%2F54c72a1dd0f351f396c84a4d%2F88b144df0000bea73059132e89cf9a6f%2F2e_degre%25CC%2581_-_Flux_-_Le_second_cycle_professionnel.xls&sa=D&sntz=1&usg=AFQjCNElMtitcR4TwES3V7uIxo52A5VA1A" },
+	"3eme_to_2nde_Pro": { "value": 0.05, "fixed": true, "dataGivesAbsoluteValue": false, "source": "https://www.google.com/url?q=https%3A%2F%2Ftrello-attachments.s3.amazonaws.com%2F54c65ec0ad4df4eb08012d79%2F54c72a1dd0f351f396c84a4d%2F88b144df0000bea73059132e89cf9a6f%2F2e_degre%25CC%2581_-_Flux_-_Le_second_cycle_professionnel.xls&sa=D&sntz=1&usg=AFQjCNElMtitcR4TwES3V7uIxo52A5VA1A" },
+	"3eme_to_CAP1": { "value": 0.118, "fixed": true, "dataGivesAbsoluteValue": false, "source": "https://www.google.com/url?q=https%3A%2F%2Ftrello-attachments.s3.amazonaws.com%2F54c65ec0ad4df4eb08012d79%2F54c72a1dd0f351f396c84a4d%2F88b144df0000bea73059132e89cf9a6f%2F2e_degre%25CC%2581_-_Flux_-_Le_second_cycle_professionnel.xls&sa=D&sntz=1&usg=AFQjCNElMtitcR4TwES3V7uIxo52A5VA1A" },
+	"3eme_to_BEP1": { "value": 0.255, "fixed": true, "dataGivesAbsoluteValue": false, "source": "https://www.google.com/url?q=https%3A%2F%2Ftrello-attachments.s3.amazonaws.com%2F54c65ec0ad4df4eb08012d79%2F54c72a1dd0f351f396c84a4d%2F88b144df0000bea73059132e89cf9a6f%2F2e_degre%25CC%2581_-_Flux_-_Le_second_cycle_professionnel.xls&sa=D&sntz=1&usg=AFQjCNElMtitcR4TwES3V7uIxo52A5VA1A" },
+	"3eme_to_Drop": { "value": 0.018, "fixed": true, "dataGivesAbsoluteValue": false, "source": "https://www.google.com/url?q=https%3A%2F%2Ftrello-attachments.s3.amazonaws.com%2F54c65ec0ad4df4eb08012d79%2F54c72a1dd0f351f396c84a4d%2F88b144df0000bea73059132e89cf9a6f%2F2e_degre%25CC%2581_-_Flux_-_Le_second_cycle_professionnel.xls&sa=D&sntz=1&usg=AFQjCNElMtitcR4TwES3V7uIxo52A5VA1A" },
 
-	"BEP1_to_BEP2": { "value": 0.98, "fixed": false },
-	"BEP1_to_Drop": { "value": 0.02, "fixed": false },
+	"BEP1_to_BEP2": { "value": 0.98, "fixed": false, "dataGivesAbsoluteValue": false, "source": "https://www.google.com/url?q=https%3A%2F%2Ftrello-attachments.s3.amazonaws.com%2F54c65ec0ad4df4eb08012d79%2F54c72a1dd0f351f396c84a4d%2F88b144df0000bea73059132e89cf9a6f%2F2e_degre%25CC%2581_-_Flux_-_Le_second_cycle_professionnel.xls&sa=D&sntz=1&usg=AFQjCNElMtitcR4TwES3V7uIxo52A5VA1A" },
+	"BEP1_to_Drop": { "value": 0.02, "fixed": false, "dataGivesAbsoluteValue": false, "source": "https://www.google.com/url?q=https%3A%2F%2Ftrello-attachments.s3.amazonaws.com%2F54c65ec0ad4df4eb08012d79%2F54c72a1dd0f351f396c84a4d%2F88b144df0000bea73059132e89cf9a6f%2F2e_degre%25CC%2581_-_Flux_-_Le_second_cycle_professionnel.xls&sa=D&sntz=1&usg=AFQjCNElMtitcR4TwES3V7uIxo52A5VA1A" },
 
-	"BEP2_to_got_BEP": { "value": 0.98, "fixed": false },
-	"BEP2_to_1ere_Pro": { "value": 0.044, "fixed": true },
-	"BEP2_to_Drop": { "value": 0.02, "fixed": false },
+	"BEP2_to_got_BEP": { "value": 0.98, "fixed": false, "dataGivesAbsoluteValue": false, "source": "https://www.google.com/url?q=https%3A%2F%2Ftrello-attachments.s3.amazonaws.com%2F54c65ec0ad4df4eb08012d79%2F54c72a1dd0f351f396c84a4d%2F88b144df0000bea73059132e89cf9a6f%2F2e_degre%25CC%2581_-_Flux_-_Le_second_cycle_professionnel.xls&sa=D&sntz=1&usg=AFQjCNElMtitcR4TwES3V7uIxo52A5VA1A" },
+	"BEP2_to_1ere_Pro": { "value": 0.044, "fixed": true, "dataGivesAbsoluteValue": false, "source": "https://www.google.com/url?q=https%3A%2F%2Ftrello-attachments.s3.amazonaws.com%2F54c65ec0ad4df4eb08012d79%2F54c72a1dd0f351f396c84a4d%2F88b144df0000bea73059132e89cf9a6f%2F2e_degre%25CC%2581_-_Flux_-_Le_second_cycle_professionnel.xls&sa=D&sntz=1&usg=AFQjCNElMtitcR4TwES3V7uIxo52A5VA1A" },
+	"BEP2_to_Drop": { "value": 0.02, "fixed": false, "dataGivesAbsoluteValue": false, "source": "https://www.google.com/url?q=https%3A%2F%2Ftrello-attachments.s3.amazonaws.com%2F54c65ec0ad4df4eb08012d79%2F54c72a1dd0f351f396c84a4d%2F88b144df0000bea73059132e89cf9a6f%2F2e_degre%25CC%2581_-_Flux_-_Le_second_cycle_professionnel.xls&sa=D&sntz=1&usg=AFQjCNElMtitcR4TwES3V7uIxo52A5VA1A" },
 
-	"CAP1_to_CAP2": { "value": 1, "fixed": true },
-	"CAP1_to_Drop": { "value": 0, "fixed": true },
+	"CAP1_to_CAP2": { "value": 1, "fixed": true, "dataGivesAbsoluteValue": false, "source": "https://www.google.com/url?q=https%3A%2F%2Ftrello-attachments.s3.amazonaws.com%2F54c65ec0ad4df4eb08012d79%2F54c72a1dd0f351f396c84a4d%2F88b144df0000bea73059132e89cf9a6f%2F2e_degre%25CC%2581_-_Flux_-_Le_second_cycle_professionnel.xls&sa=D&sntz=1&usg=AFQjCNElMtitcR4TwES3V7uIxo52A5VA1A" },
+	"CAP1_to_Drop": { "value": 0, "fixed": true, "dataGivesAbsoluteValue": false, "source": "https://www.google.com/url?q=https%3A%2F%2Ftrello-attachments.s3.amazonaws.com%2F54c65ec0ad4df4eb08012d79%2F54c72a1dd0f351f396c84a4d%2F88b144df0000bea73059132e89cf9a6f%2F2e_degre%25CC%2581_-_Flux_-_Le_second_cycle_professionnel.xls&sa=D&sntz=1&usg=AFQjCNElMtitcR4TwES3V7uIxo52A5VA1A" },
 
-	"CAP2_to_got_CAP": { "value": 1, "fixed": true },
-	"CAP2_to_Drop": { "value": 0, "fixed": true },
+	"CAP2_to_got_CAP": { "value": 1, "fixed": true, "dataGivesAbsoluteValue": false, "source": "https://www.google.com/url?q=https%3A%2F%2Ftrello-attachments.s3.amazonaws.com%2F54c65ec0ad4df4eb08012d79%2F54c72a1dd0f351f396c84a4d%2F88b144df0000bea73059132e89cf9a6f%2F2e_degre%25CC%2581_-_Flux_-_Le_second_cycle_professionnel.xls&sa=D&sntz=1&usg=AFQjCNElMtitcR4TwES3V7uIxo52A5VA1A" },
+	"CAP2_to_Drop": { "value": 0, "fixed": true, "dataGivesAbsoluteValue": false, "source": "https://www.google.com/url?q=https%3A%2F%2Ftrello-attachments.s3.amazonaws.com%2F54c65ec0ad4df4eb08012d79%2F54c72a1dd0f351f396c84a4d%2F88b144df0000bea73059132e89cf9a6f%2F2e_degre%25CC%2581_-_Flux_-_Le_second_cycle_professionnel.xls&sa=D&sntz=1&usg=AFQjCNElMtitcR4TwES3V7uIxo52A5VA1A" },
 
-	"2nde_Pro_to_1ere_Pro": { "value": 0.99, "fixed": true },
-	"2nde_Pro_to_Drop": { "value": 0.01, "fixed": true },
+	"2nde_Pro_to_1ere_Pro": { "value": 0.99, "fixed": true, "dataGivesAbsoluteValue": false, "source": "https://www.google.com/url?q=https%3A%2F%2Ftrello-attachments.s3.amazonaws.com%2F54c65ec0ad4df4eb08012d79%2F54c72a1dd0f351f396c84a4d%2F88b144df0000bea73059132e89cf9a6f%2F2e_degre%25CC%2581_-_Flux_-_Le_second_cycle_professionnel.xls&sa=D&sntz=1&usg=AFQjCNElMtitcR4TwES3V7uIxo52A5VA1A" },
+	"2nde_Pro_to_Drop": { "value": 0.01, "fixed": true, "dataGivesAbsoluteValue": false, "source": "https://www.google.com/url?q=https%3A%2F%2Ftrello-attachments.s3.amazonaws.com%2F54c65ec0ad4df4eb08012d79%2F54c72a1dd0f351f396c84a4d%2F88b144df0000bea73059132e89cf9a6f%2F2e_degre%25CC%2581_-_Flux_-_Le_second_cycle_professionnel.xls&sa=D&sntz=1&usg=AFQjCNElMtitcR4TwES3V7uIxo52A5VA1A" },
 
-	"2nde_GT_to_1ere_G": { "value": 0.515, "fixed": true },
-	"2nde_GT_to_1ere_T": { "value": 0.259, "fixed": true },
-	"2nde_GT_to_1ere_Pro": { "value": 0.065, "fixed": true },
-	"2nde_GT_to_Drop": { "value": 0.01, "fixed": true },
+	"2nde_GT_to_1ere_G": { "value": 0.515, "fixed": true, "dataGivesAbsoluteValue": false, "source": "https://www.google.com/url?q=https%3A%2F%2Ftrello-attachments.s3.amazonaws.com%2F54c65ec0ad4df4eb08012d79%2F54c72a1dd0f351f396c84a4d%2F26471fdffcf16de08d5b6875562a510c%2F2e_degre%25CC%2581_-_Flux_-_Les_poursuites_d_e%25CC%2581tudes_apre%25CC%2580s_la_troisie%25CC%2580me_et_la_seconde_GT.xls&sa=D&sntz=1&usg=AFQjCNE5TniltFq038fSYlnVlmP3riRC9Q" },
+	"2nde_GT_to_1ere_T": { "value": 0.259, "fixed": true, "dataGivesAbsoluteValue": false, "source": "https://www.google.com/url?q=https%3A%2F%2Ftrello-attachments.s3.amazonaws.com%2F54c65ec0ad4df4eb08012d79%2F54c72a1dd0f351f396c84a4d%2F26471fdffcf16de08d5b6875562a510c%2F2e_degre%25CC%2581_-_Flux_-_Les_poursuites_d_e%25CC%2581tudes_apre%25CC%2580s_la_troisie%25CC%2580me_et_la_seconde_GT.xls&sa=D&sntz=1&usg=AFQjCNE5TniltFq038fSYlnVlmP3riRC9Q" },
+	"2nde_GT_to_1ere_Pro": { "value": 0.065, "fixed": true, "dataGivesAbsoluteValue": false, "source": "https://www.google.com/url?q=https%3A%2F%2Ftrello-attachments.s3.amazonaws.com%2F54c65ec0ad4df4eb08012d79%2F54c72a1dd0f351f396c84a4d%2F26471fdffcf16de08d5b6875562a510c%2F2e_degre%25CC%2581_-_Flux_-_Les_poursuites_d_e%25CC%2581tudes_apre%25CC%2580s_la_troisie%25CC%2580me_et_la_seconde_GT.xls&sa=D&sntz=1&usg=AFQjCNE5TniltFq038fSYlnVlmP3riRC9Q" },
+	"2nde_GT_to_Drop": { "value": 0.01, "fixed": true, "dataGivesAbsoluteValue": false, "source": "https://www.google.com/url?q=https%3A%2F%2Ftrello-attachments.s3.amazonaws.com%2F54c65ec0ad4df4eb08012d79%2F54c72a1dd0f351f396c84a4d%2F26471fdffcf16de08d5b6875562a510c%2F2e_degre%25CC%2581_-_Flux_-_Les_poursuites_d_e%25CC%2581tudes_apre%25CC%2580s_la_troisie%25CC%2580me_et_la_seconde_GT.xls&sa=D&sntz=1&usg=AFQjCNE5TniltFq038fSYlnVlmP3riRC9Q" },
 
-	"1ere_G_to_Tale_G": { "value": 0.84, "fixed": true },
-	"1ere_G_to_Drop": { "value": 0.01, "fixed": true },
+	"1ere_G_to_Tale_G": { "value": 0.84, "fixed": true, "dataGivesAbsoluteValue": false, "source": "https://trello-attachments.s3.amazonaws.com/54c65ec0ad4df4eb08012d79/54c72a1dd0f351f396c84a4d/57544ad9be8241481e769caeb30d3d23/2e_degre%CC%81_-_Flux_-_Le_second_cycle_ge%CC%81ne%CC%81ral_et_technologique_-_sexe%2C_a%CC%82ge_et_flux.xls" },
+	"1ere_G_to_Drop": { "value": 0.01, "fixed": true, "dataGivesAbsoluteValue": false, "source": "https://trello-attachments.s3.amazonaws.com/54c65ec0ad4df4eb08012d79/54c72a1dd0f351f396c84a4d/57544ad9be8241481e769caeb30d3d23/2e_degre%CC%81_-_Flux_-_Le_second_cycle_ge%CC%81ne%CC%81ral_et_technologique_-_sexe%2C_a%CC%82ge_et_flux.xls" },
 
-	"1ere_T_to_Tale_T": { "value": 0.84, "fixed": true },
-	"1ere_T_to_Drop": { "value": 0.01, "fixed": true },
+	"1ere_T_to_Tale_T": { "value": 0.84, "fixed": true, "dataGivesAbsoluteValue": false, "source": "https://trello-attachments.s3.amazonaws.com/54c65ec0ad4df4eb08012d79/54c72a1dd0f351f396c84a4d/57544ad9be8241481e769caeb30d3d23/2e_degre%CC%81_-_Flux_-_Le_second_cycle_ge%CC%81ne%CC%81ral_et_technologique_-_sexe%2C_a%CC%82ge_et_flux.xls" },
+	"1ere_T_to_Drop": { "value": 0.01, "fixed": true, "dataGivesAbsoluteValue": false, "source": "https://trello-attachments.s3.amazonaws.com/54c65ec0ad4df4eb08012d79/54c72a1dd0f351f396c84a4d/57544ad9be8241481e769caeb30d3d23/2e_degre%CC%81_-_Flux_-_Le_second_cycle_ge%CC%81ne%CC%81ral_et_technologique_-_sexe%2C_a%CC%82ge_et_flux.xls" },
 
-	"1ere_Pro_to_Tale_Pro": { "value": 0.84, "fixed": true },
-	"1ere_Pro_to_Drop": { "value": 0.01, "fixed": true },
+	"1ere_Pro_to_Tale_Pro": { "value": 0.84, "fixed": true, "dataGivesAbsoluteValue": false, "source": "https://trello-attachments.s3.amazonaws.com/54c65ec0ad4df4eb08012d79/54c72a1dd0f351f396c84a4d/57544ad9be8241481e769caeb30d3d23/2e_degre%CC%81_-_Flux_-_Le_second_cycle_ge%CC%81ne%CC%81ral_et_technologique_-_sexe%2C_a%CC%82ge_et_flux.xls" },
+	"1ere_Pro_to_Drop": { "value": 0.01, "fixed": true, "dataGivesAbsoluteValue": false, "source": "https://trello-attachments.s3.amazonaws.com/54c65ec0ad4df4eb08012d79/54c72a1dd0f351f396c84a4d/57544ad9be8241481e769caeb30d3d23/2e_degre%CC%81_-_Flux_-_Le_second_cycle_ge%CC%81ne%CC%81ral_et_technologique_-_sexe%2C_a%CC%82ge_et_flux.xls" },
 
-	"Tale_G_to_got_BAC_G": { "value": 0.89, "fixed": true },
-	"Tale_G_to_Drop": { "value": 0.05, "fixed": false },
+	"Tale_G_to_got_BAC_G": { "value": 0.89, "fixed": true, "dataGivesAbsoluteValue": false, "source": "?" },
+	"Tale_G_to_Drop": { "value": 0.05, "fixed": false, "dataGivesAbsoluteValue": false, "source": "?" },
 
-	"Tale_T_to_got_BAC_T": { "value": 0.80, "fixed": true },
-	"Tale_T_to_Drop": { "value": 0.05, "fixed": true },
+	"Tale_T_to_got_BAC_T": { "value": 0.80, "fixed": true, "dataGivesAbsoluteValue": false, "source": "?" },
+	"Tale_T_to_Drop": { "value": 0.05, "fixed": true, "dataGivesAbsoluteValue": false, "source": "?" },
 
-	"Tale_Pro_to_got_BAC_Pro": { "value": 0.88, "fixed": true },
-	"Tale_Pro_to_Drop": { "value": 0.05, "fixed": true }
+	"Tale_Pro_to_got_BAC_Pro": { "value": 0.88, "fixed": true, "dataGivesAbsoluteValue": false, "source": "?" },
+	"Tale_Pro_to_Drop": { "value": 0.05, "fixed": true, "dataGivesAbsoluteValue": false, "source": "?" }
 }

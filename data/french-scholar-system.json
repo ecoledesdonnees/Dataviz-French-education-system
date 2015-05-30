@@ -74,9 +74,9 @@
     {"name":"got_Bac_Pro"}
   ],
   "cursus": [
-    {"primaire":["CP","CE1","CE2","CM1","CM2",]},
-    {"collège":["6eme","5eme","4eme","3eme"]}
-    {"CAP":["CAP1","CAP2","got_CAP","dropCAP1","dropCAP2","fail_CAP"]}
+    {"primaire":["CP","CE1","CE2","CM1","CM2"]},
+    {"collège":["6eme","5eme","4eme","3eme"]},
+    {"CAP":["CAP1","CAP2","got_CAP","dropCAP1","dropCAP2","fail_CAP"]},
     {"BEP":["BEP1","BEP2","got_BEP"]}
   ]
 }

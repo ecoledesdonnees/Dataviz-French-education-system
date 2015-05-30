@@ -15,10 +15,13 @@
   text-shadow: 0 1px 0 #fff;
 }
 
-.link {
+.linkStroke {
   fill: none;
   stroke: #f00;
-  stroke-opacity: 0.61;
+}
+.linkFill {
+  fill: none;
+  stroke: #00F;
 }
 
 .link:hover {
@@ -81,17 +84,32 @@ var svg = d3.select("#chart").append("svg")
       .layout(32);
 
     // add in the links
-    var link = svg.append("g").selectAll(".link")
+    var links = svg.selectAll(".links")
+      .data(graph.links)
+      .enter().append("g")
+      .attr("class", "link");
+
+    var linkStroke = svg.selectAll(".linkStroke")
       .data(graph.links)
       .enter().append("path")
-      .attr("class", "link")
+      .attr("class", "linkStroke")
       .attr("d", path)
       .attr("width", 1000)
       .style("stroke-width", function(d) { return Math.max(1, d.dy); })
       .sort(function(a, b) { return b.dy - a.dy; });
 
+    var linkFill = svg.selectAll(".linkFill")
+      .data(graph.links)
+      .enter().append("path")
+      .attr("class", "linkFill")
+      .attr("d", path)
+      .attr("width", 1000)
+      .style("stroke-width", function(d) { return Math.max(1, d.dy-9); })
+      .sort(function(a, b) { return b.dy - a.dy; });
+
+
     // add the link titles
-    link.append("title")
+    links.append("title")
       .text(function(d) {
         return d.source.name + " → " +
           d.target.name + "\n" + format(d.value); });
@@ -137,7 +155,7 @@ var svg = d3.select("#chart").append("svg")
                 d.y = Math.max(0, Math.min(height - d.dy, d3.event.y))
                 ) + ")");
       sankey.relayout();
-      link.attr("d", path);
+      links.attr("d", path);
     }
   });
 

@@ -1,0 +1,16 @@
+{
+  "links": [
+    {"source":"3eme","target":"2nde_GT","value":"0.54"},
+    {"source":"2nde_GT","target":"1ere_G","value":"0.515"},
+    {"source":"2nde_GT","target":"1ere_T","value":"0.259"},
+    {"source":"2nde_GT","target":"1ere_Pro","value":"0.065"},
+    {"source":"2nde_GT","target":"Drop","value":"0.01"}
+  ],
+  "nodes": [
+    {"name":"3eme"},
+    {"name":"2nde_GT"},
+    {"name":"1ere_G"},
+    {"name":"1ere_T"},
+    {"name":"1ere_Pro"}
+  ]
+}

@@ -117,6 +117,9 @@ def compute_zoomed_graphs_from_trajectories(trajectories):
 			if not vertex in all_vertices:
 				all_vertices.append(vertex)
 
+
+	print all_vertices
+
 	for vertex in all_vertices:
 		print vertex
 		nodes = []
@@ -131,11 +134,11 @@ def compute_zoomed_graphs_from_trajectories(trajectories):
 					sum_of_fluxes_to_this_vertex += trajectory["mean"]
 					sum_of_fluxes_to_all_vertices += trajectory["mean"]
 			if sum_of_fluxes_to_this_vertex > 0:
-				o_edges.append( {'from':vertex, 'to':o_vertex, 'value': sum_of_fluxes_to_this_vertex} )
+				o_edges.append( {'source':vertex, 'target':o_vertex, 'value': sum_of_fluxes_to_this_vertex} )
 				nodes.append(o_vertex)
 		for e in o_edges:
 			e["value"] = e["value"]/float(sum_of_fluxes_to_all_vertices)
-			print "   out - %s    %s" %(e['to'], e['value'])
+			print "   out - %s    %s" %(e['target'], e['value'])
 
 
 		# coming in
@@ -148,16 +151,17 @@ def compute_zoomed_graphs_from_trajectories(trajectories):
 					sum_of_fluxes_from_this_vertex += trajectory["mean"]
 					sum_of_fluxes_from_all_vertices += trajectory["mean"]
 			if sum_of_fluxes_from_this_vertex > 0:
-				i_edges.append( {'from':i_vertex, 'to':vertex, 'value': sum_of_fluxes_from_this_vertex} )
+				i_edges.append( {'source':i_vertex, 'target':vertex, 'value': sum_of_fluxes_from_this_vertex} )
 				nodes.append(i_vertex)
 		for e in i_edges:
 			e["value"] = e["value"]/float(max(sum_of_fluxes_to_all_vertices, sum_of_fluxes_from_all_vertices))
 			# We need to take max of in & out flux to handle first and last nodes
-			print "   in - %s    %s" %(e['from'], e['value'])
+			print "   in - %s    %s" %(e['source'], e['value'])
 
 
 
 		nodes = list(set(nodes))
+		nodes = [{ 'name': node } for node in nodes]
 		edges = i_edges
 		edges.extend(o_edges)
 		zoomed_graphs[vertex] = {'links':edges, 'nodes':nodes}
@@ -185,7 +189,7 @@ def compute_zoomed_graphs_from_trajectories(trajectories):
 # 				transition_name = "%s_to_%s" %(vertex_name,n_vertex_name)
 # 				value = theta[transition_name]['value']
 # 				status = theta[transition_name]['fixed']
-# 				o_edges.append( {'from':vertex_name, 'to':n_vertex_name, 'value':value, 'status':status} )
+# 				o_edges.append( {'source':vertex_name, 'target':n_vertex_name, 'value':value, 'status':status} )
 # 				nodes.append(n_vertex_name)
 # 		if(len(pred)!=0):
 # 			sum = 0
@@ -195,7 +199,7 @@ def compute_zoomed_graphs_from_trajectories(trajectories):
 # 				transition_name = "%s_to_%s" %(p_vertex_name,vertex_name)
 # 				value = theta[transition_name]['value']
 # 				status = theta[transition_name]['fixed']
-# 				i_edges.append( {'from':p_vertex_name, 'to':vertex_name, 'value':value, 'status':status} )
+# 				i_edges.append( {'source':p_vertex_name, 'target':vertex_name, 'value':value, 'status':status} )
 # 				sum = sum + value
 # 				nodes.append(p_vertex_name)
 # 			#normalizing theta (BEWARE!!! this is not valid and makes no sense).

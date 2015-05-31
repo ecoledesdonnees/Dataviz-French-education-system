@@ -64,6 +64,7 @@ var svg = d3.select("#chart").append("svg")
   // load the data
   d3.json("data/french-scholar-system.json", function(error, graph) {
     console.log(error)
+    console.log(graph)
 
     var nodeMap = {};
     graph.nodes.forEach(function(x) { nodeMap[x.name] = x; });
@@ -80,14 +81,39 @@ var svg = d3.select("#chart").append("svg")
       .links(graph.links)
       .layout(32);
 
+
     // add in the links
     var link = svg.append("g").selectAll(".link")
       .data(graph.links)
-      .enter().append("path")
+      .enter()
+      .append("a")
       .attr("class", "link")
-      .attr("d", path)
-      .style("stroke-width", function(d) { return Math.max(1, d.dy); })
-      .sort(function(a, b) { return b.dy - a.dy; });
+      .attr("xlink:href", function(d){ 
+        console.log(d);
+        console.log(d.source.name + '->->' + d.target.name);
+        return "zoom.html?class=" + d.source.name;
+      })
+      .each(function(d){
+        d3.select(this)
+          .append("path")
+          .attr("d", path)
+          .style("stroke-width", function(d) { return Math.max(1, d.dy); })
+          // .sort(function(a, b) { return b.dy - a.dy; })
+        d3.select(this)
+            .append("title")
+          .text(function(d) {
+            return d.source.name + " → " +
+              d.target.name + "\n" + format(d.value); });
+      })
+
+    // // add in the links
+    // var link = svg.append("g").selectAll(".link")
+    //   .data(graph.links)
+    //   .enter().append("path")
+    //   .attr("class", "link")
+    //   .attr("d", path)
+    //   .style("stroke-width", function(d) { return Math.max(1, d.dy); })
+    //   .sort(function(a, b) { return b.dy - a.dy; });
 
     // add the link titles
     link.append("title")

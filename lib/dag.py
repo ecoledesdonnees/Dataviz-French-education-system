@@ -170,6 +170,49 @@ def compute_zoomed_graphs_from_trajectories(trajectories):
 	    json.dump(zoomed_graphs, outfile,indent=5,separators=(',', ': '))
 
 
+def compute_graph_from_trajectories(trajectories):
+
+	graph = {}
+	edges = []
+
+	# get all classes
+	all_vertices = []
+	for trajectory in trajectories:
+		for vertex in trajectory['path']:
+			if not vertex in all_vertices:
+				all_vertices.append(vertex)
+
+	print all_vertices
+
+	for vertex in all_vertices:
+		print vertex
+		nodes = []
+
+		# only looking at outgoing edges.
+		o_edges = []
+		sum_of_fluxes_to_all_vertices = 0
+		for o_vertex in all_vertices:
+			sum_of_fluxes_to_this_vertex = 0
+			for trajectory in trajectories:
+				if contains([vertex, o_vertex], trajectory["path"]):
+					sum_of_fluxes_to_this_vertex += trajectory["mean"]
+					sum_of_fluxes_to_all_vertices += trajectory["mean"]
+			if sum_of_fluxes_to_this_vertex > 0:
+				o_edges.append( {'source':vertex, 'target':o_vertex, 'value': sum_of_fluxes_to_this_vertex} )
+		for e in o_edges:
+			e["value"] = e["value"]/float(sum_of_fluxes_to_all_vertices)
+			print "   out - %s    %s" %(e['target'], e['value'])
+
+		edges.extend(o_edges)
+
+	nodes = [{ 'name': node } for node in nodes]
+	graph = {'links':edges, 'nodes':nodes}
+
+	with open('data/complete_graph_test.json', 'w') as outfile:
+	    json.dump(graph, outfile,indent=5,separators=(',', ': '))
+
+
+
 # def compute_zoomed_graphs(g,theta,File):
 # 	# compute all the subgraphs of 'g' with weight 'theta' zoomed on a particular state (e.g. CE1). Then write
 # 	# the resulting dictionnary into json format in 'File'.

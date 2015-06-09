@@ -12,17 +12,17 @@
                {
                     "source": "CAP2",
                     "target": "got_CAP",
-                    "value": 0.607907216228684
+                    "value": 62397.39
                },
                {
                     "source": "got_CAP",
                     "target": "got_CAP",
-                    "value": 0.392092783771316
+                    "value": 40245.56
                },
                {
                     "source": "got_CAP",
                     "target": "got_CAP",
-                    "value": 1.0
+                    "value": 40245.56
                }
           ]
      },
@@ -42,22 +42,22 @@
                {
                     "source": "CM2",
                     "target": "6eme",
-                    "value": 0.9523770665312805
+                    "value": 599999.9900000041
                },
                {
                     "source": "6eme",
                     "target": "6eme",
-                    "value": 0.04762293346871412
+                    "value": 30002.569999999927
                },
                {
                     "source": "6eme",
                     "target": "6eme",
-                    "value": 0.04762294858704933
+                    "value": 30002.569999999927
                },
                {
                     "source": "6eme",
                     "target": "5eme",
-                    "value": 0.9523770514129506
+                    "value": 599999.7900000039
                }
           ]
      },
@@ -77,22 +77,22 @@
                {
                     "source": "CAP1",
                     "target": "CAP2",
-                    "value": 0.9562255864320401
+                    "value": 69393.08999999998
                },
                {
                     "source": "CAP2",
                     "target": "CAP2",
-                    "value": 0.043774413567959906
+                    "value": 3176.7000000000003
                },
                {
                     "source": "CAP2",
                     "target": "CAP2",
-                    "value": 0.0484444389544712
+                    "value": 3176.7000000000003
                },
                {
                     "source": "CAP2",
                     "target": "got_CAP",
-                    "value": 0.9515555610455289
+                    "value": 62397.39
                }
           ]
      },
@@ -115,27 +115,27 @@
                {
                     "source": "2nde_GT",
                     "target": "1ere_G",
-                    "value": 0.8828930647518274
+                    "value": 160878.62
                },
                {
                     "source": "1ere_G",
                     "target": "1ere_G",
-                    "value": 0.11710693524817259
+                    "value": 21338.940000000002
                },
                {
                     "source": "1ere_G",
                     "target": "Drop",
-                    "value": 0.00861855846815685
+                    "value": 1323.3700000000001
                },
                {
                     "source": "1ere_G",
                     "target": "1ere_G",
-                    "value": 0.1389716421246446
+                    "value": 21338.940000000002
                },
                {
                     "source": "1ere_G",
                     "target": "Tale_G",
-                    "value": 0.8524097994071985
+                    "value": 130886.56999999999
                }
           ]
      },
@@ -167,42 +167,42 @@
                {
                     "source": "4eme",
                     "target": "3eme",
-                    "value": 0.9524220032221563
+                    "value": 599890.3800000004
                },
                {
                     "source": "3eme",
                     "target": "3eme",
-                    "value": 0.047577996777843835
+                    "value": 29967.369999999977
                },
                {
                     "source": "3eme",
                     "target": "3eme",
-                    "value": 0.047671099025666346
+                    "value": 29967.369999999977
                },
                {
                     "source": "3eme",
                     "target": "2nde_GT",
-                    "value": 0.5143572038028293
+                    "value": 323339.14999999997
                },
                {
                     "source": "3eme",
                     "target": "Drop",
-                    "value": 0.01712408027626783
+                    "value": 10764.670000000004
                },
                {
                     "source": "3eme",
                     "target": "CAP1",
-                    "value": 0.11233540593817032
+                    "value": 70617.14000000001
                },
                {
                     "source": "3eme",
                     "target": "BEP1",
-                    "value": 0.24281660989034148
+                    "value": 152641.2300000001
                },
                {
                     "source": "3eme",
                     "target": "2nde_Pro",
-                    "value": 0.06569560106672355
+                    "value": 41298.06999999994
                }
           ]
      },
@@ -225,27 +225,27 @@
                {
                     "source": "1ere_Pro",
                     "target": "Tale_Pro",
-                    "value": 0.9117376235180248
+                    "value": 32140.52
                },
                {
                     "source": "Tale_Pro",
                     "target": "Tale_Pro",
-                    "value": 0.08826237648197517
+                    "value": 3111.42
                },
                {
                     "source": "Tale_Pro",
                     "target": "Drop",
-                    "value": 0.04171521228641523
+                    "value": 762.27
                },
                {
                     "source": "Tale_Pro",
                     "target": "Tale_Pro",
-                    "value": 0.17027240454458145
+                    "value": 3111.42
                },
                {
                     "source": "Tale_Pro",
                     "target": "got_BAC_Pro",
-                    "value": 0.7880123831690033
+                    "value": 14399.5
                }
           ]
      },
@@ -265,22 +265,22 @@
                {
                     "source": "3eme",
                     "target": "CAP1",
-                    "value": 0.9529665896246583
+                    "value": 70617.14000000001
                },
                {
                     "source": "CAP1",
                     "target": "CAP1",
-                    "value": 0.047033410375341256
+                    "value": 3485.2900000000013
                },
                {
                     "source": "CAP1",
                     "target": "CAP1",
-                    "value": 0.047823373680918844
+                    "value": 3485.2900000000013
                },
                {
                     "source": "CAP1",
                     "target": "CAP2",
-                    "value": 0.9521766263190813
+                    "value": 69393.08999999998
                }
           ]
      },
@@ -297,7 +297,7 @@
                {
                     "source": "Tale_G",
                     "target": "got_BAC_G",
-                    "value": 1.0
+                    "value": 58657.06
                }
           ]
      },
@@ -320,27 +320,27 @@
                {
                     "source": "2nde_GT",
                     "target": "1ere_T",
-                    "value": 0.8828804296855811
+                    "value": 148268.07000000004
                },
                {
                     "source": "1ere_T",
                     "target": "1ere_T",
-                    "value": 0.11711957031441897
+                    "value": 19668.680000000004
                },
                {
                     "source": "1ere_T",
                     "target": "1ere_T",
-                    "value": 0.1389861260348873
+                    "value": 19668.680000000004
                },
                {
                     "source": "1ere_T",
                     "target": "Tale_T",
-                    "value": 0.8523900080994709
+                    "value": 120626.32999999999
                },
                {
                     "source": "1ere_T",
                     "target": "Drop",
-                    "value": 0.008623865865642066
+                    "value": 1220.41
                }
           ]
      },
@@ -360,22 +360,22 @@
                {
                     "source": "5eme",
                     "target": "4eme",
-                    "value": 0.9524031632850679
+                    "value": 599993.04
                },
                {
                     "source": "4eme",
                     "target": "4eme",
-                    "value": 0.04759683671493294
+                    "value": 29984.960000000003
                },
                {
                     "source": "4eme",
                     "target": "4eme",
-                    "value": 0.0476045942678118
+                    "value": 29984.960000000003
                },
                {
                     "source": "4eme",
                     "target": "3eme",
-                    "value": 0.952395405732189
+                    "value": 599890.3800000004
                }
           ]
      },
@@ -392,17 +392,17 @@
                {
                     "source": "BEP2",
                     "target": "got_BEP",
-                    "value": 0.6078868402773557
+                    "value": 129549.18999999999
                },
                {
                     "source": "got_BEP",
                     "target": "got_BEP",
-                    "value": 0.3921131597226442
+                    "value": 83564.8
                },
                {
                     "source": "got_BEP",
                     "target": "got_BEP",
-                    "value": 1.0
+                    "value": 83564.8
                }
           ]
      },
@@ -425,27 +425,27 @@
                {
                     "source": "BEP1",
                     "target": "BEP2",
-                    "value": 0.9562833424511625
+                    "value": 146990.15000000005
                },
                {
                     "source": "BEP2",
                     "target": "BEP2",
-                    "value": 0.04371665754883729
+                    "value": 6719.679999999999
                },
                {
                     "source": "BEP2",
                     "target": "Drop",
-                    "value": 0.01898874012618413
+                    "value": 2637.6599999999994
                },
                {
                     "source": "BEP2",
                     "target": "BEP2",
-                    "value": 0.04837555153094674
+                    "value": 6719.679999999999
                },
                {
                     "source": "BEP2",
                     "target": "got_BEP",
-                    "value": 0.932635708342869
+                    "value": 129549.18999999999
                }
           ]
      },
@@ -468,27 +468,27 @@
                {
                     "source": "3eme",
                     "target": "BEP1",
-                    "value": 0.9530571916495533
+                    "value": 152641.2300000001
                },
                {
                     "source": "BEP1",
                     "target": "BEP1",
-                    "value": 0.046942808350446986
+                    "value": 7518.340000000002
                },
                {
                     "source": "BEP1",
                     "target": "Drop",
-                    "value": 0.019095292417655025
+                    "value": 3007.8199999999997
                },
                {
                     "source": "BEP1",
                     "target": "BEP1",
-                    "value": 0.04773054929994233
+                    "value": 7518.340000000002
                },
                {
                     "source": "BEP1",
                     "target": "BEP2",
-                    "value": 0.9331741582824026
+                    "value": 146990.15000000005
                }
           ]
      },
@@ -511,27 +511,27 @@
                {
                     "source": "2nde_Pro",
                     "target": "1ere_Pro",
-                    "value": 0.8827697934925463
+                    "value": 39488.94999999999
                },
                {
                     "source": "1ere_Pro",
                     "target": "1ere_Pro",
-                    "value": 0.11723020650745396
+                    "value": 5244.06
                },
                {
                     "source": "1ere_Pro",
                     "target": "Drop",
-                    "value": 0.008597204310827429
+                    "value": 324.19
                },
                {
                     "source": "1ere_Pro",
                     "target": "1ere_Pro",
-                    "value": 0.13906738405946417
+                    "value": 5244.06
                },
                {
                     "source": "1ere_Pro",
                     "target": "Tale_Pro",
-                    "value": 0.8523354116297085
+                    "value": 32140.52
                }
           ]
      },
@@ -548,7 +548,7 @@
                {
                     "source": "Tale_Pro",
                     "target": "got_BAC_Pro",
-                    "value": 1.0
+                    "value": 14399.5
                }
           ]
      },
@@ -595,67 +595,67 @@
                {
                     "source": "3eme",
                     "target": "Drop",
-                    "value": 0.21835322744685834
+                    "value": 10764.670000000004
                },
                {
                     "source": "2nde_GT",
                     "target": "Drop",
-                    "value": 0.06326656705749001
+                    "value": 3119.0
                },
                {
                     "source": "1ere_T",
                     "target": "Drop",
-                    "value": 0.024755098141273288
+                    "value": 1220.41
                },
                {
                     "source": "Tale_T",
                     "target": "Drop",
-                    "value": 0.05753302174025047
+                    "value": 2836.34
                },
                {
                     "source": "Drop",
                     "target": "Drop",
-                    "value": 0.40202972291312616
+                    "value": 19819.800000000003
                },
                {
                     "source": "1ere_G",
                     "target": "Drop",
-                    "value": 0.026843564234328487
+                    "value": 1323.3700000000001
                },
                {
                     "source": "BEP1",
                     "target": "Drop",
-                    "value": 0.061011364452343564
+                    "value": 3007.8199999999997
                },
                {
                     "source": "BEP2",
                     "target": "Drop",
-                    "value": 0.053502947503962506
+                    "value": 2637.6599999999994
                },
                {
                     "source": "2nde_Pro",
                     "target": "Drop",
-                    "value": 0.008057105835493943
+                    "value": 397.21000000000004
                },
                {
                     "source": "Tale_G",
                     "target": "Drop",
-                    "value": 0.06260935744778731
+                    "value": 3086.6
                },
                {
                     "source": "1ere_Pro",
                     "target": "Drop",
-                    "value": 0.006575950103997334
+                    "value": 324.19
                },
                {
                     "source": "Tale_Pro",
                     "target": "Drop",
-                    "value": 0.01546207312308846
+                    "value": 762.27
                },
                {
                     "source": "Drop",
                     "target": "Drop",
-                    "value": 1.0
+                    "value": 19819.800000000003
                }
           ]
      },
@@ -675,22 +675,22 @@
                {
                     "source": "CE1",
                     "target": "CE2",
-                    "value": 0.9524136821527249
+                    "value": 600000.0000000041
                },
                {
                     "source": "CE2",
                     "target": "CE2",
-                    "value": 0.04758631784727152
+                    "value": 29978.349999999962
                },
                {
                     "source": "CE2",
                     "target": "CE2",
-                    "value": 0.047586317847271686
+                    "value": 29978.349999999962
                },
                {
                     "source": "CE2",
                     "target": "CM1",
-                    "value": 0.9524136821527283
+                    "value": 600000.0000000041
                }
           ]
      },
@@ -710,22 +710,22 @@
                {
                     "source": "CP",
                     "target": "CE1",
-                    "value": 0.9523675587673436
+                    "value": 600000.0000000041
                },
                {
                     "source": "CE1",
                     "target": "CE1",
-                    "value": 0.047632441232651146
+                    "value": 30008.85999999989
                },
                {
                     "source": "CE1",
                     "target": "CE1",
-                    "value": 0.0476324412326514
+                    "value": 30008.85999999989
                },
                {
                     "source": "CE1",
                     "target": "CE2",
-                    "value": 0.9523675587673487
+                    "value": 600000.0000000041
                }
           ]
      },
@@ -742,17 +742,17 @@
                {
                     "source": "CP",
                     "target": "CP",
-                    "value": 0.04762417230802473
+                    "value": 30003.389999999894
                },
                {
                     "source": "CP",
                     "target": "CP",
-                    "value": 0.04762417230802473
+                    "value": 30003.389999999894
                },
                {
                     "source": "CP",
                     "target": "CE1",
-                    "value": 0.9523758276919753
+                    "value": 600000.0000000041
                }
           ]
      },
@@ -775,27 +775,27 @@
                {
                     "source": "3eme",
                     "target": "2nde_Pro",
-                    "value": 0.8637999856096333
+                    "value": 41298.06999999994
                },
                {
                     "source": "2nde_Pro",
                     "target": "2nde_Pro",
-                    "value": 0.1362000143903674
+                    "value": 6511.69
                },
                {
                     "source": "2nde_Pro",
                     "target": "Drop",
-                    "value": 0.008560957027103628
+                    "value": 397.21000000000004
                },
                {
                     "source": "2nde_Pro",
                     "target": "2nde_Pro",
-                    "value": 0.14034464959044438
+                    "value": 6511.69
                },
                {
                     "source": "2nde_Pro",
                     "target": "1ere_Pro",
-                    "value": 0.8510943933824517
+                    "value": 39488.94999999999
                }
           ]
      },
@@ -815,22 +815,22 @@
                {
                     "source": "6eme",
                     "target": "5eme",
-                    "value": 0.9523284677267629
+                    "value": 599999.7900000039
                },
                {
                     "source": "5eme",
                     "target": "5eme",
-                    "value": 0.04767153227323194
+                    "value": 30034.709999999883
                },
                {
                     "source": "5eme",
                     "target": "5eme",
-                    "value": 0.047672043017152665
+                    "value": 30034.709999999883
                },
                {
                     "source": "5eme",
                     "target": "4eme",
-                    "value": 0.952327956982848
+                    "value": 599993.04
                }
           ]
      },
@@ -856,32 +856,32 @@
                {
                     "source": "3eme",
                     "target": "2nde_GT",
-                    "value": 0.8636182097692854
+                    "value": 323339.14999999997
                },
                {
                     "source": "2nde_GT",
                     "target": "2nde_GT",
-                    "value": 0.13638179023071467
+                    "value": 51061.42
                },
                {
                     "source": "2nde_GT",
                     "target": "2nde_GT",
-                    "value": 0.14053842555266524
+                    "value": 51061.42
                },
                {
                     "source": "2nde_GT",
                     "target": "1ere_T",
-                    "value": 0.40808424672741894
+                    "value": 148268.07000000004
                },
                {
                     "source": "2nde_GT",
                     "target": "Drop",
-                    "value": 0.008584550709689682
+                    "value": 3119.0
                },
                {
                     "source": "2nde_GT",
                     "target": "1ere_G",
-                    "value": 0.44279277701022657
+                    "value": 160878.62
                }
           ]
      },
@@ -898,7 +898,7 @@
                {
                     "source": "Tale_T",
                     "target": "got_BAC_T",
-                    "value": 1.0
+                    "value": 54078.56
                }
           ]
      },
@@ -921,27 +921,27 @@
                {
                     "source": "1ere_G",
                     "target": "Tale_G",
-                    "value": 0.9119488213924873
+                    "value": 130886.56999999999
                },
                {
                     "source": "Tale_G",
                     "target": "Tale_G",
-                    "value": 0.08805117860751262
+                    "value": 12637.46
                },
                {
                     "source": "Tale_G",
                     "target": "Drop",
-                    "value": 0.041497089584023476
+                    "value": 3086.6
                },
                {
                     "source": "Tale_G",
                     "target": "Tale_G",
-                    "value": 0.1699014481094127
+                    "value": 12637.46
                },
                {
                     "source": "Tale_G",
                     "target": "got_BAC_G",
-                    "value": 0.7886014623065638
+                    "value": 58657.06
                }
           ]
      },
@@ -964,27 +964,27 @@
                {
                     "source": "1ere_T",
                     "target": "Tale_T",
-                    "value": 0.9120039490375166
+                    "value": 120626.32999999999
                },
                {
                     "source": "Tale_T",
                     "target": "Tale_T",
-                    "value": 0.08799605096248339
+                    "value": 11638.81
                },
                {
                     "source": "Tale_T",
                     "target": "Tale_T",
-                    "value": 0.16977651537750474
+                    "value": 11638.81
                },
                {
                     "source": "Tale_T",
                     "target": "Drop",
-                    "value": 0.04137398253136118
+                    "value": 2836.34
                },
                {
                     "source": "Tale_T",
                     "target": "got_BAC_T",
-                    "value": 0.7888495020911341
+                    "value": 54078.56
                }
           ]
      },
@@ -1004,22 +1004,22 @@
                {
                     "source": "CM1",
                     "target": "CM2",
-                    "value": 0.9523416645081524
+                    "value": 600000.0000000041
                },
                {
                     "source": "CM2",
                     "target": "CM2",
-                    "value": 0.04765833549184129
+                    "value": 30025.989999999823
                },
                {
                     "source": "CM2",
                     "target": "CM2",
-                    "value": 0.04765833624829191
+                    "value": 30025.989999999823
                },
                {
                     "source": "CM2",
                     "target": "6eme",
-                    "value": 0.952341663751708
+                    "value": 599999.9900000041
                }
           ]
      },
@@ -1039,22 +1039,22 @@
                {
                     "source": "CE2",
                     "target": "CM1",
-                    "value": 0.9523645203137484
+                    "value": 600000.0000000041
                },
                {
                     "source": "CM1",
                     "target": "CM1",
-                    "value": 0.047635479686246644
+                    "value": 30010.86999999991
                },
                {
                     "source": "CM1",
                     "target": "CM1",
-                    "value": 0.04763547968624688
+                    "value": 30010.86999999991
                },
                {
                     "source": "CM1",
                     "target": "CM2",
-                    "value": 0.9523645203137532
+                    "value": 600000.0000000041
                }
           ]
      }

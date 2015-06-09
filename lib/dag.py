@@ -138,7 +138,7 @@ def compute_zoomed_graphs_from_trajectories(trajectories):
 				o_edges.append( {'source':vertex, 'target':o_vertex, 'value': sum_of_fluxes_to_this_vertex} )
 				nodes.append(o_vertex)
 		for e in o_edges:
-			e["value"] = e["value"]/float(sum_of_fluxes_to_all_vertices)
+			#e["value"] = e["value"]/float(sum_of_fluxes_to_all_vertices)
 			print "   out - %s    %s" %(e['target'], e['value'])
 
 
@@ -155,7 +155,7 @@ def compute_zoomed_graphs_from_trajectories(trajectories):
 				i_edges.append( {'source':i_vertex, 'target':vertex, 'value': sum_of_fluxes_from_this_vertex} )
 				nodes.append(i_vertex)
 		for e in i_edges:
-			e["value"] = e["value"]/float(max(sum_of_fluxes_to_all_vertices, sum_of_fluxes_from_all_vertices))
+			#e["value"] = e["value"]/float(max(sum_of_fluxes_to_all_vertices, sum_of_fluxes_from_all_vertices))
 			# We need to take max of in & out flux to handle first and last nodes
 			print "   in - %s    %s" %(e['source'], e['value'])
 

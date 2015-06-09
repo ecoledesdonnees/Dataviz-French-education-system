@@ -288,6 +288,9 @@
           "nodes": [
                {
                     "name": "Tale_G"
+               },
+               {
+                    "name": "got_BAC_G"
                }
           ],
           "links": [
@@ -534,6 +537,9 @@
      },
      "got_BAC_Pro": {
           "nodes": [
+               {
+                    "name": "got_BAC_Pro"
+               },
                {
                     "name": "Tale_Pro"
                }
@@ -883,6 +889,9 @@
           "nodes": [
                {
                     "name": "Tale_T"
+               },
+               {
+                    "name": "got_BAC_T"
                }
           ],
           "links": [

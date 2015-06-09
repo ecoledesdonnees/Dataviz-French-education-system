@@ -123,6 +123,7 @@ def compute_zoomed_graphs_from_trajectories(trajectories):
 	for vertex in all_vertices:
 		print vertex
 		nodes = []
+		nodes.append(vertex)
 
 		# coming out
 		o_edges = []
@@ -198,59 +199,17 @@ def compute_graph_from_trajectories(trajectories):
 					sum_of_fluxes_to_this_vertex += trajectory["mean"]
 					sum_of_fluxes_to_all_vertices += trajectory["mean"]
 			if sum_of_fluxes_to_this_vertex > 0:
-				o_edges.append( {'source':vertex, 'target':o_vertex, 'value': sum_of_fluxes_to_this_vertex} )
+				if o_vertex!=vertex:
+					o_edges.append( {'source':vertex, 'target':o_vertex, 'value': sum_of_fluxes_to_this_vertex} )
 		for e in o_edges:
-			e["value"] = e["value"]/float(sum_of_fluxes_to_all_vertices)
+			#e["value"] = e["value"]/float(sum_of_fluxes_to_all_vertices)
 			print "   out - %s    %s" %(e['target'], e['value'])
 
 		edges.extend(o_edges)
 
-	nodes = [{ 'name': node } for node in nodes]
+	nodes = [{ 'name': node } for node in all_vertices]
 	graph = {'links':edges, 'nodes':nodes}
 
 	with open('data/complete_graph_test.json', 'w') as outfile:
 	    json.dump(graph, outfile,indent=5,separators=(',', ': '))
-
-
-
-# def compute_zoomed_graphs(g,theta,File):
-# 	# compute all the subgraphs of 'g' with weight 'theta' zoomed on a particular state (e.g. CE1). Then write
-# 	# the resulting dictionnary into json format in 'File'.
-# 	zoomed_graphs = { }
-# 	for vertex in g.vs:
-# 		print vertex['name']
-# 		vertex_name = vertex['name']
-# 		nodes = [ vertex_name ]
-# 		i_edges = [ ]
-# 		o_edges = [ ]
-# 		succ = g.successors(vertex)
-# 		pred = g.predecessors(vertex)
-# 		if(len(succ)!=0):
-# 			for n_vertex in succ:
-# 				# adding the edge & n_vertex.
-# 				n_vertex_name = g.vs["name"][n_vertex]
-# 				transition_name = "%s_to_%s" %(vertex_name,n_vertex_name)
-# 				value = theta[transition_name]['value']
-# 				status = theta[transition_name]['fixed']
-# 				o_edges.append( {'source':vertex_name, 'target':n_vertex_name, 'value':value, 'status':status} )
-# 				nodes.append(n_vertex_name)
-# 		if(len(pred)!=0):
-# 			sum = 0
-# 			for p_vertex in pred:
-# 				#adding the edge & p_vertex.
-# 				p_vertex_name = g.vs['name'][p_vertex]
-# 				transition_name = "%s_to_%s" %(p_vertex_name,vertex_name)
-# 				value = theta[transition_name]['value']
-# 				status = theta[transition_name]['fixed']
-# 				i_edges.append( {'source':p_vertex_name, 'target':vertex_name, 'value':value, 'status':status} )
-# 				sum = sum + value
-# 				nodes.append(p_vertex_name)
-# 			#normalizing theta (BEWARE!!! this is not valid and makes no sense).
-# 			for e in i_edges:
-# 				e["value"] = e["value"]/sum
-# 		edges = i_edges
-# 		edges.extend(o_edges)
-# 		zoomed_graphs[vertex_name] = {'links':edges, 'nodes':nodes}
-# 	with open('data/zoomed_graphs_test.json', 'w') as outfile:
-# 	    json.dump(zoomed_graphs, outfile,indent=5,separators=(',', ': '))
 

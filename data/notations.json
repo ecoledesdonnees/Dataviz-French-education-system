@@ -21,9 +21,9 @@
 	"1ere_Pro": "Première professionnelle",
 	"Tale_G": "Terminale générale",
 	"Tale_T": "Terminale technologique",
-	"Tale_Pro": "Terminale professionnelle",	
-	"got_Bac_G": "Diplomé(e) du bac général",
-	"got_Bac_T": "Diplomé(e) du bac technologique",
-	"got_Bac_Pro": "Diplomé(e) du bac professionnel",
+	"Tale_Pro": "Terminale professionnelle",
+	"got_BAC_G": "Diplomé(e) du bac général",
+	"got_BAC_T": "Diplomé(e) du bac technologique",
+	"got_BAC_Pro": "Diplomé(e) du bac professionnel",
 	"Drop": "Sortie du système scolaire"
 }

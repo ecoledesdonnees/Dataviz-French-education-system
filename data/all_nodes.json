@@ -1,0 +1,143 @@
+{
+	"CP": {
+		"cycle": "Primaire",
+		"level1": "CP"
+	},
+	"CE1": {
+		"cycle": "Primaire",
+		"level1": "CE1"
+	},
+	"CE2": {
+		"cycle": "Primaire",
+		"level1": "CE2"
+	},
+	"CM1": {
+		"cycle": "Primaire",
+		"level1": "CM1"
+	},
+	"CM2": {
+		"cycle": "Primaire",
+		"level1": "CM2"
+	},
+	"Sixième": {
+		"cycle": "Collège",
+		"level1": "Sixième"
+	},
+	"Cinquième": {
+		"cycle": "Collège",
+		"level1": "Cinquième"
+	},
+	"Quatrième": {
+		"cycle": "Collège",
+		"level1": "Quatrième"
+	},
+	"Troisième": {
+		"cycle": "Collège",
+		"level1": "Troisième"
+	},
+	"Seconde": {
+		"cycle": "Lycée",
+		"level1": "Seconde"
+	},
+	"Seconde Générale et Technologique": {
+		"cycle": "Lycée",
+		"level1": "Seconde",
+		"level2": "Seconde Générale et Technologique"
+	},
+	"Seconde Professionnelle": {
+		"cycle": "Lycée",
+		"level1": "Seconde",
+		"level2": "Seconde Professionnelle"
+	},
+	"Première": {
+		"cycle": "Lycée",
+		"level1": "Première"
+	},
+	"Première Générale": {
+		"cycle": "Lycée",
+		"level1": "Première",
+		"level2": "Première Générale"
+	},
+	"Première Générale Scientifique": {
+		"cycle": "Lycée",
+		"level1": "Première",
+		"level2": "Première Générale",
+		"level3": "Première Générale Scientifique"
+	},
+	"Première Générale Economique et Sociale": {
+		"cycle": "Lycée",
+		"level1": "Première",
+		"level2": "Première Générale",
+		"level3": "Première Générale Sociale"
+	},
+	"Première Générale Littéraire": {
+		"cycle": "Lycée",
+		"level1": "Première",
+		"level2": "Première Générale",
+		"level3": "Première Générale Littéraire"
+	},
+	"Première Technologique": {
+		"cycle": "Lycée",
+		"level1": "Première",
+		"level2": "Première Technologique"
+	},
+	"Première Professionnelle": {
+		"cycle": "Lycée",
+		"level1": "Première",
+		"level2": "Première Professionnelle"
+	},
+	"Terminale": {
+		"cycle": "Lycée",
+		"level1": "Terminale"
+	},
+	"Terminale Générale": {
+		"cycle": "Lycée",
+		"level1": "Terminale",
+		"level2": "Terminale Générale"
+	},
+	"Terminale Générale Scientifique": {
+		"cycle": "Lycée",
+		"level1": "Terminale",
+		"level2": "Terminale Générale",
+		"level3": "Terminale Générale Scientifique"
+	},
+	"Terminale Générale Economique et Sociale": {
+		"cycle": "Lycée",
+		"level1": "Terminale",
+		"level2": "Terminale Générale",
+		"level3": "Terminale Générale Sociale"
+	},
+	"Terminale Générale Littéraire": {
+		"cycle": "Lycée",
+		"level1": "Terminale",
+		"level2": "Terminale Générale",
+		"level3": "Terminale Générale Littéraire"
+	},
+	"Terminale Technologique": {
+		"cycle": "Lycée",
+		"level1": "Terminale",
+		"level2": "Terminale Technologique"
+	},
+	"Terminale Professionnelle": {
+		"cycle": "Lycée",
+		"level1": "Terminale",
+		"level2": "Terminale Professionnelle"
+	},
+	"BEP 1ère année": {
+		"cycle": "BEP",
+		"level1": "BEP 1ère année"
+	},
+	"BEP 2ème année": {
+		"cycle": "BEP",
+		"level1": "BEP 2ème année"
+	},
+	"CAP 2ème année": {
+		"cycle": "BEP",
+		"level1": "CAP 2ème année"
+	},
+	"CAP 2ème année": {
+		"cycle": "BEP",
+		"level1": "CAP 2ème année"
+	}
+
+}

@@ -1,0 +1,725 @@
+[
+	{
+		"from":"CP",
+		"to":"CP",
+		"size":{
+			"value":,
+			"source":
+		},
+		"girls":{
+			"value":,
+			"source":
+		},
+		"handicap":{
+			"value":,
+			"source":
+		}
+	},
+	{
+		"from":"CP",
+		"to":"CE1",
+		"size":{
+			"value":,
+			"source":
+		},
+		"girls":{
+			"value":,
+			"source":
+		},
+		"handicap":{
+			"value":,
+			"source":
+		}
+	},
+	{
+		"from":"CE1",
+		"to":"CE1",
+		"size":{
+			"value":,
+			"source":
+		},
+		"girls":{
+			"value":,
+			"source":
+		},
+		"handicap":{
+			"value":,
+			"source":
+		}
+	},
+	{
+		"from":"CE1",
+		"to":"CE2",
+		"size":{
+			"value":,
+			"source":
+		},
+		"girls":{
+			"value":,
+			"source":
+		},
+		"handicap":{
+			"value":,
+			"source":
+		}
+	},
+	{
+		"from":"CE2",
+		"to":"CE2",
+		"size":{
+			"value":,
+			"source":
+		},
+		"girls":{
+			"value":,
+			"source":
+		},
+		"handicap":{
+			"value":,
+			"source":
+		}
+	},
+	{
+		"from":"CE2",
+		"to":"CM1",
+		"size":{
+			"value":,
+			"source":
+		},
+		"girls":{
+			"value":,
+			"source":
+		},
+		"handicap":{
+			"value":,
+			"source":
+		}
+	},
+	{
+		"from":"CM1",
+		"to":"CM1",
+		"size":{
+			"value":,
+			"source":
+		},
+		"girls":{
+			"value":,
+			"source":
+		},
+		"handicap":{
+			"value":,
+			"source":
+		}
+	},
+	{
+		"from":"CM1",
+		"to":"CM2",
+		"size":{
+			"value":,
+			"source":
+		},
+		"girls":{
+			"value":,
+			"source":
+		},
+		"handicap":{
+			"value":,
+			"source":
+		}
+	},
+	{
+		"from":"CM2",
+		"to":"CM2",
+		"size":{
+			"value":,
+			"source":
+		},
+		"girls":{
+			"value":,
+			"source":
+		},
+		"handicap":{
+			"value":,
+			"source":
+		}
+	},
+	{
+		"from":"CM2",
+		"to":"Sixième",
+		"size":{
+			"value":,
+			"source":
+		},
+		"girls":{
+			"value":,
+			"source":
+		},
+		"handicap":{
+			"value":,
+			"source":
+		}
+	},
+	{
+		"from":"Sixième",
+		"to":"Sixième",
+		"size":{
+			"value": 16141,
+			"source": "http://cache.media.education.gouv.fr/file/2014/03/6/DEPP_RERS_2014_eleves_second_degre_344036.pdf"
+		},
+		"girls":{
+			"value":,
+			"source":
+		},
+		"handicap":{
+			"value":,
+			"source":
+		}
+	},
+	{
+		"from":"Sixième",
+		"to":"Cinquième",
+		"size":{
+			"value":,
+			"source":
+		},
+		"girls":{
+			"value":,
+			"source":
+		},
+		"handicap":{
+			"value":,
+			"source":
+		}
+	},
+	{
+		"from":"Cinquième",
+		"to":"Cinquième",
+		"size":{
+			"value": 9681,
+			"source": "http://cache.media.education.gouv.fr/file/2014/03/6/DEPP_RERS_2014_eleves_second_degre_344036.pdf"
+		},
+		"girls":{
+			"value":,
+			"source":
+		},
+		"handicap":{
+			"value":,
+			"source":
+		}
+	},
+	{
+		"from":"Cinquième",
+		"to":"Quatrième",
+		"size":{
+			"value":,
+			"source":
+		},
+		"girls":{
+			"value":,
+			"source":
+		},
+		"handicap":{
+			"value":,
+			"source":
+		}
+	},
+	{
+		"from":"Quatrième",
+		"to":"Quatrième",
+		"size":{
+			"value": 15370,
+			"source": "http://cache.media.education.gouv.fr/file/2014/03/6/DEPP_RERS_2014_eleves_second_degre_344036.pdf"
+		},
+		"girls":{
+			"value":,
+			"source":
+		},
+		"handicap":{
+			"value":,
+			"source":
+		}
+	},
+	{
+		"from":"Quatrième",
+		"to":"Troisième",
+		"size":{
+			"value":,
+			"source":
+		},
+		"girls":{
+			"value":,
+			"source":
+		},
+		"handicap":{
+			"value":,
+			"source":
+		}
+	},
+	{
+		"from":"Troisième",
+		"to":"Troisième",
+		"size":{
+			"value": 27489,
+			"source": "http://cache.media.education.gouv.fr/file/2014/03/6/DEPP_RERS_2014_eleves_second_degre_344036.pdf"
+		},
+		"girls":{
+			"value":,
+			"source":
+		},
+		"handicap":{
+			"value":,
+			"source":
+		}
+	},
+	{
+		"from":"Troisième",
+		"to":"Seconde",
+		"size":{
+			"value":,
+			"source":
+		},
+		"girls":{
+			"value":,
+			"source":
+		},
+		"handicap":{
+			"value":,
+			"source":
+		}
+	},
+	{
+		"from":"Troisième",
+		"to":"CAP 1ère année",
+		"size":{
+			"value": 50142,
+			"source": "https://www.google.com/url?q=https%3A%2F%2Ftrello-attachments.s3.amazonaws.com%2F54c65ec0ad4df4eb08012d79%2F54c72a1dd0f351f396c84a4d%2F88b144df0000bea73059132e89cf9a6f%2F2e_degre%25CC%2581_-_Flux_-_Le_second_cycle_professionnel.xls&sa=D&sntz=1&usg=AFQjCNElMtitcR4TwES3V7uIxo52A5VA1A"
+		},
+		"girls":{
+			"value":,
+			"source":
+		},
+		"handicap":{
+			"value":,
+			"source":
+		}
+	},
+	{
+		"from":"Troisième",
+		"to":"Seconde Profesionnelle",
+		"size":{
+			"value": 163017,
+			"source": "https://www.google.com/url?q=https%3A%2F%2Ftrello-attachments.s3.amazonaws.com%2F54c65ec0ad4df4eb08012d79%2F54c72a1dd0f351f396c84a4d%2F88b144df0000bea73059132e89cf9a6f%2F2e_degre%25CC%2581_-_Flux_-_Le_second_cycle_professionnel.xls&sa=D&sntz=1&usg=AFQjCNElMtitcR4TwES3V7uIxo52A5VA1A"
+		},
+		"girls":{
+			"value":,
+			"source":
+		},
+		"handicap":{
+			"value":,
+			"source":
+		}
+	},
+
+	{
+		"from":"CAP 1ère année",
+		"to":"CAP 1ère année",
+		"size":{
+			"value": 2473,
+			"source": "https://www.google.com/url?q=https%3A%2F%2Ftrello-attachments.s3.amazonaws.com%2F54c65ec0ad4df4eb08012d79%2F54c72a1dd0f351f396c84a4d%2F88b144df0000bea73059132e89cf9a6f%2F2e_degre%25CC%2581_-_Flux_-_Le_second_cycle_professionnel.xls&sa=D&sntz=1&usg=AFQjCNElMtitcR4TwES3V7uIxo52A5VA1A"
+		},
+		"girls":{
+			"value":,
+			"source":
+		},
+		"handicap":{
+			"value":,
+			"source":
+		}
+	},
+	{
+		"from":"CAP 1ère année",
+		"to":"Seconde Profesionnelle",
+		"size":{
+			"value": 5024,
+			"source": "https://www.google.com/url?q=https%3A%2F%2Ftrello-attachments.s3.amazonaws.com%2F54c65ec0ad4df4eb08012d79%2F54c72a1dd0f351f396c84a4d%2F88b144df0000bea73059132e89cf9a6f%2F2e_degre%25CC%2581_-_Flux_-_Le_second_cycle_professionnel.xls&sa=D&sntz=1&usg=AFQjCNElMtitcR4TwES3V7uIxo52A5VA1A"
+		},
+		"girls":{
+			"value":,
+			"source":
+		},
+		"handicap":{
+			"value":,
+			"source":
+		}
+	},
+	{
+		"from":"Seconde Générale et Technologique",
+		"to":"Seconde Générale et Technologique",
+		"size":{
+			"value":41893,
+			"source": "https://www.google.com/url?q=https%3A%2F%2Ftrello-attachments.s3.amazonaws.com%2F54c65ec0ad4df4eb08012d79%2F54c72a1dd0f351f396c84a4d%2F57544ad9be8241481e769caeb30d3d23%2F2e_degre%25CC%2581_-_Flux_-_Le_second_cycle_ge%25CC%2581ne%25CC%2581ral_et_technologique_-_sexe%252C_a%25CC%2582ge_et_flux.xls&sa=D&sntz=1&usg=AFQjCNHPrm1OJ3_SSGWypwbu_yPUAtA6Uw"
+		},
+		"girls":{
+			"value":,
+			"source":
+		},
+		"handicap":{
+			"value":,
+			"source":
+		}
+	},
+	{
+		"from":"Seconde Générale et Technologique",
+		"to":"Sortie",
+		"size":{
+			"value": 1272,
+			"source": "https://www.google.com/url?q=https%3A%2F%2Ftrello-attachments.s3.amazonaws.com%2F54c65ec0ad4df4eb08012d79%2F54c72a1dd0f351f396c84a4d%2F57544ad9be8241481e769caeb30d3d23%2F2e_degre%25CC%2581_-_Flux_-_Le_second_cycle_ge%25CC%2581ne%25CC%2581ral_et_technologique_-_sexe%252C_a%25CC%2582ge_et_flux.xls&sa=D&sntz=1&usg=AFQjCNHPrm1OJ3_SSGWypwbu_yPUAtA6Uw"
+		},
+		"girls":{
+			"value":,
+			"source":
+		},
+		"handicap":{
+			"value":,
+			"source":
+		}
+	},
+	{
+		"from":"Seconde Générale et Technologique",
+		"to":"Première Générale et Technologique",
+		"size":{
+			"value": 456057,
+			"source": "https://www.google.com/url?q=https%3A%2F%2Ftrello-attachments.s3.amazonaws.com%2F54c65ec0ad4df4eb08012d79%2F54c72a1dd0f351f396c84a4d%2F57544ad9be8241481e769caeb30d3d23%2F2e_degre%25CC%2581_-_Flux_-_Le_second_cycle_ge%25CC%2581ne%25CC%2581ral_et_technologique_-_sexe%252C_a%25CC%2582ge_et_flux.xls&sa=D&sntz=1&usg=AFQjCNHPrm1OJ3_SSGWypwbu_yPUAtA6Uw"
+		},
+		"girls":{
+			"value":,
+			"source":
+		},
+		"handicap":{
+			"value":,
+			"source":
+		}
+	},
+	{
+		"from":"Seconde Générale et Technologique",
+		"to":"Première Générale",
+		"size":{
+			"value": 314388,
+			"source": "https://www.google.com/url?q=https%3A%2F%2Ftrello-attachments.s3.amazonaws.com%2F54c65ec0ad4df4eb08012d79%2F54c72a1dd0f351f396c84a4d%2F57544ad9be8241481e769caeb30d3d23%2F2e_degre%25CC%2581_-_Flux_-_Le_second_cycle_ge%25CC%2581ne%25CC%2581ral_et_technologique_-_sexe%252C_a%25CC%2582ge_et_flux.xls&sa=D&sntz=1&usg=AFQjCNHPrm1OJ3_SSGWypwbu_yPUAtA6Uw"
+		},
+		"girls":{
+			"value": 176723,
+			"source": "https://www.google.com/url?q=https%3A%2F%2Ftrello-attachments.s3.amazonaws.com%2F54c65ec0ad4df4eb08012d79%2F54c72a1dd0f351f396c84a4d%2F57544ad9be8241481e769caeb30d3d23%2F2e_degre%25CC%2581_-_Flux_-_Le_second_cycle_ge%25CC%2581ne%25CC%2581ral_et_technologique_-_sexe%252C_a%25CC%2582ge_et_flux.xls&sa=D&sntz=1&usg=AFQjCNHPrm1OJ3_SSGWypwbu_yPUAtA6Uw"
+		},
+		"handicap":{
+			"value":,
+			"source":
+		}
+	},
+	{
+		"from":"Seconde Générale et Technologique",
+		"to":"Première Scientifique",
+		"size":{
+			"value": 165628,
+			"source": "https://www.google.com/url?q=https%3A%2F%2Ftrello-attachments.s3.amazonaws.com%2F54c65ec0ad4df4eb08012d79%2F54c72a1dd0f351f396c84a4d%2F57544ad9be8241481e769caeb30d3d23%2F2e_degre%25CC%2581_-_Flux_-_Le_second_cycle_ge%25CC%2581ne%25CC%2581ral_et_technologique_-_sexe%252C_a%25CC%2582ge_et_flux.xls&sa=D&sntz=1&usg=AFQjCNHPrm1OJ3_SSGWypwbu_yPUAtA6Uw"
+		},
+		"girls":{
+			"value": 76093,
+			"source": "https://www.google.com/url?q=https%3A%2F%2Ftrello-attachments.s3.amazonaws.com%2F54c65ec0ad4df4eb08012d79%2F54c72a1dd0f351f396c84a4d%2F57544ad9be8241481e769caeb30d3d23%2F2e_degre%25CC%2581_-_Flux_-_Le_second_cycle_ge%25CC%2581ne%25CC%2581ral_et_technologique_-_sexe%252C_a%25CC%2582ge_et_flux.xls&sa=D&sntz=1&usg=AFQjCNHPrm1OJ3_SSGWypwbu_yPUAtA6Uw"
+		},
+		"handicap":{
+			"value":,
+			"source":
+		}
+	},
+	{
+		"from":"Seconde Générale et Technologique",
+		"to":"Première Littéraire",
+		"size":{
+			"value": 51120,
+			"source": "https://www.google.com/url?q=https%3A%2F%2Ftrello-attachments.s3.amazonaws.com%2F54c65ec0ad4df4eb08012d79%2F54c72a1dd0f351f396c84a4d%2F57544ad9be8241481e769caeb30d3d23%2F2e_degre%25CC%2581_-_Flux_-_Le_second_cycle_ge%25CC%2581ne%25CC%2581ral_et_technologique_-_sexe%252C_a%25CC%2582ge_et_flux.xls&sa=D&sntz=1&usg=AFQjCNHPrm1OJ3_SSGWypwbu_yPUAtA6Uw"
+		},
+		"girls":{
+			"value": 40527,
+			"source": "https://www.google.com/url?q=https%3A%2F%2Ftrello-attachments.s3.amazonaws.com%2F54c65ec0ad4df4eb08012d79%2F54c72a1dd0f351f396c84a4d%2F57544ad9be8241481e769caeb30d3d23%2F2e_degre%25CC%2581_-_Flux_-_Le_second_cycle_ge%25CC%2581ne%25CC%2581ral_et_technologique_-_sexe%252C_a%25CC%2582ge_et_flux.xls&sa=D&sntz=1&usg=AFQjCNHPrm1OJ3_SSGWypwbu_yPUAtA6Uw"
+		},
+		"handicap":{
+			"value":,
+			"source":
+		}
+	},
+	{
+		"from":"Seconde Générale et Technologique",
+		"to":"Première Economique et Sociale",
+		"size":{
+			"value": 97639,
+			"source": "https://www.google.com/url?q=https%3A%2F%2Ftrello-attachments.s3.amazonaws.com%2F54c65ec0ad4df4eb08012d79%2F54c72a1dd0f351f396c84a4d%2F57544ad9be8241481e769caeb30d3d23%2F2e_degre%25CC%2581_-_Flux_-_Le_second_cycle_ge%25CC%2581ne%25CC%2581ral_et_technologique_-_sexe%252C_a%25CC%2582ge_et_flux.xls&sa=D&sntz=1&usg=AFQjCNHPrm1OJ3_SSGWypwbu_yPUAtA6Uw"
+		},
+		"girls":{
+			"value": 60102,
+			"source": "https://www.google.com/url?q=https%3A%2F%2Ftrello-attachments.s3.amazonaws.com%2F54c65ec0ad4df4eb08012d79%2F54c72a1dd0f351f396c84a4d%2F57544ad9be8241481e769caeb30d3d23%2F2e_degre%25CC%2581_-_Flux_-_Le_second_cycle_ge%25CC%2581ne%25CC%2581ral_et_technologique_-_sexe%252C_a%25CC%2582ge_et_flux.xls&sa=D&sntz=1&usg=AFQjCNHPrm1OJ3_SSGWypwbu_yPUAtA6Uw"
+		},
+		"handicap":{
+			"value":,
+		}
+	},
+	{
+		"from":"Seconde Générale et Technologique",
+		"to":"Première Technologique",
+		"size":{
+			"value": 117576,
+			"source": "https://www.google.com/url?q=https%3A%2F%2Ftrello-attachments.s3.amazonaws.com%2F54c65ec0ad4df4eb08012d79%2F54c72a1dd0f351f396c84a4d%2F57544ad9be8241481e769caeb30d3d23%2F2e_degre%25CC%2581_-_Flux_-_Le_second_cycle_ge%25CC%2581ne%25CC%2581ral_et_technologique_-_sexe%252C_a%25CC%2582ge_et_flux.xls&sa=D&sntz=1&usg=AFQjCNHPrm1OJ3_SSGWypwbu_yPUAtA6Uw"
+		},
+		"girls":{
+			"value": 59275,
+			"source": "https://www.google.com/url?q=https%3A%2F%2Ftrello-attachments.s3.amazonaws.com%2F54c65ec0ad4df4eb08012d79%2F54c72a1dd0f351f396c84a4d%2F57544ad9be8241481e769caeb30d3d23%2F2e_degre%25CC%2581_-_Flux_-_Le_second_cycle_ge%25CC%2581ne%25CC%2581ral_et_technologique_-_sexe%252C_a%25CC%2582ge_et_flux.xls&sa=D&sntz=1&usg=AFQjCNHPrm1OJ3_SSGWypwbu_yPUAtA6Uw"
+		},
+		"handicap":{
+			"value":
+		}
+	},
+	{
+		"from":"Seconde Générale et Technologique",
+		"to":"Seconde Profesionnelle",
+		"size":{
+			"value": 19090,
+			"source": "https://www.google.com/url?q=https%3A%2F%2Ftrello-attachments.s3.amazonaws.com%2F54c65ec0ad4df4eb08012d79%2F54c72a1dd0f351f396c84a4d%2F57544ad9be8241481e769caeb30d3d23%2F2e_degre%25CC%2581_-_Flux_-_Le_second_cycle_ge%25CC%2581ne%25CC%2581ral_et_technologique_-_sexe%252C_a%25CC%2582ge_et_flux.xls&sa=D&sntz=1&usg=AFQjCNHPrm1OJ3_SSGWypwbu_yPUAtA6Uw"
+		},
+		"girls":{
+			"value": 13233,
+			"source": "https://www.google.com/url?q=https%3A%2F%2Ftrello-attachments.s3.amazonaws.com%2F54c65ec0ad4df4eb08012d79%2F54c72a1dd0f351f396c84a4d%2F57544ad9be8241481e769caeb30d3d23%2F2e_degre%25CC%2581_-_Flux_-_Le_second_cycle_ge%25CC%2581ne%25CC%2581ral_et_technologique_-_sexe%252C_a%25CC%2582ge_et_flux.xls&sa=D&sntz=1&usg=AFQjCNHPrm1OJ3_SSGWypwbu_yPUAtA6Uw"
+		},
+		"handicap":{
+			"value":,
+			"source":
+		}
+	},
+	{
+		"from":"Seconde Générale et Technologique",
+		"to":"CAP 1ère année",
+		"size":{
+			"value": 927,
+			"source": "https://www.google.com/url?q=https%3A%2F%2Ftrello-attachments.s3.amazonaws.com%2F54c65ec0ad4df4eb08012d79%2F54c72a1dd0f351f396c84a4d%2F88b144df0000bea73059132e89cf9a6f%2F2e_degre%25CC%2581_-_Flux_-_Le_second_cycle_professionnel.xls&sa=D&sntz=1&usg=AFQjCNElMtitcR4TwES3V7uIxo52A5VA1A"
+		},
+		"girls":{
+			"value": ,
+			"source":
+		},
+		"handicap":{
+			"value":,
+			"source":
+		}
+	},
+	{
+		"from":"Seconde Profesionnelle",
+		"to":"CAP 1ère année",
+		"size":{
+			"value": 3091,
+			"source": "https://www.google.com/url?q=https%3A%2F%2Ftrello-attachments.s3.amazonaws.com%2F54c65ec0ad4df4eb08012d79%2F54c72a1dd0f351f396c84a4d%2F88b144df0000bea73059132e89cf9a6f%2F2e_degre%25CC%2581_-_Flux_-_Le_second_cycle_professionnel.xls&sa=D&sntz=1&usg=AFQjCNElMtitcR4TwES3V7uIxo52A5VA1A"
+		},
+		"girls":{
+			"value": ,
+			"source":
+		},
+		"handicap":{
+			"value":,
+			"source":
+		}
+	},
+	{
+		"from":"Seconde Profesionnelle",
+		"to":"Seconde Profesionnelle",
+		"size":{
+			"value": 8001,
+			"source": "https://www.google.com/url?q=https%3A%2F%2Ftrello-attachments.s3.amazonaws.com%2F54c65ec0ad4df4eb08012d79%2F54c72a1dd0f351f396c84a4d%2F88b144df0000bea73059132e89cf9a6f%2F2e_degre%25CC%2581_-_Flux_-_Le_second_cycle_professionnel.xls&sa=D&sntz=1&usg=AFQjCNElMtitcR4TwES3V7uIxo52A5VA1A"
+		},
+		"girls":{
+			"value": ,
+			"source":
+		},
+		"handicap":{
+			"value":,
+			"source":
+		}
+	},
+	{
+		"from":"Première Générale et Technologique",
+		"to":"Première Générale et Technologique",
+		"size":{
+			"value": 22262,
+			"source": "https://www.google.com/url?q=https%3A%2F%2Ftrello-attachments.s3.amazonaws.com%2F54c65ec0ad4df4eb08012d79%2F54c72a1dd0f351f396c84a4d%2F57544ad9be8241481e769caeb30d3d23%2F2e_degre%25CC%2581_-_Flux_-_Le_second_cycle_ge%25CC%2581ne%25CC%2581ral_et_technologique_-_sexe%252C_a%25CC%2582ge_et_flux.xls&sa=D&sntz=1&usg=AFQjCNHPrm1OJ3_SSGWypwbu_yPUAtA6Uw"
+		},
+		"girls":{
+			"value":,
+			"source":
+		},
+		"handicap":{
+			"value":,
+			"source":
+		}
+	},
+	{
+		"from":"Première Générale et Technologique",
+		"to":"Sortie",
+		"size":{
+			"value": 8526,
+			"source": "https://www.google.com/url?q=https%3A%2F%2Ftrello-attachments.s3.amazonaws.com%2F54c65ec0ad4df4eb08012d79%2F54c72a1dd0f351f396c84a4d%2F57544ad9be8241481e769caeb30d3d23%2F2e_degre%25CC%2581_-_Flux_-_Le_second_cycle_ge%25CC%2581ne%25CC%2581ral_et_technologique_-_sexe%252C_a%25CC%2582ge_et_flux.xls&sa=D&sntz=1&usg=AFQjCNHPrm1OJ3_SSGWypwbu_yPUAtA6Uw"
+		},
+		"girls":{
+			"value":,
+			"source":
+		},
+		"handicap":{
+			"value":,
+			"source":
+		}
+	},
+
+	{
+		"from":"Première Générale et Technologique",
+		"to":"Terminale Générale et Technologique",
+		"size":{
+			"value":441452,
+			"source": "https://www.google.com/url?q=https%3A%2F%2Ftrello-attachments.s3.amazonaws.com%2F54c65ec0ad4df4eb08012d79%2F54c72a1dd0f351f396c84a4d%2F57544ad9be8241481e769caeb30d3d23%2F2e_degre%25CC%2581_-_Flux_-_Le_second_cycle_ge%25CC%2581ne%25CC%2581ral_et_technologique_-_sexe%252C_a%25CC%2582ge_et_flux.xls&sa=D&sntz=1&usg=AFQjCNHPrm1OJ3_SSGWypwbu_yPUAtA6Uw"
+		},
+		"girls":{
+			"value":,
+			"source":
+		},
+		"handicap":{
+			"value":,
+			"source":
+		}
+	},
+	{
+		"from":"Terminale Générale et Technologique",
+		"to":"Terminale Générale et Technologique",
+		"size":{
+			"value": 27062,
+			"source": "https://www.google.com/url?q=https%3A%2F%2Ftrello-attachments.s3.amazonaws.com%2F54c65ec0ad4df4eb08012d79%2F54c72a1dd0f351f396c84a4d%2F57544ad9be8241481e769caeb30d3d23%2F2e_degre%25CC%2581_-_Flux_-_Le_second_cycle_ge%25CC%2581ne%25CC%2581ral_et_technologique_-_sexe%252C_a%25CC%2582ge_et_flux.xls&sa=D&sntz=1&usg=AFQjCNHPrm1OJ3_SSGWypwbu_yPUAtA6Uw"
+		},
+		"girls":{
+			"value":,
+			"source":
+		},
+		"handicap":{
+			"value":,
+			"source":
+		}
+	},
+	{
+		"from":"Terminale Générale et Technologique",
+		"to":"Sortie",
+		"size":{
+			"value": "NA",
+			"source": "https://www.google.com/url?q=https%3A%2F%2Ftrello-attachments.s3.amazonaws.com%2F54c65ec0ad4df4eb08012d79%2F54c72a1dd0f351f396c84a4d%2F57544ad9be8241481e769caeb30d3d23%2F2e_degre%25CC%2581_-_Flux_-_Le_second_cycle_ge%25CC%2581ne%25CC%2581ral_et_technologique_-_sexe%252C_a%25CC%2582ge_et_flux.xls&sa=D&sntz=1&usg=AFQjCNHPrm1OJ3_SSGWypwbu_yPUAtA6Uw"
+		},
+		"girls":{
+			"value":,
+			"source":
+		},
+		"handicap":{
+			"value":,
+			"source":
+		}
+	},
+	{
+		"from":"Terminale Scientifique",
+		"to":"Bac Scientifique",
+		"size":{
+			"value": 157200,
+			"source": "http://cache.media.education.gouv.fr/file/2014/30/5/DEPP_grands_chiffres_2014_355305.pdf"
+		},
+		"girls":{
+			"value":,
+			"source":
+		},
+		"handicap":{
+			"value":,
+			"source":
+		}
+	},
+
+	{
+		"from":"Terminale Economique et Sociale",
+		"to":"Bac Economique et Social",
+		"size":{
+			"value": 97700,
+			"source": "http://cache.media.education.gouv.fr/file/2014/30/5/DEPP_grands_chiffres_2014_355305.pdf"
+		},
+		"girls":{
+			"value":,
+			"source":
+		},
+		"handicap":{
+			"value":,
+			"source":
+		}
+	},
+	{
+		"from":"Terminale Littéraire",
+		"to":"Bac Littéraire",
+		"size":{
+			"value": 50400,
+			"source": "http://cache.media.education.gouv.fr/file/2014/30/5/DEPP_grands_chiffres_2014_355305.pdf"
+		},
+		"girls":{
+			"value":,
+			"source":
+		},
+		"handicap":{
+			"value":,
+			"source":
+		}
+	},
+	{
+		"from":"Terminale Technologique",
+		"to":"Bac Technologique",
+		"size":{
+			"value": 124900,
+			"source": "http://cache.media.education.gouv.fr/file/2014/30/5/DEPP_grands_chiffres_2014_355305.pdf"
+		},
+		"girls":{
+			"value":,
+			"source":
+		},
+		"handicap":{
+			"value":,
+			"source":
+		}
+	},
+
+	{
+		"from":"Terminale Profesionnel",
+		"to":"Bac Profesionnel",
+		"size":{
+			"value": 159200,
+			"source": "http://cache.media.education.gouv.fr/file/2014/30/5/DEPP_grands_chiffres_2014_355305.pdf"
+		},
+		"girls":{
+			"value":,
+			"source":
+		},
+		"handicap":{
+			"value":,
+			"source":
+		}
+	},
+	{
+		"from":"CAP 2ème année",
+		"to":"CAP",
+		"size":{
+			"value": 194000,
+			"source": "http://cache.media.education.gouv.fr/file/2014/30/5/DEPP_grands_chiffres_2014_355305.pdf"
+		},
+		"girls":{
+			"value":,
+			"source":
+		},
+		"handicap":{
+			"value":,
+			"source":
+		}
+	},
+
+]

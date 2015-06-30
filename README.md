@@ -1,4 +1,4 @@
-# Dataviz-French-scholar-system
+# Dataviz-French-education-system
 
 Reconstruct individual trajectories by combining partial longitudinal and cross-sectional data from INSEE. Work in progress.
 

@@ -45,7 +45,8 @@
 			"source": "http://cache.media.education.gouv.fr/file/2014/03/6/DEPP_RERS_2014_eleves_second_degre_344036.pdf"
 		},
 		"girls": {
-			"size": 395240
+			"size": 395240,
+			"source": "http://cache.media.education.gouv.fr/file/2014/03/6/DEPP_RERS_2014_eleves_second_degre_344036.pdf"
 		},
 		"cycle": "Collège",
 		"level1": "Sixième"
@@ -85,8 +86,8 @@
 	},
 	"Seconde": {
 		"size": {
-			"value":,
-			"source":
+			"value": 362742,
+			"source": "https://www.google.com/url?q=https%3A%2F%2Ftrello-attachments.s3.amazonaws.com%2F54c65ec0ad4df4eb08012d79%2F54c72a1dd0f351f396c84a4d%2F57544ad9be8241481e769caeb30d3d23%2F2e_degre%25CC%2581_-_Flux_-_Le_second_cycle_ge%25CC%2581ne%25CC%2581ral_et_technologique_-_sexe%252C_a%25CC%2582ge_et_flux.xls&sa=D&sntz=1&usg=AFQjCNHPrm1OJ3_SSGWypwbu_yPUAtA6Uw"
 		},
 		"cycle": "Lycée",
 		"level1": "Seconde"
@@ -111,7 +112,7 @@
 		},
 		"girls": {
 			"size": 78610,
-			"source":
+			"source": "https://www.google.com/url?q=https%3A%2F%2Ftrello-attachments.s3.amazonaws.com%2F54c65ec0ad4df4eb08012d79%2F54c72a1dd0f351f396c84a4d%2F88b144df0000bea73059132e89cf9a6f%2F2e_degre%25CC%2581_-_Flux_-_Le_second_cycle_professionnel.xls&sa=D&sntz=1&usg=AFQjCNElMtitcR4TwES3V7uIxo52A5VA1A"
 		},
 		"cycle": "Lycée",
 		"level1": "Seconde",
@@ -119,8 +120,12 @@
 	},
 	"Première": {
 		"size": {
-			"value":,
-			"source":
+			"value": 601501,
+			"source": "https://www.google.com/url?q=https%3A%2F%2Ftrello-attachments.s3.amazonaws.com%2F54c65ec0ad4df4eb08012d79%2F54c72a1dd0f351f396c84a4d%2F57544ad9be8241481e769caeb30d3d23%2F2e_degre%25CC%2581_-_Flux_-_Le_second_cycle_ge%25CC%2581ne%25CC%2581ral_et_technologique_-_sexe%252C_a%25CC%2582ge_et_flux.xls&sa=D&sntz=1&usg=AFQjCNHPrm1OJ3_SSGWypwbu_yPUAtA6Uw"
+		},
+		"girls": {
+			"value": 321429,
+			"source": "https://www.google.com/url?q=https%3A%2F%2Ftrello-attachments.s3.amazonaws.com%2F54c65ec0ad4df4eb08012d79%2F54c72a1dd0f351f396c84a4d%2F57544ad9be8241481e769caeb30d3d23%2F2e_degre%25CC%2581_-_Flux_-_Le_second_cycle_ge%25CC%2581ne%25CC%2581ral_et_technologique_-_sexe%252C_a%25CC%2582ge_et_flux.xls&sa=D&sntz=1&usg=AFQjCNHPrm1OJ3_SSGWypwbu_yPUAtA6Uw"
 		},
 		"cycle": "Lycée",
 		"level1": "Première"
@@ -143,13 +148,22 @@
 			"value": 314388,
 			"source": "https://www.google.com/url?q=https%3A%2F%2Ftrello-attachments.s3.amazonaws.com%2F54c65ec0ad4df4eb08012d79%2F54c72a1dd0f351f396c84a4d%2F26471fdffcf16de08d5b6875562a510c%2F2e_degre%25CC%2581_-_Flux_-_Les_poursuites_d_e%25CC%2581tudes_apre%25CC%2580s_la_troisie%25CC%2580me_et_la_seconde_GT.xls&sa=D&sntz=1&usg=AFQjCNE5TniltFq038fSYlnVlmP3riRC9Q"
 		},
+		"girls": {
+			"value": 190716,
+			"source": "https://www.google.com/url?q=https%3A%2F%2Ftrello-attachments.s3.amazonaws.com%2F54c65ec0ad4df4eb08012d79%2F54c72a1dd0f351f396c84a4d%2F57544ad9be8241481e769caeb30d3d23%2F2e_degre%25CC%2581_-_Flux_-_Le_second_cycle_ge%25CC%2581ne%25CC%2581ral_et_technologique_-_sexe%252C_a%25CC%2582ge_et_flux.xls&sa=D&sntz=1&usg=AFQjCNHPrm1OJ3_SSGWypwbu_yPUAtA6Uw"
+		},
 		"cycle": "Lycée",
 		"level1": "Première",
 		"level2": "Première Générale"
 	},
 	"Première Générale Scientifique": {
 		"size": {
-			"value": 
+			"value": 183272,
+			"source": "https://www.google.fr/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0CCIQFjAA&url=http%3A%2F%2Fcache.media.education.gouv.fr%2Ffile%2F2014%2F03%2F6%2FDEPP_RERS_2014_eleves_second_degre_344036.pdf&ei=y22VVbrXB8n3Uqn0h8AO&usg=AFQjCNGUJjw7M_NizUC8BD0nVu21j_lk_Q&sig2=qn_Ukx1RS4hJ4eyAE3T51Q&bvm=bv.96952980,d.d24"
+		},
+		"girls": {
+			"value": 84854,
+			"source": "https://www.google.com/url?q=https%3A%2F%2Ftrello-attachments.s3.amazonaws.com%2F54c65ec0ad4df4eb08012d79%2F54c72a1dd0f351f396c84a4d%2F57544ad9be8241481e769caeb30d3d23%2F2e_degre%25CC%2581_-_Flux_-_Le_second_cycle_ge%25CC%2581ne%25CC%2581ral_et_technologique_-_sexe%252C_a%25CC%2582ge_et_flux.xls&sa=D&sntz=1&usg=AFQjCNHPrm1OJ3_SSGWypwbu_yPUAtA6Uw"
 		},
 		"cycle": "Lycée",
 		"level1": "Première",
@@ -158,7 +172,12 @@
 	},
 	"Première Générale Economique et Sociale": {
 		"size": {
-			"value": 
+			"value": 105628,
+			"source": "https://www.google.fr/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0CCIQFjAA&url=http%3A%2F%2Fcache.media.education.gouv.fr%2Ffile%2F2014%2F03%2F6%2FDEPP_RERS_2014_eleves_second_degre_344036.pdf&ei=y22VVbrXB8n3Uqn0h8AO&usg=AFQjCNGUJjw7M_NizUC8BD0nVu21j_lk_Q&sig2=qn_Ukx1RS4hJ4eyAE3T51Q&bvm=bv.96952980,d.d24"
+		},
+		"girls": {
+			"value": 63904,
+			"source": "https://www.google.com/url?q=https%3A%2F%2Ftrello-attachments.s3.amazonaws.com%2F54c65ec0ad4df4eb08012d79%2F54c72a1dd0f351f396c84a4d%2F57544ad9be8241481e769caeb30d3d23%2F2e_degre%25CC%2581_-_Flux_-_Le_second_cycle_ge%25CC%2581ne%25CC%2581ral_et_technologique_-_sexe%252C_a%25CC%2582ge_et_flux.xls&sa=D&sntz=1&usg=AFQjCNHPrm1OJ3_SSGWypwbu_yPUAtA6Uw"
 		},
 		"cycle": "Lycée",
 		"level1": "Première",
@@ -167,7 +186,12 @@
 	},
 	"Première Générale Littéraire": {
 		"size": {
-			"value": 
+			"value": 53179,
+			"source": "https://www.google.fr/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0CCIQFjAA&url=http%3A%2F%2Fcache.media.education.gouv.fr%2Ffile%2F2014%2F03%2F6%2FDEPP_RERS_2014_eleves_second_degre_344036.pdf&ei=y22VVbrXB8n3Uqn0h8AO&usg=AFQjCNGUJjw7M_NizUC8BD0nVu21j_lk_Q&sig2=qn_Ukx1RS4hJ4eyAE3T51Q&bvm=bv.96952980,d.d24" 
+		},
+		"girls": {
+			"value": 41958,
+			"source": "https://www.google.com/url?q=https%3A%2F%2Ftrello-attachments.s3.amazonaws.com%2F54c65ec0ad4df4eb08012d79%2F54c72a1dd0f351f396c84a4d%2F57544ad9be8241481e769caeb30d3d23%2F2e_degre%25CC%2581_-_Flux_-_Le_second_cycle_ge%25CC%2581ne%25CC%2581ral_et_technologique_-_sexe%252C_a%25CC%2582ge_et_flux.xls&sa=D&sntz=1&usg=AFQjCNHPrm1OJ3_SSGWypwbu_yPUAtA6Uw"
 		},
 		"cycle": "Lycée",
 		"level1": "Première",
@@ -176,7 +200,12 @@
 	},
 	"Première Technologique": {
 		"size": {
-			"value": 
+			"value": 127840,
+			"source":  "https://www.google.com/url?q=https%3A%2F%2Ftrello-attachments.s3.amazonaws.com%2F54c65ec0ad4df4eb08012d79%2F54c72a1dd0f351f396c84a4d%2F57544ad9be8241481e769caeb30d3d23%2F2e_degre%25CC%2581_-_Flux_-_Le_second_cycle_ge%25CC%2581ne%25CC%2581ral_et_technologique_-_sexe%252C_a%25CC%2582ge_et_flux.xls&sa=D&sntz=1&usg=AFQjCNHPrm1OJ3_SSGWypwbu_yPUAtA6Uw"
+		},
+		"girls": {
+			"value": 65193,
+			"source": "https://www.google.com/url?q=https%3A%2F%2Ftrello-attachments.s3.amazonaws.com%2F54c65ec0ad4df4eb08012d79%2F54c72a1dd0f351f396c84a4d%2F57544ad9be8241481e769caeb30d3d23%2F2e_degre%25CC%2581_-_Flux_-_Le_second_cycle_ge%25CC%2581ne%25CC%2581ral_et_technologique_-_sexe%252C_a%25CC%2582ge_et_flux.xls&sa=D&sntz=1&usg=AFQjCNHPrm1OJ3_SSGWypwbu_yPUAtA6Uw"
 		},
 		"cycle": "Lycée",
 		"level1": "Première",
@@ -189,7 +218,7 @@
 		},
 		"girls": {
 			"size": 80814,
-			"source":
+			"source": "https://www.google.com/url?q=https%3A%2F%2Ftrello-attachments.s3.amazonaws.com%2F54c65ec0ad4df4eb08012d79%2F54c72a1dd0f351f396c84a4d%2F57544ad9be8241481e769caeb30d3d23%2F2e_degre%25CC%2581_-_Flux_-_Le_second_cycle_ge%25CC%2581ne%25CC%2581ral_et_technologique_-_sexe%252C_a%25CC%2582ge_et_flux.xls&sa=D&sntz=1&usg=AFQjCNHPrm1OJ3_SSGWypwbu_yPUAtA6Uw"
 		},
 		"cycle": "Lycée",
 		"level1": "Première",
@@ -197,8 +226,12 @@
 	},
 	"Terminale": {
 		"size": {
-			"value":,
-			"source":
+			"value": 640272,
+			"source": "https://www.google.com/url?q=https%3A%2F%2Ftrello-attachments.s3.amazonaws.com%2F54c65ec0ad4df4eb08012d79%2F54c72a1dd0f351f396c84a4d%2F57544ad9be8241481e769caeb30d3d23%2F2e_degre%25CC%2581_-_Flux_-_Le_second_cycle_ge%25CC%2581ne%25CC%2581ral_et_technologique_-_sexe%252C_a%25CC%2582ge_et_flux.xls&sa=D&sntz=1&usg=AFQjCNHPrm1OJ3_SSGWypwbu_yPUAtA6Uw"
+		},
+		"girls": {
+			"value": 335877,
+			"source": "https://www.google.com/url?q=https%3A%2F%2Ftrello-attachments.s3.amazonaws.com%2F54c65ec0ad4df4eb08012d79%2F54c72a1dd0f351f396c84a4d%2F57544ad9be8241481e769caeb30d3d23%2F2e_degre%25CC%2581_-_Flux_-_Le_second_cycle_ge%25CC%2581ne%25CC%2581ral_et_technologique_-_sexe%252C_a%25CC%2582ge_et_flux.xls&sa=D&sntz=1&usg=AFQjCNHPrm1OJ3_SSGWypwbu_yPUAtA6Uw"
 		},
 		"cycle": "Lycée",
 		"level1": "Terminale"
@@ -218,8 +251,12 @@
 	},
 	"Terminale Générale Scientifique": {
 		"size": {
-			"value":,
-			"source":
+			"value": 171254,
+			"source": "https://www.google.fr/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0CCIQFjAA&url=http%3A%2F%2Fcache.media.education.gouv.fr%2Ffile%2F2014%2F03%2F6%2FDEPP_RERS_2014_eleves_second_degre_344036.pdf&ei=y22VVbrXB8n3Uqn0h8AO&usg=AFQjCNGUJjw7M_NizUC8BD0nVu21j_lk_Q&sig2=qn_Ukx1RS4hJ4eyAE3T51Q&bvm=bv.96952980,d.d24" 
+		},
+		"girls": {
+			"value": 77064.3,
+			"source": "https://www.google.com/url?q=https%3A%2F%2Ftrello-attachments.s3.amazonaws.com%2F54c65ec0ad4df4eb08012d79%2F54c72a1dd0f351f396c84a4d%2F57544ad9be8241481e769caeb30d3d23%2F2e_degre%25CC%2581_-_Flux_-_Le_second_cycle_ge%25CC%2581ne%25CC%2581ral_et_technologique_-_sexe%252C_a%25CC%2582ge_et_flux.xls&sa=D&sntz=1&usg=AFQjCNHPrm1OJ3_SSGWypwbu_yPUAtA6Uw"
 		},
 		"cycle": "Lycée",
 		"level1": "Terminale",
@@ -228,8 +265,12 @@
 	},
 	"Terminale Générale Economique et Sociale": {
 		"size": {
-			"value":,
-			"source":
+			"value": 106903,
+			"source": "https://www.google.fr/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0CCIQFjAA&url=http%3A%2F%2Fcache.media.education.gouv.fr%2Ffile%2F2014%2F03%2F6%2FDEPP_RERS_2014_eleves_second_degre_344036.pdf&ei=y22VVbrXB8n3Uqn0h8AO&usg=AFQjCNGUJjw7M_NizUC8BD0nVu21j_lk_Q&sig2=qn_Ukx1RS4hJ4eyAE3T51Q&bvm=bv.96952980,d.d24" 
+		},
+		"girls": {
+			"value": 64676,
+			"source": "https://www.google.com/url?q=https%3A%2F%2Ftrello-attachments.s3.amazonaws.com%2F54c65ec0ad4df4eb08012d79%2F54c72a1dd0f351f396c84a4d%2F57544ad9be8241481e769caeb30d3d23%2F2e_degre%25CC%2581_-_Flux_-_Le_second_cycle_ge%25CC%2581ne%25CC%2581ral_et_technologique_-_sexe%252C_a%25CC%2582ge_et_flux.xls&sa=D&sntz=1&usg=AFQjCNHPrm1OJ3_SSGWypwbu_yPUAtA6Uw"
 		},
 		"cycle": "Lycée",
 		"level1": "Terminale",
@@ -238,8 +279,12 @@
 	},
 	"Terminale Générale Littéraire": {
 		"size": {
-			"value":,
-			"source":
+			"value": 52771,
+			"source": "https://www.google.fr/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0CCIQFjAA&url=http%3A%2F%2Fcache.media.education.gouv.fr%2Ffile%2F2014%2F03%2F6%2FDEPP_RERS_2014_eleves_second_degre_344036.pdf&ei=y22VVbrXB8n3Uqn0h8AO&usg=AFQjCNGUJjw7M_NizUC8BD0nVu21j_lk_Q&sig2=qn_Ukx1RS4hJ4eyAE3T51Q&bvm=bv.96952980,d.d24" 
+		},
+		"girls": {
+			"value": 41161,
+			"source": "https://www.google.com/url?q=https%3A%2F%2Ftrello-attachments.s3.amazonaws.com%2F54c65ec0ad4df4eb08012d79%2F54c72a1dd0f351f396c84a4d%2F57544ad9be8241481e769caeb30d3d23%2F2e_degre%25CC%2581_-_Flux_-_Le_second_cycle_ge%25CC%2581ne%25CC%2581ral_et_technologique_-_sexe%252C_a%25CC%2582ge_et_flux.xls&sa=D&sntz=1&usg=AFQjCNHPrm1OJ3_SSGWypwbu_yPUAtA6Uw"
 		},
 		"cycle": "Lycée",
 		"level1": "Terminale",
@@ -248,8 +293,12 @@
 	},
 	"Terminale Technologique": {
 		"size": {
-			"value":,
-			"source":
+			"value": 132451,
+			"source": "https://www.google.fr/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0CCIQFjAA&url=http%3A%2F%2Fcache.media.education.gouv.fr%2Ffile%2F2014%2F03%2F6%2FDEPP_RERS_2014_eleves_second_degre_344036.pdf&ei=y22VVbrXB8n3Uqn0h8AO&usg=AFQjCNGUJjw7M_NizUC8BD0nVu21j_lk_Q&sig2=qn_Ukx1RS4hJ4eyAE3T51Q&bvm=bv.96952980,d.d24" 
+		},
+		"girls": {
+			"value": 72289,
+			"source": "https://www.google.com/url?q=https%3A%2F%2Ftrello-attachments.s3.amazonaws.com%2F54c65ec0ad4df4eb08012d79%2F54c72a1dd0f351f396c84a4d%2F57544ad9be8241481e769caeb30d3d23%2F2e_degre%25CC%2581_-_Flux_-_Le_second_cycle_ge%25CC%2581ne%25CC%2581ral_et_technologique_-_sexe%252C_a%25CC%2582ge_et_flux.xls&sa=D&sntz=1&usg=AFQjCNHPrm1OJ3_SSGWypwbu_yPUAtA6Uw"
 		},
 		"cycle": "Lycée",
 		"level1": "Terminale",
@@ -262,27 +311,11 @@
 		},
 		"girls": {
 			"size": 80687,
-			"source":
+			"source": "https://www.google.com/url?q=https%3A%2F%2Ftrello-attachments.s3.amazonaws.com%2F54c65ec0ad4df4eb08012d79%2F54c72a1dd0f351f396c84a4d%2F87dc944bd075a1fe28cd18d9d631c316%2F2e_degre%25CC%2581_-_Re%25CC%2581partition_-_Le_second_cycle_professionnel_par_a%25CC%2582ge_et_par_sexe.xls&sa=D&sntz=1&usg=AFQjCNHVfVCzdSigsVuszoeJtYYhlDVYrg"
 		},
 		"cycle": "Lycée",
 		"level1": "Terminale",
 		"level2": "Terminale Professionnelle"
-	},
-	"BEP 1ère année": {
-		"size": {
-			"value":,
-			"source":
-		},
-		"cycle": "BEP",
-		"level1": "BEP 1ère année"
-	},
-	"BEP 2ème année": {
-		"size": {
-			"value":,
-			"source":
-		},
-		"cycle": "BEP",
-		"level1": "BEP 2ème année"
 	},
 	"CAP 1ère année": {
 		"size": {

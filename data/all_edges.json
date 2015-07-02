@@ -179,8 +179,8 @@
 		"from":"Sixième",
 		"to":"Cinquième",
 		"size":{
-			"value":,
-			"source":
+			"value": 96.9,
+			"source": "http://cache.media.education.gouv.fr/file/2014/03/6/DEPP_RERS_2014_eleves_second_degre_344036.pdf"
 		},
 		"girls":{
 			"value":,
@@ -211,8 +211,8 @@
 		"from":"Cinquième",
 		"to":"Quatrième",
 		"size":{
-			"value":,
-			"source":
+			"value": 97.5,
+			"source": "http://cache.media.education.gouv.fr/file/2014/03/6/DEPP_RERS_2014_eleves_second_degre_344036.pdf"
 		},
 		"girls":{
 			"value":,
@@ -243,8 +243,8 @@
 		"from":"Quatrième",
 		"to":"Troisième",
 		"size":{
-			"value":,
-			"source":
+			"value": 96.4,
+			"source": "http://cache.media.education.gouv.fr/file/2014/03/6/DEPP_RERS_2014_eleves_second_degre_344036.pdf"
 		},
 		"girls":{
 			"value":,
@@ -277,6 +277,22 @@
 		"size":{
 			"value":,
 			"source":
+		},
+		"girls":{
+			"value":,
+			"source":
+		},
+		"handicap":{
+			"value":,
+			"source":
+		}
+	},
+	{
+		"from":"Troisième",
+		"to":"Seconde Générale et Technologique",
+		"size":{
+			"value": 62.6,
+			"source": "http://cache.media.education.gouv.fr/file/2014/03/6/DEPP_RERS_2014_eleves_second_degre_344036.pdf"
 		},
 		"girls":{
 			"value":,

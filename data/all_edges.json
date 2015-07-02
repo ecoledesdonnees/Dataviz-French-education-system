@@ -179,7 +179,7 @@
 		"from":"Sixième",
 		"to":"Cinquième",
 		"size":{
-			"value": 96.9,
+			"value": 782049,
 			"source": "http://cache.media.education.gouv.fr/file/2014/03/6/DEPP_RERS_2014_eleves_second_degre_344036.pdf"
 		},
 		"girls":{
@@ -211,7 +211,7 @@
 		"from":"Cinquième",
 		"to":"Quatrième",
 		"size":{
-			"value": 97.5,
+			"value": 786508,
 			"source": "http://cache.media.education.gouv.fr/file/2014/03/6/DEPP_RERS_2014_eleves_second_degre_344036.pdf"
 		},
 		"girls":{
@@ -243,7 +243,7 @@
 		"from":"Quatrième",
 		"to":"Troisième",
 		"size":{
-			"value": 96.4,
+			"value": 977983,
 			"source": "http://cache.media.education.gouv.fr/file/2014/03/6/DEPP_RERS_2014_eleves_second_degre_344036.pdf"
 		},
 		"girls":{
@@ -275,8 +275,24 @@
 		"from":"Troisième",
 		"to":"Seconde",
 		"size":{
+			"value": 654673,
+			"source": "http://cache.media.education.gouv.fr/file/2014/03/6/DEPP_RERS_2014_eleves_second_degre_344036.pdf"
+		},
+		"girls":{
 			"value":,
 			"source":
+		},
+		"handicap":{
+			"value":,
+			"source":
+		}
+	},
+	{
+		"from":"Troisième",
+		"to":"Autres",
+		"size":{
+			"value": 53104,
+			"source": "http://cache.media.education.gouv.fr/file/2014/03/6/DEPP_RERS_2014_eleves_second_degre_344036.pdf"
 		},
 		"girls":{
 			"value":,
@@ -291,7 +307,7 @@
 		"from":"Troisième",
 		"to":"Seconde Générale et Technologique",
 		"size":{
-			"value": 62.6,
+			"value": 491665,
 			"source": "http://cache.media.education.gouv.fr/file/2014/03/6/DEPP_RERS_2014_eleves_second_degre_344036.pdf"
 		},
 		"girls":{
@@ -354,6 +370,22 @@
 	},
 	{
 		"from":"CAP 1ère année",
+		"to":"CAP",
+		"size":{
+			"value": 4649,
+			"source": "http://cache.media.education.gouv.fr/file/2015/80/8/DEPP_NI_2015_11_examens_professionnels_second_degre_session_2014_plus_80_pour_cent_reussite_404808.pdf"
+		},
+		"girls":{
+			"value":,
+			"source":
+		},
+		"handicap":{
+			"value":,
+			"source":
+		}
+	},
+	{
+		"from":"CAP 1ère année",
 		"to":"Seconde Profesionnelle",
 		"size":{
 			"value": 5024,
@@ -369,10 +401,26 @@
 		}
 	},
 	{
+		"from":"CAP 1ère année",
+		"to":"CAP 2ème année",
+		"size":{
+			"value": 54329,
+			"source": "https://www.google.com/url?q=https%3A%2F%2Ftrello-attachments.s3.amazonaws.com%2F54c65ec0ad4df4eb08012d79%2F54c72a1dd0f351f396c84a4d%2F88b144df0000bea73059132e89cf9a6f%2F2e_degre%25CC%2581_-_Flux_-_Le_second_cycle_professionnel.xls&sa=D&sntz=1&usg=AFQjCNElMtitcR4TwES3V7uIxo52A5VA1A"
+		},
+		"girls":{
+			"value":,
+			"source":
+		},
+		"handicap":{
+			"value":,
+			"source":
+		}
+	},
+	{
 		"from":"Seconde Générale et Technologique",
 		"to":"Seconde Générale et Technologique",
 		"size":{
-			"value":41893,
+			"value": 41893,
 			"source": "https://www.google.com/url?q=https%3A%2F%2Ftrello-attachments.s3.amazonaws.com%2F54c65ec0ad4df4eb08012d79%2F54c72a1dd0f351f396c84a4d%2F57544ad9be8241481e769caeb30d3d23%2F2e_degre%25CC%2581_-_Flux_-_Le_second_cycle_ge%25CC%2581ne%25CC%2581ral_et_technologique_-_sexe%252C_a%25CC%2582ge_et_flux.xls&sa=D&sntz=1&usg=AFQjCNHPrm1OJ3_SSGWypwbu_yPUAtA6Uw"
 		},
 		"girls":{
@@ -390,6 +438,22 @@
 		"size":{
 			"value": 1272,
 			"source": "https://www.google.com/url?q=https%3A%2F%2Ftrello-attachments.s3.amazonaws.com%2F54c65ec0ad4df4eb08012d79%2F54c72a1dd0f351f396c84a4d%2F57544ad9be8241481e769caeb30d3d23%2F2e_degre%25CC%2581_-_Flux_-_Le_second_cycle_ge%25CC%2581ne%25CC%2581ral_et_technologique_-_sexe%252C_a%25CC%2582ge_et_flux.xls&sa=D&sntz=1&usg=AFQjCNHPrm1OJ3_SSGWypwbu_yPUAtA6Uw"
+		},
+		"girls":{
+			"value":,
+			"source":
+		},
+		"handicap":{
+			"value":,
+			"source":
+		}
+	},
+	{
+		"from":"Seconde Générale et Technologique",
+		"to":"Second Profesionnelle",
+		"size":{
+			"value": 10075,
+			"source": "DEPP_RERS_2014_eleves_second_degre_344036.pdf"
 		},
 		"girls":{
 			"value":,
@@ -442,6 +506,134 @@
 		"girls":{
 			"value": 76093,
 			"source": "https://www.google.com/url?q=https%3A%2F%2Ftrello-attachments.s3.amazonaws.com%2F54c65ec0ad4df4eb08012d79%2F54c72a1dd0f351f396c84a4d%2F57544ad9be8241481e769caeb30d3d23%2F2e_degre%25CC%2581_-_Flux_-_Le_second_cycle_ge%25CC%2581ne%25CC%2581ral_et_technologique_-_sexe%252C_a%25CC%2582ge_et_flux.xls&sa=D&sntz=1&usg=AFQjCNHPrm1OJ3_SSGWypwbu_yPUAtA6Uw"
+		},
+		"handicap":{
+			"value":,
+			"source":
+		}
+	},
+	{
+		"from":"Première Scientifique",
+		"to":"Première Scientifique",
+		"size":{
+			"value": 6597,
+			"source": "http://cache.media.education.gouv.fr/file/2014/14/0/DEPP_NI_2014_31_orientation_trois_quarts_eleves_seconde_generale_technologique_souhaitent_preparer_baccalaureat_general_347140.pdf"
+		},
+		"girls":{
+			"value":,
+			"source":
+		},
+		"handicap":{
+			"value":,
+			"source":
+		}
+	},
+	{
+		"from":"Première Economique et Sociale",
+		"to":"Première Economique et Sociale",
+		"size":{
+			"value": 8978,
+			"source": "http://cache.media.education.gouv.fr/file/2014/14/0/DEPP_NI_2014_31_orientation_trois_quarts_eleves_seconde_generale_technologique_souhaitent_preparer_baccalaureat_general_347140.pdf"
+		},
+		"girls":{
+			"value":,
+			"source":
+		},
+		"handicap":{
+			"value":,
+			"source":
+		}
+	},
+	{
+		"from":"Première Littéraire",
+		"to":"Première Littéraire",
+		"size":{
+			"value": 4945,
+			"source": "http://cache.media.education.gouv.fr/file/2014/14/0/DEPP_NI_2014_31_orientation_trois_quarts_eleves_seconde_generale_technologique_souhaitent_preparer_baccalaureat_general_347140.pdf"
+		},
+		"girls":{
+			"value":,
+			"source":
+		},
+		"handicap":{
+			"value":,
+			"source":
+		}
+	},
+	{
+		"from":"Première Technologique",
+		"to":"Première Technologique",
+		"size":{
+			"value": 15340,
+			"source": "http://cache.media.education.gouv.fr/file/2014/14/0/DEPP_NI_2014_31_orientation_trois_quarts_eleves_seconde_generale_technologique_souhaitent_preparer_baccalaureat_general_347140.pdf"
+		},
+		"girls":{
+			"value":,
+			"source":
+		},
+		"handicap":{
+			"value":,
+			"source":
+		}
+	},
+	{
+		"from":"Première Scientifique",
+		"to":"Terminale Scientifique",
+		"size":{
+			"value": 176674,
+			"source": "http://cache.media.education.gouv.fr/file/2014/14/0/DEPP_NI_2014_31_orientation_trois_quarts_eleves_seconde_generale_technologique_souhaitent_preparer_baccalaureat_general_347140.pdf"
+		},
+		"girls":{
+			"value":,
+			"source":
+		},
+		"handicap":{
+			"value":,
+			"source":
+		}
+	},
+	{
+		"from":"Première Economique et Sociale",
+		"to":"Terminale Economique et Sociale",
+		"size":{
+			"value": 96649,
+			"source": "http://cache.media.education.gouv.fr/file/2014/14/0/DEPP_NI_2014_31_orientation_trois_quarts_eleves_seconde_generale_technologique_souhaitent_preparer_baccalaureat_general_347140.pdf"
+		},
+		"girls":{
+			"value":,
+			"source":
+		},
+		"handicap":{
+			"value":,
+			"source":
+		}
+	},
+	{
+		"from":"Première Littéraire",
+		"to":"Terminale Littéraire",
+		"size":{
+			"value": 48263,
+			"source": "http://cache.media.education.gouv.fr/file/2014/14/0/DEPP_NI_2014_31_orientation_trois_quarts_eleves_seconde_generale_technologique_souhaitent_preparer_baccalaureat_general_347140.pdf"
+		},
+		"girls":{
+			"value":,
+			"source":
+		},
+		"handicap":{
+			"value":,
+			"source":
+		}
+	},
+	{
+		"from":"Première Technologique",
+		"to":"Terminale Technologique",
+		"size":{
+			"value": 112499,
+			"source": "http://cache.media.education.gouv.fr/file/2014/14/0/DEPP_NI_2014_31_orientation_trois_quarts_eleves_seconde_generale_technologique_souhaitent_preparer_baccalaureat_general_347140.pdf"
+		},
+		"girls":{
+			"value":,
+			"source":
 		},
 		"handicap":{
 			"value":,
@@ -559,6 +751,86 @@
 		}
 	},
 	{
+		"from":"Seconde Profesionnelle",
+		"to":"Première Profesionnelle",
+		"size":{
+			"value": 175001,
+			"source": "Calculée"
+		},
+		"girls":{
+			"value": ,
+			"source":
+		},
+		"handicap":{
+			"value":,
+			"source":
+		}
+	},
+	{
+		"from":"Première Profesionnelle",
+		"to":"Terminale Profesionnelle",
+		"size":{
+			"value": 175001,
+			"source": "Calculée"
+		},
+		"girls":{
+			"value": ,
+			"source":
+		},
+		"handicap":{
+			"value":,
+			"source":
+		}
+	},
+	{
+		"from":"Première Profesionnelle",
+		"to":"Première Profesionnelle",
+		"size":{
+			"value": 3266,
+			"source": "DEPP_RERS_2014_eleves_second_degre_344036.pdf"
+		},
+		"girls":{
+			"value": ,
+			"source":
+		},
+		"handicap":{
+			"value":,
+			"source":
+		}
+	},
+	{
+		"from":"Première Profesionnelle",
+		"to":"Autres",
+		"size":{
+			"value": 19779,
+			"source": "DEPP_RERS_2014_eleves_second_degre_344036.pdf"
+		},
+		"girls":{
+			"value": ,
+			"source":
+		},
+		"handicap":{
+			"value":,
+			"source":
+		}
+	},
+	{
+		"from":"Première Profesionnelle",
+		"to":"Terminale Profesionnelle",
+		"size":{
+			"value": 158417,
+			"source": "DEPP_RERS_2014_eleves_second_degre_344036.pdf"
+		},
+		"girls":{
+			"value": ,
+			"source":
+		},
+		"handicap":{
+			"value":,
+			"source":
+		}
+	},
+	{
 		"from":"Première Générale et Technologique",
 		"to":"Première Générale et Technologique",
 		"size":{
@@ -595,7 +867,7 @@
 		"from":"Première Générale et Technologique",
 		"to":"Terminale Générale et Technologique",
 		"size":{
-			"value":441452,
+			"value": 441452,
 			"source": "https://www.google.com/url?q=https%3A%2F%2Ftrello-attachments.s3.amazonaws.com%2F54c65ec0ad4df4eb08012d79%2F54c72a1dd0f351f396c84a4d%2F57544ad9be8241481e769caeb30d3d23%2F2e_degre%25CC%2581_-_Flux_-_Le_second_cycle_ge%25CC%2581ne%25CC%2581ral_et_technologique_-_sexe%252C_a%25CC%2582ge_et_flux.xls&sa=D&sntz=1&usg=AFQjCNHPrm1OJ3_SSGWypwbu_yPUAtA6Uw"
 		},
 		"girls":{
@@ -655,6 +927,70 @@
 			"source":
 		}
 	},
+	{
+		"from":"Terminale Scientifique",
+		"to":"Autres",
+		"size":{
+			"value": 14054,
+			"source": "Calculée"
+		},
+		"girls":{
+			"value":,
+			"source":
+		},
+		"handicap":{
+			"value":,
+			"source":
+		}
+	},
+	{
+		"from":"Terminale Economique et Sociale",
+		"to":"Autres",
+		"size":{
+			"value": 9203,
+			"source": "Calculée"
+		},
+		"girls":{
+			"value":,
+			"source":
+		},
+		"handicap":{
+			"value":,
+			"source":
+		}
+	},
+	{
+		"from":"Terminale Littéraire",
+		"to":"Autres",
+		"size":{
+			"value": 2371,
+			"source": "Calculée"
+		},
+		"girls":{
+			"value":,
+			"source":
+		},
+		"handicap":{
+			"value":,
+			"source":
+		}
+	},
+	{
+		"from":"Terminale Technologique",
+		"to":"Autres",
+		"size":{
+			"value": 7751,
+			"source": "Calculée"
+		},
+		"girls":{
+			"value":,
+			"source":
+		},
+		"handicap":{
+			"value":,
+			"source":
+		}
+	},
 
 	{
 		"from":"Terminale Economique et Sociale",
@@ -704,7 +1040,22 @@
 			"source":
 		}
 	},
-
+	{
+		"from":"Terminale Profesionnel",
+		"to":"Terminale Profesionnel",
+		"size":{
+			"value": 10767,
+			"source": "DEPP_RERS_2014_eleves_second_degre_344036.pdf"
+		},
+		"girls":{
+			"value":,
+			"source":
+		},
+		"handicap":{
+			"value":,
+			"source":
+		}
+	},
 	{
 		"from":"Terminale Profesionnel",
 		"to":"Bac Profesionnel",
@@ -722,11 +1073,43 @@
 		}
 	},
 	{
+		"from":"Terminale Profesionnel",
+		"to":"Autres",
+		"size":{
+			"value": 14471,
+			"source": "Calculée"
+		},
+		"girls":{
+			"value":,
+			"source":
+		},
+		"handicap":{
+			"value":,
+			"source":
+		}
+	},
+	{
 		"from":"CAP 2ème année",
 		"to":"CAP",
 		"size":{
-			"value": 194000,
-			"source": "http://cache.media.education.gouv.fr/file/2014/30/5/DEPP_grands_chiffres_2014_355305.pdf"
+			"value": 44445,
+			"source": "http://cache.media.education.gouv.fr/file/2015/80/8/DEPP_NI_2015_11_examens_professionnels_second_degre_session_2014_plus_80_pour_cent_reussite_404808.pdf"
+		},
+		"girls":{
+			"value":,
+			"source":
+		},
+		"handicap":{
+			"value":,
+			"source":
+		}
+	},
+	{
+		"from":"CAP 2ème année",
+		"to":"CAP 2ème année",
+		"size":{
+			"value": 8655,
+			"source": "http://cache.media.education.gouv.fr/file/2015/80/8/DEPP_NI_2015_11_examens_professionnels_second_degre_session_2014_plus_80_pour_cent_reussite_404808.pdf"
 		},
 		"girls":{
 			"value":,

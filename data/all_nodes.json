@@ -1,40 +1,40 @@
 {
 	"CP": {
 		"size": {
-			"value":,
-			"source":
+			"value": 845005,
+			"source": "http://cache.media.education.gouv.fr/file/2013/54/4/DEPP_NI_2013_33_eleves_premier_degre_rentree_2013_effort_scolarisation_deux_ans_education_prioritaire_289544.pdf"
 		},
 		"cycle": "Primaire",
 		"level1": "CP"
 	},
 	"CE1": {
 		"size": {
-			"value":,
-			"source":
+			"value": 855746,
+			"source": "http://cache.media.education.gouv.fr/file/2013/54/4/DEPP_NI_2013_33_eleves_premier_degre_rentree_2013_effort_scolarisation_deux_ans_education_prioritaire_289544.pdf"
 		},
 		"cycle": "Primaire",
 		"level1": "CE1"
 	},
 	"CE2": {
 		"size": {
-			"value":,
-			"source":
+			"value": 822034,
+			"source": "http://cache.media.education.gouv.fr/file/2013/54/4/DEPP_NI_2013_33_eleves_premier_degre_rentree_2013_effort_scolarisation_deux_ans_education_prioritaire_289544.pdf"
 		},
 		"cycle": "Primaire",
 		"level1": "CE2"
 	},
 	"CM1": {
 		"size": {
-			"value":,
-			"source":
+			"value": 806431,
+			"source": "http://cache.media.education.gouv.fr/file/2013/54/4/DEPP_NI_2013_33_eleves_premier_degre_rentree_2013_effort_scolarisation_deux_ans_education_prioritaire_289544.pdf"
 		},
 		"cycle": "Primaire",
 		"level1": "CM1"
 	},
 	"CM2": {
 		"size": {
-			"value":,
-			"source":
+			"value": 803388,
+			"source": "http://cache.media.education.gouv.fr/file/2013/54/4/DEPP_NI_2013_33_eleves_premier_degre_rentree_2013_effort_scolarisation_deux_ans_education_prioritaire_289544.pdf"
 		},
 		"cycle": "Primaire",
 		"level1": "CM2"
